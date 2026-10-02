@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "name": {
+    "translate": "mineeemotes.emote.name.miemgppistolstay",
+    "fallback": "Action || tenir un pistolet 1"
+  },
+  "description": {
+    "translate": "mineeemotes.emote.description.miemgppistolstay",
+    "fallback": "Drive everything or tell my friend hello"
+  },
+  "author": "MineEmotes",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 80,
+    "stopTick": 81,
+    "isLoop": true,
+    "returnTick": 10,
+    "nsfw": false,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 10,
+        "easing": "INOUTQUAD",
+        "rightArm": {
+          "bend": -1.5707964
+        }
+      },
+      {
+        "tick": 40,
+        "easing": "INOUTQUAD",
+        "rightArm": {
+          "bend": -1.4835298
+        }
+      },
+      {
+        "tick": 80,
+        "easing": "INOUTQUAD",
+        "rightArm": {
+          "bend": -1.5707964
+        }
+      }
+    ]
+  }
+}
