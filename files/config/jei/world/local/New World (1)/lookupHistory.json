@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"antos:floppy_disk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"antos:computer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

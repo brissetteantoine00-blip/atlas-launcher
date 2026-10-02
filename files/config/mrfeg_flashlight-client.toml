@@ -1,0 +1,25 @@
+[hud]
+	#Enable or disable the on-screen battery indicator HUD.
+	hudEnabled = true
+	#Relative horizontal position of the HUD (0.0 = left edge, 1.0 = right edge).
+	# Default: 0.98
+	# Range: 0.0 ~ 1.0
+	hudPosX = 0.98
+	#Relative vertical position of the HUD (0.0 = top edge, 1.0 = bottom edge).
+	# Default: 0.96
+	# Range: 0.0 ~ 1.0
+	hudPosY = 0.96
+	#Size scaling multiplier of the HUD (0.5 to 3.0).
+	# Default: 1.0
+	# Range: 0.5 ~ 3.0
+	hudScale = 1.0
+	#Width of the battery bar in pixels (20 to 120).
+	# Default: 40
+	# Range: 20 ~ 120
+	hudBarWidth = 40
+	#Height of the battery bar in pixels (2 to 14).
+	# Default: 4
+	# Range: 2 ~ 14
+	hudBarHeight = 4
+	#Show the percentage number next to the battery bar.
+	showPercentage = true
