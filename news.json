@@ -60,12 +60,12 @@
     "enabled": true,
     "message": "Maintenance en cours : de nouveaux paramètres sont installés. Reviens dans quelques minutes (ta partie en cours n'est pas coupée).",
     "notes": "",
-    "version": "1.0.2",
-    "since": "2026-10-02T17:29:25.884Z"
+    "version": "1.0.3",
+    "since": "2026-10-02T17:40:38.817Z"
   },
   "launcher": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "required": true,
-    "publishedAt": "2026-10-02T16:50:41.277Z"
+    "publishedAt": "2026-10-02T17:29:54.626Z"
   }
 }
