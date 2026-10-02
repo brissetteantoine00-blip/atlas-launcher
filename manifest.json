@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "274cac881c6e86e1",
+  "id": "c210d6ab8fefb7ab",
   "name": "Labyrinthe RP",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "changelog": "",
-  "publishedAt": "2026-10-02T18:47:17.501Z",
+  "publishedAt": "2026-10-02T20:56:26.576Z",
   "releases": [
+    {
+      "version": "1.0.8",
+      "publishedAt": "2026-10-02T20:56:26.576Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.7",
       "publishedAt": "2026-10-02T18:47:17.501Z",
@@ -685,11 +690,6 @@
       "description": "Renders the player skin layer in 3d"
     },
     {
-      "file": "snatched-1.2.1-neoforge-1.21.1.jar",
-      "name": "Snatched",
-      "description": "-"
-    },
-    {
       "file": "sodium-neoforge-0.8.13+mc1.21.1.jar",
       "name": "Sodium",
       "description": "Sodium is a powerful rendering engine for Minecraft which improves frame rates and reduces lag spikes.",
@@ -851,7 +851,7 @@
     }
   ],
   "server": null,
-  "totalSize": 813592827,
+  "totalSize": 812033361,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -29732,11 +29732,6 @@
       "path": "mods/skinlayers3d-neoforge-1.11.3-mc1.21.1.jar",
       "size": 1903528,
       "sha256": "af7dcd6c6a40793adc0f7e57dd8fcc04c9e9bdf9c8ffa4efeb36e22d8b1f79db"
-    },
-    {
-      "path": "mods/snatched-1.2.1-neoforge-1.21.1.jar",
-      "size": 1559466,
-      "sha256": "d659684d7dc1d810c702d8c9f984e03ebf45bb2e507d617826553140a18b8f67"
     },
     {
       "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
