@@ -2,10 +2,15 @@
   "schema": 2,
   "id": "274cac881c6e86e1",
   "name": "Labyrinthe RP",
-  "version": "1.0.9",
-  "changelog": "",
-  "publishedAt": "2026-10-02T20:58:01.568Z",
+  "version": "1.0.10",
+  "changelog": "modification des placement de la page d'aceuille",
+  "publishedAt": "2026-10-02T21:56:19.076Z",
   "releases": [
+    {
+      "version": "1.0.10",
+      "publishedAt": "2026-10-02T21:56:19.076Z",
+      "changelog": "modification des placement de la page d'aceuille"
+    },
     {
       "version": "1.0.9",
       "publishedAt": "2026-10-02T20:58:01.568Z",
