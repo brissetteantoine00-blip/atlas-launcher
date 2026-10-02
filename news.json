@@ -57,11 +57,7 @@
     "history": []
   },
   "maintenance": {
-    "enabled": true,
-    "message": "Maintenance en cours : de nouveaux paramètres sont installés. Reviens dans quelques minutes (ta partie en cours n'est pas coupée).",
-    "notes": "",
-    "version": "1.0.12",
-    "since": "2026-10-02T23:31:09.525Z"
+    "enabled": false
   },
   "launcher": {
     "version": "1.0.15",
