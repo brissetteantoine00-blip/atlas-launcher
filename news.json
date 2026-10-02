@@ -57,7 +57,11 @@
     "history": []
   },
   "maintenance": {
-    "enabled": false
+    "enabled": true,
+    "message": "Maintenance en cours : de nouveaux paramètres sont installés. Reviens dans quelques minutes (ta partie en cours n'est pas coupée).",
+    "notes": "modification des placement de la page d'aceuille",
+    "version": "1.0.10",
+    "since": "2026-10-02T21:56:19.109Z"
   },
   "launcher": {
     "version": "1.0.9",
