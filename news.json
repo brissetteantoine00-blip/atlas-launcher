@@ -1,0 +1,66 @@
+{
+  "announcement": {
+    "enabled": false,
+    "level": "info",
+    "title": "",
+    "message": "",
+    "expiresAt": null,
+    "updatedAt": "2026-10-02T16:49:02.091Z"
+  },
+  "rules": {
+    "text": "poli\n\ngentil\n\nrespecter blusing01\n\ninsulter kourro",
+    "url": ""
+  },
+  "credits": {
+    "text": "developement du luncher : cursor\ndirection artistique du luncher : Bluesing01\n"
+  },
+  "schedule": {
+    "tz": "America/Toronto",
+    "note": "",
+    "days": [
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": true,
+        "from": "20:00",
+        "to": "01:00"
+      },
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": true,
+        "from": "20:00",
+        "to": "02:00"
+      },
+      {
+        "open": true,
+        "from": "20:00",
+        "to": "02:00"
+      }
+    ],
+    "history": []
+  },
+  "maintenance": {
+    "enabled": true,
+    "message": "Maintenance en cours : de nouveaux paramètres sont installés. Reviens dans quelques minutes (ta partie en cours n'est pas coupée).",
+    "notes": "",
+    "version": "1.0.1",
+    "since": "2026-10-02T16:50:09.646Z"
+  }
+}
