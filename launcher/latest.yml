@@ -1,6 +1,6 @@
 version: 1.0.4
 files:
-  - url: Atlas-Launcher-Setup-1.0.4.exe
+  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/87194b56b2050b2b901fe51a605b30d1b01c63e9e3d8a1012c017aa22818070c.exe
     sha512: phGfVdZwU8g3Nh2d3Tk93FP541NRm+nftnwubyZJi7X0NhovKcycZOiU9wgknuxVl3QfZzU5NJEnnFnPnC+bcg==
     size: 86763090
 path: Atlas-Launcher-Setup-1.0.4.exe
