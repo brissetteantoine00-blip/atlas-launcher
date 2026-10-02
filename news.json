@@ -60,8 +60,8 @@
     "enabled": false
   },
   "launcher": {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "required": true,
-    "publishedAt": "2026-10-02T21:26:51.937Z"
+    "publishedAt": "2026-10-02T21:48:27.491Z"
   }
 }
