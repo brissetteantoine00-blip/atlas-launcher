@@ -1,115 +1,50 @@
 {
-  "announcement": {
-    "enabled": false,
-    "level": "info",
-    "title": "",
-    "message": "",
-    "expiresAt": null,
-    "updatedAt": "2026-10-02T16:49:02.091Z"
-  },
-  "rules": {
-    "text": "poli\n\ngentil\n\nrespecter blusing01\n\ninsulter kourro",
-    "url": ""
-  },
-  "credits": {
-    "text": "developement du luncher : cursor\ndirection artistique du luncher : Bluesing01\n"
-  },
-  "schedule": {
-    "tz": "America/Toronto",
-    "note": "",
-    "days": [
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": true,
-        "from": "20:00",
-        "to": "01:00"
-      },
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": true,
-        "from": "20:00",
-        "to": "02:00"
-      },
-      {
-        "open": true,
-        "from": "20:00",
-        "to": "02:00"
-      }
-    ],
-    "history": []
-  },
-  "maintenance": {
-    "enabled": false
-  },
-  "launcher": {
-    "version": "1.0.19",
-    "required": true,
-    "publishedAt": "2026-10-03T00:32:57.207Z"
-  },
   "appearance": {
-    "id": "murowro4c5969b",
+    "id": "musbpkyn3ddc2c",
     "layout": {
       "brand": {
-        "x": 19.9,
-        "y": 10.9,
+        "x": 16.1,
+        "y": 7.9,
         "s": 1
       },
       "account": {
-        "x": 85,
-        "y": 6.5,
+        "x": 92.6,
+        "y": 6.3,
         "s": 1
       },
       "play": {
-        "x": 13.8,
-        "y": 71.3,
-        "s": 1
+        "x": 13.7,
+        "y": 36.4,
+        "s": 1.05
       },
       "mods": {
-        "x": 11.6,
-        "y": 43.6,
+        "x": 10.9,
+        "y": 20.3,
         "s": 1
       },
       "server": {
-        "x": 11.2,
-        "y": 53.2,
+        "x": 32.2,
+        "y": 6.7,
         "s": 1
       },
       "skins": {
-        "x": 90,
-        "y": 24.8,
+        "x": 83.6,
+        "y": 6.3,
         "s": 1
       },
       "settings": {
-        "x": 90,
-        "y": 17.5,
+        "x": 8.8,
+        "y": 55.3,
         "s": 1
       },
       "admin": {
-        "x": 90,
-        "y": 60.9,
+        "x": 92.4,
+        "y": 14.6,
         "s": 1
       },
       "news": {
-        "x": 80.5,
-        "y": 82.5,
+        "x": 86.1,
+        "y": 85.3,
         "s": 1
       },
       "discord": {
@@ -118,13 +53,13 @@
         "s": 1
       },
       "screens": {
-        "x": 90.1,
-        "y": 32,
+        "x": 8.3,
+        "y": 62.4,
         "s": 1
       },
       "stats": {
-        "x": 90.1,
-        "y": 39.3,
+        "x": 9,
+        "y": 69.4,
         "s": 1
       },
       "rules": {
@@ -143,28 +78,28 @@
         "s": 1
       },
       "announce": {
-        "x": 57,
-        "y": 10.4,
+        "x": 48.1,
+        "y": 30.7,
         "s": 1
       },
       "report": {
-        "x": 90,
-        "y": 46.5,
+        "x": 41,
+        "y": 6.7,
         "s": 1
       },
       "hours": {
-        "x": 90,
-        "y": 53.5,
+        "x": 10.8,
+        "y": 77,
         "s": 1
       },
       "kill": {
-        "x": 13.8,
-        "y": 80.8,
+        "x": 13.3,
+        "y": 48.3,
         "s": 1
       }
     },
     "theme": {},
     "texts": {},
-    "publishedAt": "2026-10-03T01:05:06.581Z"
+    "publishedAt": "2026-10-03T11:43:22.464Z"
   }
 }
