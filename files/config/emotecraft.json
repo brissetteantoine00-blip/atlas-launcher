@@ -24,10 +24,6 @@
   "neverRemoveBadIcon": false,
   "exportBuiltin": false,
   "hideWarning": false,
-  "fastmenu": {
-    "0": {
-      "5": "e494e65f-0000-0000-0000-000000000000"
-    }
-  },
+  "fastmenu": {},
   "keys": {}
 }
