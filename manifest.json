@@ -2,10 +2,15 @@
   "schema": 2,
   "id": "452a1e7af439c35b",
   "name": "Labyrinthe RP",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "changelog": "",
-  "publishedAt": "2026-10-03T11:46:05.747Z",
+  "publishedAt": "2026-10-03T11:46:40.259Z",
   "releases": [
+    {
+      "version": "1.0.3",
+      "publishedAt": "2026-10-03T11:46:40.259Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.2",
       "publishedAt": "2026-10-03T11:46:05.747Z",
