@@ -1,8 +1,0 @@
-version: 1.0.19
-files:
-  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/00d5eca6f52b9b97f5c620de3ca716aa9190c1c8f3f286363125c190e8191294.exe
-    sha512: uI0G33lnm8Xtok2CHZhmR5WNYLSw89zNbeyOJsLXThVGNMnvd4CKtaO3HX2BHalkWzQLhAKTh/+s8CxZ0GuLSQ==
-    size: 86712623
-path: Atlas-Launcher-Setup-1.0.19.exe
-sha512: uI0G33lnm8Xtok2CHZhmR5WNYLSw89zNbeyOJsLXThVGNMnvd4CKtaO3HX2BHalkWzQLhAKTh/+s8CxZ0GuLSQ==
-releaseDate: '2026-10-03T00:30:32.333Z'
