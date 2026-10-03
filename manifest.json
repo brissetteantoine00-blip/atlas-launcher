@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "2aa362677eee48a4",
+  "id": "452a1e7af439c35b",
   "name": "Labyrinthe RP",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "changelog": "",
-  "publishedAt": "2026-10-03T11:45:08.553Z",
+  "publishedAt": "2026-10-03T11:46:05.747Z",
   "releases": [
+    {
+      "version": "1.0.2",
+      "publishedAt": "2026-10-03T11:46:05.747Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.1",
       "publishedAt": "2026-10-03T11:45:08.553Z",
@@ -577,6 +582,11 @@
       "file": "PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar",
       "name": "Player Animation Library",
       "description": "A library that allows mods to animate the player, in a way that doesn't conflict with other mods. (and much more!)"
+    },
+    {
+      "file": "PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar",
+      "name": "PlayerRevive",
+      "description": "Help your friends in need and revive them."
     },
     {
       "file": "playingcards-2.0.1-neoforge.jar",
@@ -22719,7 +22729,7 @@
       "sha256": "e41ee06000fc95444a482018ec24b3f1e79eb111ca6b8ca119e61ceabf9136c5"
     },
     {
-      "path": "mods/PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar.disabled",
+      "path": "mods/PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar",
       "size": 5307768,
       "sha256": "bb0f482c43156e9fbdea8e6309c707c62f301d673e5e5e5b268315d0b9272276"
     },
