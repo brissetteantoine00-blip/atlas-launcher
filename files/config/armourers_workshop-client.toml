@@ -42,7 +42,7 @@
 	# Range: 16 ~ 512
 	renderDistanceMannequinEquipment = 64
 	#The maximum number of threads that will be used to bake models. 
-	# Default: 8
+	# Default: 12
 	# Range: 1 ~ 16
 	modelBakingThreadCount = 12
 	#The maximum number of threads that will be used to build model vertexes. 

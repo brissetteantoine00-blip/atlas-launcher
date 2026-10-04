@@ -1,0 +1,12 @@
+#Enable the custom Gravity Gun crosshair.
+crosshairEnabled = true
+#Allow the simple Gravity Gun model when graphics are set to Fast.
+simpleModelFastGraphics = false
+#Base push factor used by the Gravity Gun launch formula.
+# Default: 10
+# Range: 5 ~ 100
+pushFactor = 10
+#Supercharged push amplification in percent.
+# Default: 130
+# Range: 100 ~ 300
+superchargedAmplifyFactorPush = 130

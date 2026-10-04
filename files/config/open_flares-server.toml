@@ -1,0 +1,86 @@
+# OpenFlares server config
+[flares]
+# Server-authoritative flare gun, projectile, smoke, network, and hit settings.
+# Out-of-range values are clamped when this file is loaded or synced.
+
+# Reload timing
+# Duration of a flare gun reload, in game ticks.
+reload_duration_ticks = 60
+
+# Projectile physics
+# Spawn offset in front of the player, in blocks.
+projectile_start_offset_blocks = 2.5
+# Initial projectile speed, in blocks per tick.
+projectile_speed_blocks_per_tick = 2.0
+# Downward acceleration applied each tick.
+projectile_gravity_blocks_per_tick_squared = 0.004
+# Velocity retained each tick after drag.
+projectile_drag_multiplier_per_tick = 0.998
+# Downward velocity cap.
+projectile_max_downward_velocity_blocks_per_tick = 1.5
+# Maximum travel distance before the flare despawns.
+projectile_max_distance_blocks = 96.0
+# Maximum simulated flight time before the server stops the moving flare projectile, in ticks.
+# Already-spawned smoke remains visible until smoke_cloud_decay_ticks expires.
+projectile_flight_timeout_ticks = 80
+
+# Runtime flare limits
+# Maximum active fired flares allowed per player.
+max_active_flares_per_player = 20
+# Maximum active fired flares allowed on the server.
+max_active_flares_global = 256
+
+# Smoke cloud generation
+# Base smoke cloud size sent to clients.
+smoke_cloud_size = 3.0
+# Visible smoke cloud lifetime on clients, in ticks.
+# This controls how long smoke remains after projectile flight ends.
+smoke_cloud_decay_ticks = 700
+# Ticks between smoke cloud emissions while a flare is active.
+smoke_cloud_interval_ticks = 2
+# Smoke renderer. Options: open_flares_particles, open_flares_particles_spherical_bumpy, open_flares_billboards, minecraft_smoke_textures, fridays_vanilla_plus_textures, fridays_vanilla_plus_colored_textures.
+smoke_render_style = "fridays_vanilla_plus_colored_textures"
+
+# Smoke rendering and networking
+# World smoke opacity multiplier.
+smoke_alpha_multiplier = 4.0
+# Extra smoke visibility pass strength after translucent geometry.
+smoke_translucent_backdrop_boost_multiplier = 2.0
+# Depth mask size for sky/cloud sorting.
+smoke_depth_mask_radius_multiplier = 0.8
+# Maximum server send/render distance for smoke, in chunks.
+smoke_max_render_distance_chunks = 32
+# When enabled, skip smoke packets outside each client's synced smoke distance.
+smoke_network_client_preference_filtering_enabled = true
+# Global smoke packet budget per server tick. 0 disables smoke packet sending.
+max_smoke_packets_per_server_tick = 2048
+
+# Far smoke line-of-sight culling
+# When enabled, smoke is sent only when the center ray and a majority of
+# sampled rays from the player to the smoke clear block collision shapes.
+smoke_far_line_of_sight_culling_enabled = true
+# Starts far-smoke line-of-sight checks this many blocks before the vanilla view horizon.
+# This lets opaque terrain hide far smoke before the terrain begins to fade out.
+smoke_far_line_of_sight_pre_horizon_blocks = 32.0
+# Minimum rays per far smoke visibility check, including adaptive fallback.
+smoke_far_line_of_sight_minimum_rays = 1
+# Preferred rays per far smoke visibility check when the server is not under strain.
+smoke_far_line_of_sight_target_rays = 3
+# Global ray-cast budget per server tick. If exhausted, visibility is treated as unknown and smoke is sent.
+max_smoke_line_of_sight_ray_casts_per_server_tick = 256
+# When enabled, line-of-sight rays may synchronously load missing chunks along their path.
+# This improves occlusion accuracy outside player view distance but can cost server time.
+smoke_far_line_of_sight_load_missing_chunks = true
+# Global missing-chunk load budget for far-smoke occlusion per server tick.
+# If exhausted, visibility is treated as unknown and smoke is sent.
+max_smoke_line_of_sight_chunk_loads_per_server_tick = 64
+# When enabled, the server uses minimum rays while average tick time is above the degrade threshold.
+smoke_far_line_of_sight_adaptive_enabled = true
+# Average server tick time at or above which line-of-sight detail falls back to minimum rays.
+smoke_far_line_of_sight_adaptive_degrade_tick_millis = 45.0
+# Average server tick time at or below which line-of-sight detail returns to target rays.
+smoke_far_line_of_sight_adaptive_recover_tick_millis = 40.0
+
+# Impact damage
+# Damage dealt on entity impact, in hearts.
+entity_hit_damage_hearts = 0.5

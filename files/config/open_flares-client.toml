@@ -1,0 +1,88 @@
+# OpenFlares client config
+[presentation]
+# Local visual presentation toggles.
+
+# Whether world smoke uses translucent alpha.
+flare_smoke_transparency_enabled = true
+# Whether world smoke keeps flare colors stable against lighting and view-angle tinting.
+flare_smoke_stable_colors_enabled = true
+
+[flares]
+# Local smoke renderer preferences.
+# The server still caps smoke distance and packet fanout.
+
+# Far smoke rendering mode. Options: lod_3d, disabled, hud_overlay.
+# hud_overlay is legacy/experimental; lod_3d is recommended.
+far_smoke_render_mode = "lod_3d"
+# LOD quality. Options: low, medium, high, full.
+far_smoke_lod_quality = "full"
+# Preferred far-smoke distance in chunks before server clamping.
+far_smoke_render_distance_chunks = 22
+
+[flare_gun_preference_overlay]
+# Local HUD overlay shown while holding a flare gun.
+
+# Visibility
+# Whether the reload preference overlay is shown.
+enabled = true
+
+# Label text
+# Use label_text instead of the built-in translated label.
+custom_label_text_enabled = false
+# Custom label text when custom_label_text_enabled is true.
+label_text = "Flare gun's color preference:"
+
+# Layout
+# Screen anchor. Options: top_left, top_center, top_right, center_left, center,
+# center_right, bottom_left, bottom_center, bottom_right.
+anchor = "bottom_right"
+# Horizontal offset from the selected anchor.
+offset_x = -35
+# Vertical offset from the selected anchor.
+offset_y = 47
+
+# Sizing
+# Scale for the label text.
+label_font_scale = 0.5
+# Scale for the selected-color value text.
+value_font_scale = 1.0
+# Size of the selected-color square, in screen pixels.
+color_square_size = 7
+# Spacing between the label/value text and the color square.
+color_square_padding = 2
+
+[smoke_color_label_overlay]
+# Local accessibility HUD overlay for naming the color of flare smoke being looked at.
+
+# Visibility
+# Options: off, pop_up_label, persistent_label.
+activation = "off"
+
+# Look target resolution
+# Options: show_closest, list_all.
+multiple_flares_strategy = "show_closest"
+
+# Readability
+# Whether to draw a dark background rectangle behind the text label.
+background_enabled = false
+
+# Label text
+# Use label_text instead of the built-in translated label.
+custom_label_text_enabled = false
+# Custom label text when custom_label_text_enabled is true.
+label_text = "Flare smoke color:"
+
+# Layout
+# Screen anchor. Options: top_left, top_center, top_right, center_left, center,
+# center_right, bottom_left, bottom_center, bottom_right.
+anchor = "top_center"
+# Horizontal offset from the selected anchor.
+offset_x = 0
+# Vertical offset from the selected anchor.
+offset_y = 12
+
+# Sizing
+# Scale for the label text.
+label_font_scale = 0.75
+# Scale for the displayed flare smoke color text.
+value_font_scale = 1.0

@@ -178,11 +178,11 @@
       "overall": 1
     },
     "swamp": {
-      "overall": 1,
-      "cricket-swamp": 1,
-      "cricket-warm-night": 1,
-      "frog": 1,
-      "mouring_dove": 1
+      "overall": 0,
+      "cricket-swamp": 0,
+      "cricket-warm-night": 0,
+      "frog": 0,
+      "mouring_dove": 0
     },
     "taiga": {
       "overall": 1,
