@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "7685eea19a77f177",
+  "id": "def69f32fd8a8f2f",
   "name": "Labyrinthe RP",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "changelog": "",
-  "publishedAt": "2026-10-04T23:43:14.769Z",
+  "publishedAt": "2026-10-05T13:14:15.681Z",
   "releases": [
+    {
+      "version": "1.0.5",
+      "publishedAt": "2026-10-05T13:14:15.681Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.4",
       "publishedAt": "2026-10-04T23:43:14.769Z",
@@ -721,6 +726,16 @@
       "description": "Adds seasons with changing colors, temperature shifting, and more!"
     },
     {
+      "file": "SignPlates-NeoForge-1.21.1-1.1.2.jar",
+      "name": "Sign Plates",
+      "description": "This is your sign to sign bigger!"
+    },
+    {
+      "file": "signsmod-1.3.2.jar",
+      "name": "There Were a Number of Signs",
+      "description": "Adds a number of decorative decals for displaying numbers on your walls (or floors or ceilings)"
+    },
+    {
       "file": "simplytents-5.0-1.21.1.neo.jar",
       "name": "SimplyTents",
       "description": "Reworked Simply Tents mod."
@@ -897,7 +912,7 @@
     }
   ],
   "server": null,
-  "totalSize": 612751719,
+  "totalSize": 614179570,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1216,8 +1231,8 @@
     },
     {
       "path": "config/euphoria_patcher/.data.json",
-      "size": 162,
-      "sha256": "6aab5d73ca76978b2555ef5cfea77fad81f6d57f5fa0db91897baf4af451e2e0"
+      "size": 251,
+      "sha256": "e00f4c1e2c6660f6527672f3fbc8dfa7b39221039d30c174a87b5006b16e27cd"
     },
     {
       "path": "config/euphoria_patcher/settings.toml",
@@ -1247,7 +1262,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "dcc40429ce2b4167e3a9d088788be2f89ac8cdfe138daba80570abf54051106b"
+      "sha256": "ace564fd9662fc839adac9d1480890096b804fa40c63eee89e4a7594e99c6feb"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1352,7 +1367,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "990980f8b07b9529a7d82ff0d1553cd60ebf3036b62ed81a4602b68418ff93d1"
+      "sha256": "5a093a77e8aa3a82317381c7029f0774631714e5ff59b7d0a68716ada325b33f"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1416,8 +1431,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1662,
-      "sha256": "66ca1c32d36c9876144c4a6a6f636cc091ed6c7b04431d067184bc2a9e9a4672"
+      "size": 1713,
+      "sha256": "bd7e91f4915bf94c071bef9a319531045a6ab3ebfcd2be8a2e9636a5cf229c64"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1546,8 +1561,8 @@
     },
     {
       "path": "config/mtsconfig.json",
-      "size": 13626,
-      "sha256": "7b908dd3948f19d4fb0de993f619051a8235ee8b5651c7b5ad8fe7ca9eeccaa0"
+      "size": 13722,
+      "sha256": "c604f7967a7fd4d292063e8f28637f0d2f5a78b64095a997a2b27f1129b401e9"
     },
     {
       "path": "config/mtsconfigclient.json",
@@ -1706,13 +1721,13 @@
     },
     {
       "path": "config/plasmovoice/client.toml",
-      "size": 1296,
-      "sha256": "93966fe54b449e1ae9e006226ec2c41870e161cc54f0f53c0963fb872c2953c3"
+      "size": 1297,
+      "sha256": "8e3c4b503d88b162bdcfcdb9c406a7956d4a3e50cb0a5c1dc3ccd0c0be8de2f6"
     },
     {
       "path": "config/plasmovoice/meta_cache.json",
       "size": 655,
-      "sha256": "08b2cb1187e12d960d32eef9fa9a29f56a5d835d0530373c08b0018f12bce6a7"
+      "sha256": "d70d5a1cff39c7bbf7e1c27453e6b829dd32a45bd5f2c7e315e5837bad4d363b"
     },
     {
       "path": "config/plasmovoice/server/config.toml",
@@ -1937,7 +1952,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "4e6e137ecff78b44ca716efc11096b6daf252b22571069de399743844465a534"
+      "sha256": "01b2f9481f4fcaa2a75ac1f0b6547da95d0613b5165e1e6ee39f1bf93f1261e1"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -2008,6 +2023,11 @@
       "path": "config/sereneseasons/seasons.toml",
       "size": 21059,
       "sha256": "fe377a3d97ce459014b101d6a78efac8eeb0608fd07f2de6414ae757102ab9dc"
+    },
+    {
+      "path": "config/sign_plates-client.properties",
+      "size": 80,
+      "sha256": "7a3b17098eb2cae98b90864fa019b694615d981aeff7dfcf2a44e38bb40d10bb"
     },
     {
       "path": "config/simplytents-common.toml",
@@ -3012,7 +3032,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "f8eb36815beb0a3c3638c4f8c088319c08e584e7e61f9b8ea608c253da3c4fef"
+      "sha256": "50f951ad38c2c153387f5dac54282c78a73ed0d54a3b7deac94451ee1ce55253"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3770,6 +3790,16 @@
       "sha256": "ce8cf6bd31f70b794fe97d88b4cd2beb45f83387fe20c8dcf39c92121ccaa723"
     },
     {
+      "path": "mods/SignPlates-NeoForge-1.21.1-1.1.2.jar",
+      "size": 895336,
+      "sha256": "53d5be70f74d74230d861e60296a66febdfcd3d581f1f9ef71b81a2863131cbe"
+    },
+    {
+      "path": "mods/signsmod-1.3.2.jar",
+      "size": 491690,
+      "sha256": "337ac1b4c25a2203dcb33440439ec892b007e5125e2fcea821d88810546125c8"
+    },
+    {
       "path": "mods/simplytents-5.0-1.21.1.neo.jar",
       "size": 1022684,
       "sha256": "1cf52a3552d78c69f44a5ed398ffcadfa863c2f8048f243717a6010f5bce6963"
@@ -4005,6 +4035,11 @@
       "sha256": "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
     },
     {
+      "path": "resourcepacks/Gameplay Font.zip",
+      "size": 40281,
+      "sha256": "4973b8364d0baf532961db9a28d0e072faa752c6a8410d2fa81ad0c8f629f400"
+    },
+    {
       "path": "resourcepacks/LowOnFire v26.2§8.zip",
       "size": 42760,
       "sha256": "25fc89fedc6d47fe2480a60910c65c8fd8b50121aaab919933e47cc6ba730a67"
@@ -4053,6 +4088,11 @@
       "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
       "size": 1791406,
       "sha256": "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c"
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
+      "size": 227,
+      "sha256": "a977881284260312d7db5ed6c4ef528233ae6af3a27ec962d26a094ec095f56f"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
