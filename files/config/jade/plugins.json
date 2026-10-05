@@ -52,6 +52,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "dfood": {
+    "food_block": true,
+    "complex_food_block": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
