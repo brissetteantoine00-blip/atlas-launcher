@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "ff5e641ad74ddaa0",
+  "id": "99deed916278d4bb",
   "name": "Labyrinthe RP",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "changelog": "",
-  "publishedAt": "2026-10-05T15:45:02.209Z",
+  "publishedAt": "2026-10-05T17:17:31.556Z",
   "releases": [
+    {
+      "version": "1.0.7",
+      "publishedAt": "2026-10-05T17:17:31.556Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.6",
       "publishedAt": "2026-10-05T15:45:02.209Z",
@@ -367,11 +372,6 @@
       "file": "EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar",
       "name": "Euphoria Patcher",
       "description": "A mod that applies the Euphoria Patches add-on to Complementary Shaders. Enable and Change Euphoria Patches Settings in the shaderpack settings menu Report issues on discord!"
-    },
-    {
-      "file": "expandeddelight-0.1.4.jar",
-      "name": "Expanded Delight",
-      "description": "Gradually expands upon the already amazing Farmers Delight"
     },
     {
       "file": "explosiveenhancement-neoforge-1.21.1-1.2.0.jar",
@@ -839,24 +839,24 @@
       "description": "Let there be light at the weapon. Addon for TaCZ that adds dynamic muzzle flash & bullet lighting. (NeoForge 1.21.1 port)"
     },
     {
-      "file": "tan-compat-pack-1.0.0.jar",
-      "name": "Tough As Nails - Compatibility Pack",
-      "description": "Adds compatibility between Tough As Nails and several other mods"
-    },
-    {
       "file": "tctcore-2.3-neoforge-1.21.1.jar",
       "name": "tctcore",
       "description": "This mod adds functionality to standardize and group settings, information such as craft or other, is the download page of several mods compatible directly from Minecraft"
     },
     {
-      "file": "ToughAsNails-neoforge-1.21.1-10.1.0.13.jar",
-      "name": "Tough As Nails",
-      "description": "Adds features to enhance survival mode and increase the game"
+      "file": "ThirstWasReclaimed-1.21.1-3.0.6.jar",
+      "name": "Thirst Was Reclaimed",
+      "description": "Brand-new take on the thirst-bar mechanic, compatible with a lot of contemporary mods"
     },
     {
       "file": "travelersbackpack-neoforge-1.21.1-10.1.39.jar",
       "name": "Traveler",
       "description": "Unique and upgradeable backpacks with customization, Curios API/Accessories integration and more!"
+    },
+    {
+      "file": "tw-decorative-food-1.21.1-2.0.1-neoforge.jar",
+      "name": "TW`s Decorative Food",
+      "description": "Make the food placeable.Decorate your world!"
     },
     {
       "file": "txnilib-neoforge-1.0.24-1.21.1.jar",
@@ -932,7 +932,7 @@
     }
   ],
   "server": null,
-  "totalSize": 614808784,
+  "totalSize": 615488443,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1287,7 +1287,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "df9894e27dcbf0f0b64db697efab5c72d7c1275cd64013b867ec01a3f1b3ee66"
+      "sha256": "c5e9c9164b5a438a3be07ff1ec7bb75f68c678b258b096ecedef70aadb1fa011"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1392,7 +1392,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "92f80779a38ce6badcb7f00b0180eba2cd38a7241ce946b9fce9f661fc1addf0"
+      "sha256": "a7be874f9f326c9b9f535d30984b0cd02ff1ea111bf26be5c85b8cefcfbc9e73"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1411,13 +1411,13 @@
     },
     {
       "path": "config/jade/plugins.json",
-      "size": 2434,
-      "sha256": "d431d311bbc78561645d0be4e746e08860a3a1e8398fff18a93d3c3b509fe23f"
+      "size": 2507,
+      "sha256": "2d8f4a7ed28685a75bf24a2d24c971ac4ffc9ff45a50459093c625490ff7bc57"
     },
     {
       "path": "config/jade/sort-order.json",
-      "size": 2823,
-      "sha256": "08b3f17248573172d3bc20e4fc948f598556a55b1c04d216e9b31c410ac983cd"
+      "size": 2958,
+      "sha256": "163be3e9469c0c7bb734cbe23a64dbbbffe5ad1ada19c453bf965c6b5868d030"
     },
     {
       "path": "config/jamlib/known_suspicious_jars.txt",
@@ -1456,8 +1456,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1755,
-      "sha256": "23b0bc2c898f9e1768ec739f0c85e5652571b23959975f37f1932b6973cc18fe"
+      "size": 1804,
+      "sha256": "df9e9d4f7151cf4f80347a6152a866adb1f9292cefed442a29cb16572471c499"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1992,7 +1992,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "b5e46f1d818e9171c7d0d683bf9ea327d83d4f60bca4e456c96dd90fe099c405"
+      "sha256": "53714e1e8d401b96cdc4d8c20ced10cbd4fef2e407aef3bb24fd093679ecb658"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -2255,9 +2255,14 @@
       "sha256": "73adc5821b607af041d64bff2cff6f45edd356a7110ab79ea88519a39ffc382a"
     },
     {
-      "path": "config/thirst/common.toml",
+      "path": "config/thirst/common-1.toml.bak",
       "size": 3855,
       "sha256": "0c641054381ba957f06aa923e11f238117e52fee07df8a4217577cd041b97ff4"
+    },
+    {
+      "path": "config/thirst/common.toml",
+      "size": 3942,
+      "sha256": "2987676db60369ab6210bf5cd7cd3ca1b3d68e394ce045e0b2c92535c9954192"
     },
     {
       "path": "config/thirst/container.toml",
@@ -3092,7 +3097,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "58ccc81e13dc9436906b54922285ba678b8ba0872e9dd3818aa995894048c929"
+      "sha256": "f31961ef66a26ea11320c6b1cd5b441f5b33473cb638b351fedb6ac51dd1fd46"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3495,7 +3500,7 @@
       "sha256": "fe64a1fad6b6f39a95f22ea6ba9506b712e36b96c46b80f1cf38fe144900a4b2"
     },
     {
-      "path": "mods/expandeddelight-0.1.4.jar",
+      "path": "mods/expandeddelight-0.1.4.jar.disabled",
       "size": 547554,
       "sha256": "35e9f833432a7a7d25c24e85289a6f58e2cbe2e1cf43b9c0cfef7d5752d04394"
     },
@@ -3960,7 +3965,7 @@
       "sha256": "89cbcfd798559a477b0677d4ecbfd4b3b0b54c2f9fd5d47e5d2102b3da5d188d"
     },
     {
-      "path": "mods/tan-compat-pack-1.0.0.jar",
+      "path": "mods/tan-compat-pack-1.0.0.jar.disabled",
       "size": 4665,
       "sha256": "763de0c4e652bac0df29fdc8e44123886cdab802ad1e48451f31aac46480dc2d"
     },
@@ -3970,7 +3975,12 @@
       "sha256": "deafacd323dee041d08ae6039d579e52ac79698eeb53c38b1ac53c0dd2a35d96"
     },
     {
-      "path": "mods/ToughAsNails-neoforge-1.21.1-10.1.0.13.jar",
+      "path": "mods/ThirstWasReclaimed-1.21.1-3.0.6.jar",
+      "size": 284187,
+      "sha256": "26e3bf4ccf1f0d881609ac3f972f20aed4c9dd90090cd290f9ebf611b4db4503"
+    },
+    {
+      "path": "mods/ToughAsNails-neoforge-1.21.1-10.1.0.13.jar.disabled",
       "size": 429636,
       "sha256": "21fee226bbca6dca81d4453c63f642ad31228041e76b7a87574a8f3bdf37fa67"
     },
@@ -3978,6 +3988,11 @@
       "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.39.jar",
       "size": 1425397,
       "sha256": "3beae748c4e5788a2353ab14ade92ff68a097fc444bc95beaf526123a5b0536b"
+    },
+    {
+      "path": "mods/tw-decorative-food-1.21.1-2.0.1-neoforge.jar",
+      "size": 431554,
+      "sha256": "4695cb79d17cdc2d98f068b996cae18c1debb2fd5fe6b1a281f1c6e9dc244728"
     },
     {
       "path": "mods/txnilib-neoforge-1.0.24-1.21.1.jar",
@@ -4110,11 +4125,6 @@
       "sha256": "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
     },
     {
-      "path": "resourcepacks/Gameplay Font.zip",
-      "size": 40281,
-      "sha256": "4973b8364d0baf532961db9a28d0e072faa752c6a8410d2fa81ad0c8f629f400"
-    },
-    {
       "path": "resourcepacks/LowOnFire v26.2§8.zip",
       "size": 42760,
       "sha256": "25fc89fedc6d47fe2480a60910c65c8fd8b50121aaab919933e47cc6ba730a67"
@@ -4167,7 +4177,7 @@
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 227,
-      "sha256": "7fef0f965741ab23274f154cdf7e9e2919660a85f583bac04c2975f54e97f454"
+      "sha256": "ed3ad911ede7776753404500b9e68f7b891cf72ebee7cf1d05ab4a0ec3476ba0"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
