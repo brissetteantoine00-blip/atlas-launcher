@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "def69f32fd8a8f2f",
+  "id": "ff5e641ad74ddaa0",
   "name": "Labyrinthe RP",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "changelog": "",
-  "publishedAt": "2026-10-05T13:14:15.681Z",
+  "publishedAt": "2026-10-05T15:45:02.209Z",
   "releases": [
+    {
+      "version": "1.0.6",
+      "publishedAt": "2026-10-05T15:45:02.209Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.5",
       "publishedAt": "2026-10-05T13:14:15.681Z",
@@ -57,11 +62,6 @@
       "name": "AmbientSounds",
       "description": "Expands minecraft's ambient sounds.",
       "optional": true
-    },
-    {
-      "file": "amendments-1.21-2.1.10-neoforge.jar",
-      "name": "Amendments",
-      "description": "Many tweaks to Vanilla Blocks"
     },
     {
       "file": "Analog-Audio-0.1.5-hotfix.1.jar",
@@ -170,6 +170,11 @@
       "file": "comforts-neoforge-9.0.5+1.21.1.jar",
       "name": "Comforts",
       "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors!"
+    },
+    {
+      "file": "configurable-3.5.2+1.21.1-neoforge.jar",
+      "name": "Configurable",
+      "description": "Config library that allows decentralised settings in a mod"
     },
     {
       "file": "Controlling-neoforge-1.21.1-19.0.5.jar",
@@ -362,6 +367,11 @@
       "file": "EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar",
       "name": "Euphoria Patcher",
       "description": "A mod that applies the Euphoria Patches add-on to Complementary Shaders. Enable and Change Euphoria Patches Settings in the shaderpack settings menu Report issues on discord!"
+    },
+    {
+      "file": "expandeddelight-0.1.4.jar",
+      "name": "Expanded Delight",
+      "description": "Gradually expands upon the already amazing Farmers Delight"
     },
     {
       "file": "explosiveenhancement-neoforge-1.21.1-1.2.0.jar",
@@ -624,6 +634,11 @@
       "description": "Urban Decor is a decorative mod designed to enhance the building experience of users by adding unique decoration blocks."
     },
     {
+      "file": "neruina-3.3.3+1.21.1-neoforge.jar",
+      "name": "Neruina",
+      "description": "This is a mod that prevents ticking entity and ticking block entity / tile entity crashes from bricking worlds."
+    },
+    {
       "file": "notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
       "name": "NotEnoughAnimations",
       "description": "Adding and improving animations in Third-Person.",
@@ -824,14 +839,19 @@
       "description": "Let there be light at the weapon. Addon for TaCZ that adds dynamic muzzle flash & bullet lighting. (NeoForge 1.21.1 port)"
     },
     {
+      "file": "tan-compat-pack-1.0.0.jar",
+      "name": "Tough As Nails - Compatibility Pack",
+      "description": "Adds compatibility between Tough As Nails and several other mods"
+    },
+    {
       "file": "tctcore-2.3-neoforge-1.21.1.jar",
       "name": "tctcore",
       "description": "This mod adds functionality to standardize and group settings, information such as craft or other, is the download page of several mods compatible directly from Minecraft"
     },
     {
-      "file": "ThirstWasTaken-1.21.1-2.1.5.jar",
-      "name": "Thirst Was Taken",
-      "description": "Modern take on the thirst-bar mechanic, compatible with a lot of contemporary mods"
+      "file": "ToughAsNails-neoforge-1.21.1-10.1.0.13.jar",
+      "name": "Tough As Nails",
+      "description": "Adds features to enhance survival mode and increase the game"
     },
     {
       "file": "travelersbackpack-neoforge-1.21.1-10.1.39.jar",
@@ -912,7 +932,7 @@
     }
   ],
   "server": null,
-  "totalSize": 614179570,
+  "totalSize": 614808784,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1240,6 +1260,11 @@
       "sha256": "13aee892d000bdd43d88178fbcaa96549f28ae4ae528e1f1eacaf791742f9ec6"
     },
     {
+      "path": "config/expandeddelight-common.toml",
+      "size": 129,
+      "sha256": "e49e9e593220f269e65ab5940a850b743356376cddb357e6f765b11fa571e6bd"
+    },
+    {
       "path": "config/explosiveenhancement.toml",
       "size": 2308,
       "sha256": "59a8f784524a4d3e7d972c9979e314a94df9e9a3fde8ed6aded6c951cea18d65"
@@ -1262,7 +1287,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "ace564fd9662fc839adac9d1480890096b804fa40c63eee89e4a7594e99c6feb"
+      "sha256": "df9894e27dcbf0f0b64db697efab5c72d7c1275cd64013b867ec01a3f1b3ee66"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1367,7 +1392,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "5a093a77e8aa3a82317381c7029f0774631714e5ff59b7d0a68716ada325b33f"
+      "sha256": "92f80779a38ce6badcb7f00b0180eba2cd38a7241ce946b9fce9f661fc1addf0"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1431,8 +1456,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1713,
-      "sha256": "bd7e91f4915bf94c071bef9a319531045a6ab3ebfcd2be8a2e9636a5cf229c64"
+      "size": 1755,
+      "sha256": "23b0bc2c898f9e1768ec739f0c85e5652571b23959975f37f1932b6973cc18fe"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1441,13 +1466,13 @@
     },
     {
       "path": "config/jei/client/recipe-category-sort-order.ini",
-      "size": 2511,
-      "sha256": "ceb1e9f1c98e385d16548e02e5ad8e0d242f3a8cb6d531b422aa2f95a9c44719"
+      "size": 2575,
+      "sha256": "47906608ee65f8678e9e604d7e1e14f7d70f5c3a69b87953047fe2271294c9b5"
     },
     {
       "path": "config/jei/world/local/§6by JxnasGmng §8§l[§cVersion 2_3_3§8§l] §7- §9DE§7/lookupHistory.json",
-      "size": 1125,
-      "sha256": "ecc86ad69d27f441b1545cd906691f0d79fb44f81a39a334153086b259cf5cd1"
+      "size": 1219,
+      "sha256": "a1390e3585d2a4a47db0c0da4b2869198178619b5d4c1144378a88f055a5e28b"
     },
     {
       "path": "config/jei/world/local/New World (1)/lookupHistory.json",
@@ -1510,9 +1535,19 @@
       "sha256": "004c438bc21986b89bb9bb69222588f9c9c2426e0db8ab9f55b728c775439229"
     },
     {
-      "path": "config/map_atlases-common.toml",
+      "path": "config/map_atlases-common-1.toml.bak",
+      "size": 2238,
+      "sha256": "2ccc4ffff084385d216f87f8a2f15566acc662a3e79811819029199a14bad82c"
+    },
+    {
+      "path": "config/map_atlases-common-2.toml.bak",
       "size": 2403,
       "sha256": "f45180916d68ca3e8e8220f78c02d2cd598b8be88794f9ffd9e1a6fd1be32ad7"
+    },
+    {
+      "path": "config/map_atlases-common.toml",
+      "size": 2403,
+      "sha256": "7e6c7164aff5dfb227688ed085c10338d974636e8ecc040f840e8552aaea7a9b"
     },
     {
       "path": "config/meadow-common.toml",
@@ -1583,6 +1618,11 @@
       "path": "config/neoforge-server.toml",
       "size": 1177,
       "sha256": "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
+    },
+    {
+      "path": "config/neruina.json5",
+      "size": 352,
+      "sha256": "bfa343775801d4708d39e86b5fa4893a18185f190f2799a8b6ad828e96027073"
     },
     {
       "path": "config/notenoughanimations.json",
@@ -1952,7 +1992,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "01b2f9481f4fcaa2a75ac1f0b6547da95d0613b5165e1e6ee39f1bf93f1261e1"
+      "sha256": "b5e46f1d818e9171c7d0d683bf9ea327d83d4f60bca4e456c96dd90fe099c405"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -2038,6 +2078,11 @@
       "path": "config/skinlayers.json",
       "size": 497,
       "sha256": "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+    },
+    {
+      "path": "config/snatched_config_-8876597787939925853.json",
+      "size": 576,
+      "sha256": "e0c3199fcf2b4ef2d824f03a20c44ff4741a368047fa010cf0f91bacb1069412"
     },
     {
       "path": "config/snatched_config_5927214266970899697.json",
@@ -2233,6 +2278,21 @@
       "path": "config/tinymultiblocklib-client.toml",
       "size": 328,
       "sha256": "44dd5679b3a9f72255877a2203b27722ae61044024b4d05cc14245174514c9d9"
+    },
+    {
+      "path": "config/toughasnails/client.toml",
+      "size": 423,
+      "sha256": "38db2f6a8bae065d6bf89327cea92c55d7370db7c0afcb13b494b985776f31c7"
+    },
+    {
+      "path": "config/toughasnails/temperature.toml",
+      "size": 2735,
+      "sha256": "23d0ecc9637943d1e5300f753d1768d7a8673b48c8bc97b29df082f852cbe44d"
+    },
+    {
+      "path": "config/toughasnails/thirst.toml",
+      "size": 661,
+      "sha256": "edc02c61b24515600f8cc60545ab99b4bc9aea490e7ac348bcbca85da4d14199"
     },
     {
       "path": "config/transition.json",
@@ -3032,7 +3092,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "50f951ad38c2c153387f5dac54282c78a73ed0d54a3b7deac94451ee1ce55253"
+      "sha256": "58ccc81e13dc9436906b54922285ba678b8ba0872e9dd3818aa995894048c929"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3145,11 +3205,6 @@
       "sha256": "07ee6fd24d8427ee079e2e376095b0ac92450b0153331f1575f8195e2c9cf90b"
     },
     {
-      "path": "mods/amendments-1.21-2.1.10-neoforge.jar",
-      "size": 1168211,
-      "sha256": "a2cbc46342c5f466f3b6e244f8820aa01f9d8381586b2c008b72fb77ae56045e"
-    },
-    {
       "path": "mods/Analog-Audio-0.1.5-hotfix.1.jar",
       "size": 1726267,
       "sha256": "effc623ad0b3e332bb29252f5c41f767cb194a47ce5ae195d186f442124807a3"
@@ -3253,6 +3308,11 @@
       "path": "mods/comforts-neoforge-9.0.5+1.21.1.jar",
       "size": 422658,
       "sha256": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615"
+    },
+    {
+      "path": "mods/configurable-3.5.2+1.21.1-neoforge.jar",
+      "size": 159182,
+      "sha256": "735076ab03947c0fc8a588ddfbe1cce5fa94b361fbaf8cc71f2325cb747e27b0"
     },
     {
       "path": "mods/Controlling-neoforge-1.21.1-19.0.5.jar",
@@ -3433,6 +3493,11 @@
       "path": "mods/EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar",
       "size": 4492151,
       "sha256": "fe64a1fad6b6f39a95f22ea6ba9506b712e36b96c46b80f1cf38fe144900a4b2"
+    },
+    {
+      "path": "mods/expandeddelight-0.1.4.jar",
+      "size": 547554,
+      "sha256": "35e9f833432a7a7d25c24e85289a6f58e2cbe2e1cf43b9c0cfef7d5752d04394"
     },
     {
       "path": "mods/explosiveenhancement-neoforge-1.21.1-1.2.0.jar",
@@ -3690,6 +3755,11 @@
       "sha256": "eef7f040681a6dcd2a5f325cc541f663e3221831682b278a458578ab2486714e"
     },
     {
+      "path": "mods/neruina-3.3.3+1.21.1-neoforge.jar",
+      "size": 852705,
+      "sha256": "6afd49ea130feaf337a39b12a936c61950da77ca59061d286b3dae67e5a2728e"
+    },
+    {
       "path": "mods/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
       "size": 1866035,
       "sha256": "e70609c5638d9f02edfb2c8ec448a7d567345323d7386937c174526aac56cb8f"
@@ -3890,14 +3960,19 @@
       "sha256": "89cbcfd798559a477b0677d4ecbfd4b3b0b54c2f9fd5d47e5d2102b3da5d188d"
     },
     {
+      "path": "mods/tan-compat-pack-1.0.0.jar",
+      "size": 4665,
+      "sha256": "763de0c4e652bac0df29fdc8e44123886cdab802ad1e48451f31aac46480dc2d"
+    },
+    {
       "path": "mods/tctcore-2.3-neoforge-1.21.1.jar",
       "size": 8118709,
       "sha256": "deafacd323dee041d08ae6039d579e52ac79698eeb53c38b1ac53c0dd2a35d96"
     },
     {
-      "path": "mods/ThirstWasTaken-1.21.1-2.1.5.jar",
-      "size": 206034,
-      "sha256": "f9442733b66b112ea5503caba31e321e8ca8767e2c5a9a4aea8976eea0eba87e"
+      "path": "mods/ToughAsNails-neoforge-1.21.1-10.1.0.13.jar",
+      "size": 429636,
+      "sha256": "21fee226bbca6dca81d4453c63f642ad31228041e76b7a87574a8f3bdf37fa67"
     },
     {
       "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.39.jar",
@@ -4092,7 +4167,7 @@
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 227,
-      "sha256": "a977881284260312d7db5ed6c4ef528233ae6af3a27ec962d26a094ec095f56f"
+      "sha256": "7fef0f965741ab23274f154cdf7e9e2919660a85f583bac04c2975f54e97f454"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
@@ -10492,7 +10567,7 @@
     {
       "path": "shaderpacks/Spooklementary_LABYRINTHE_NO_PUDDLES.zip.txt",
       "size": 205,
-      "sha256": "13807aa7b9ed449aa9be205ff01ccb4666b52341c511b07c43c43df2006623f2"
+      "sha256": "34b2e7ee98b903751e0d327f4a8302e39179725304b03cbe9e47cd86c3768802"
     },
     {
       "path": "shaderpacks/Spooklementary_v2.0.4.zip",
