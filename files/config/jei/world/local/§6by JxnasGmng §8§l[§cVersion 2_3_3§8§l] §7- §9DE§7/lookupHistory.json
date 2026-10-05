@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:mycelium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"map_atlases:atlas","components":"{\"map_atlases:map_collection\":{vanilla:[I;255,256,257,258,259,260,261,262,263,268,269,270,271,272,273]}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"securitycraft:lens","components":"{\"minecraft:dyed_color\":{rgb:16383998}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"securitycraft:lens","components":"{\"minecraft:dyed_color\":{rgb:11546150}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
