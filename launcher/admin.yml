@@ -1,8 +1,8 @@
-version: 1.0.24
+version: 1.0.25
 files:
-  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/2bd457dd8a67f2bef9b9275e1d28168a5355ddb6f7d8b03760c471d46cb120b1.exe
-    sha512: gJZO5zogUO6HvMEIaZ+xvI733tgx7rF9nalOBkfImOxS3q78Xlh00g4DdmH1X41t3hBeph/YdoymCNe3Dq5Ggg==
-    size: 86795541
-path: Atlas-Launcher-ADMIN-Update-1.0.24.exe
-sha512: gJZO5zogUO6HvMEIaZ+xvI733tgx7rF9nalOBkfImOxS3q78Xlh00g4DdmH1X41t3hBeph/YdoymCNe3Dq5Ggg==
-releaseDate: '2026-10-06T01:47:21.633Z'
+  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/b1840fb1982a106e24458d03684a618b11c36825c9018b536206d5e5b26ff1c8.exe
+    sha512: gu/qtRuVgR9Hzng8ynHim4L2J5Q1u3zm5AMWTgrQIjb6saVRKjhgLc8nLBIlm6avmCYizFsM/SkRpiPtnfUVfg==
+    size: 86795922
+path: Atlas-Launcher-ADMIN-Update-1.0.25.exe
+sha512: gu/qtRuVgR9Hzng8ynHim4L2J5Q1u3zm5AMWTgrQIjb6saVRKjhgLc8nLBIlm6avmCYizFsM/SkRpiPtnfUVfg==
+releaseDate: '2026-10-06T02:37:32.862Z'
