@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "d590059c00c8da6a",
+  "id": "77680b553b2d3e22",
   "name": "Labyrinthe RP",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "changelog": "",
-  "publishedAt": "2026-10-06T14:17:50.929Z",
+  "publishedAt": "2026-10-06T20:21:48.061Z",
   "releases": [
+    {
+      "version": "1.0.9",
+      "publishedAt": "2026-10-06T20:21:48.061Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.8",
       "publishedAt": "2026-10-06T14:17:50.929Z",
@@ -518,6 +523,11 @@
       "optional": true
     },
     {
+      "file": "irons_artifice-1.21.1-1.0.1.1.jar",
+      "name": "Iron",
+      "description": "Explore the game as an Artificer: Craft, tinker, and engineer historical-fantasy firearm builds!"
+    },
+    {
       "file": "Jade-1.21.1-NeoForge-15.10.6.jar",
       "name": "Jade",
       "description": "Minecraft mod shows what you are looking at. (Hwyla fork)"
@@ -943,7 +953,7 @@
     }
   ],
   "server": null,
-  "totalSize": 628805440,
+  "totalSize": 630309435,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1298,7 +1308,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "a74666caabb5653b085ab05e20e3826473494aaeba9bac73f1378933df58cf51"
+      "sha256": "8664999a63d8a00f7145548571771b9c117c8cb303e8675939c5da58077f042d"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1347,8 +1357,8 @@
     },
     {
       "path": "config/grassiergrass-client.toml",
-      "size": 3012,
-      "sha256": "a7f43b1bfdb016002eb609dad991113935aa78192c2f6f5f9f7a40713a9071a7"
+      "size": 2994,
+      "sha256": "c9c91f029570e6f1c6308a980332ae260ef34959c29148c9e0d7757089be33f1"
     },
     {
       "path": "config/gravitygun-client.toml",
@@ -1364,6 +1374,11 @@
       "path": "config/herbalbrews-common.toml",
       "size": 800,
       "sha256": "2885a870b53534c8f8d3c580973a1fee8a303e7919b482b7ccf946bb6822d6ba"
+    },
+    {
+      "path": "config/immersive_eating.toml",
+      "size": 161,
+      "sha256": "665697a3b11c6c848bcc28034b5781e68485f140c48eea75c3d4ff422b9c6ee8"
     },
     {
       "path": "config/immersive_furniture.json",
@@ -1402,8 +1417,8 @@
     },
     {
       "path": "config/iris.properties",
-      "size": 304,
-      "sha256": "d625235b66a501b8844976956dd5ce45ba72f88d44537f8ca74cab06a4c9d8bb"
+      "size": 305,
+      "sha256": "88608ab05fef2a40e44a499ee912b743055966ae84bcbb55be68671fcb0e26da"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1738,7 +1753,7 @@
     {
       "path": "config/plasmovoice/.crowdin/timestamp",
       "size": 13,
-      "sha256": "e58085ab62edcfc5d75863d50bd27d717c6e9c0f1ed48fd2a3b7676a876f737e"
+      "sha256": "27fb9848419c62f54b152c65a2d7d3a46ab00d79e238c3bc04bc79d6d20b3e25"
     },
     {
       "path": "config/plasmovoice/.crowdin/tr_tr.json",
@@ -1772,13 +1787,18 @@
     },
     {
       "path": "config/plasmovoice/client.toml",
-      "size": 1297,
-      "sha256": "8e3c4b503d88b162bdcfcdb9c406a7956d4a3e50cb0a5c1dc3ccd0c0be8de2f6"
+      "size": 1296,
+      "sha256": "93966fe54b449e1ae9e006226ec2c41870e161cc54f0f53c0963fb872c2953c3"
     },
     {
       "path": "config/plasmovoice/meta_cache.json",
       "size": 655,
-      "sha256": "d70d5a1cff39c7bbf7e1c27453e6b829dd32a45bd5f2c7e315e5837bad4d363b"
+      "sha256": "77bb01ac02bcb53db3864ef145daf461259219c4bf5c6b2cc2a0983b38f90d79"
+    },
+    {
+      "path": "config/plasmovoice/pv-voice-changer-presets/autosave.properties",
+      "size": 537,
+      "sha256": "48ad47ee6d4c7cd5915c5ed35e5a7de17fe709fe96b33e4ebd11b056e2f83e5b"
     },
     {
       "path": "config/plasmovoice/server/config.toml",
@@ -1843,7 +1863,7 @@
     {
       "path": "config/plasmovoice/server/languages/.crowdin/timestamp",
       "size": 13,
-      "sha256": "a891390b2ec050d75bc782e2e3be130919403b98120824a39d08b4e2815e22ab"
+      "sha256": "9d3d96448afccd87a68c7313c06d9c31c89b4bc66c47762007e9c67e5d225a5a"
     },
     {
       "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
@@ -1987,8 +2007,8 @@
     },
     {
       "path": "config/punchy/merged_animation_selection.json",
-      "size": 2825,
-      "sha256": "5420440275b86f5c713ba34a390d07989927ea2e2c868a014019a74b68f8965a"
+      "size": 6888,
+      "sha256": "5a6095d8b3a8e17d30ad2271cbaaf08a9c8bba9c396e0b6c25a6e0f27114c104"
     },
     {
       "path": "config/punchy/punchy_config.json",
@@ -2003,7 +2023,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "7798514a7cba4986c815e3d79b58311957b5252dc4b9adb3c52d6f07668cf813"
+      "sha256": "2e16e0f28db5050f14f2de343fb7be4858e24070ffd2e94567bb480b5c655bd6"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -3168,7 +3188,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "47c7f6ee58b7f8d0c1ce45002e06d5df4be40e92d2a5a6ac5231518499c9718e"
+      "sha256": "b109c444b3830461bc365e7c7b38c7283deb79b661c34d6a56cc294bab0df196"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3581,11 +3601,6 @@
       "sha256": "fe64a1fad6b6f39a95f22ea6ba9506b712e36b96c46b80f1cf38fe144900a4b2"
     },
     {
-      "path": "mods/expandeddelight-0.1.4.jar.disabled",
-      "size": 547554,
-      "sha256": "35e9f833432a7a7d25c24e85289a6f58e2cbe2e1cf43b9c0cfef7d5752d04394"
-    },
-    {
       "path": "mods/explosiveenhancement-neoforge-1.21.1-1.2.0.jar",
       "size": 96211,
       "sha256": "ec01cb0effac5bd0e11f7c819b7202db80e9e80dc27abbb5c0f9192f2ffa0ea8"
@@ -3709,6 +3724,11 @@
       "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
       "size": 2540723,
       "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314"
+    },
+    {
+      "path": "mods/irons_artifice-1.21.1-1.0.1.1.jar",
+      "size": 1481644,
+      "sha256": "6c06d9701fb351dabd992223300418ea0b1744092da45f3e2d726e94bda51f36"
     },
     {
       "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
@@ -4041,11 +4061,6 @@
       "sha256": "89cbcfd798559a477b0677d4ecbfd4b3b0b54c2f9fd5d47e5d2102b3da5d188d"
     },
     {
-      "path": "mods/tan-compat-pack-1.0.0.jar.disabled",
-      "size": 4665,
-      "sha256": "763de0c4e652bac0df29fdc8e44123886cdab802ad1e48451f31aac46480dc2d"
-    },
-    {
       "path": "mods/tctcore-2.3-neoforge-1.21.1.jar",
       "size": 8118709,
       "sha256": "deafacd323dee041d08ae6039d579e52ac79698eeb53c38b1ac53c0dd2a35d96"
@@ -4054,11 +4069,6 @@
       "path": "mods/ThirstWasReclaimed-1.21.1-3.0.6.jar",
       "size": 284187,
       "sha256": "26e3bf4ccf1f0d881609ac3f972f20aed4c9dd90090cd290f9ebf611b4db4503"
-    },
-    {
-      "path": "mods/ToughAsNails-neoforge-1.21.1-10.1.0.13.jar.disabled",
-      "size": 429636,
-      "sha256": "21fee226bbca6dca81d4453c63f642ad31228041e76b7a87574a8f3bdf37fa67"
     },
     {
       "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.39.jar",
@@ -4129,6 +4139,11 @@
       "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
       "size": 1118651,
       "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
+    },
+    {
+      "path": "resourcepacks/[1.0.6]Gardenia's kaleidoscope punchy addon.zip",
+      "size": 999463,
+      "sha256": "3844d78a64d5d80262a3aa5e985c6aa1c810a43464f8536440b7abcfe2e19ccd"
     },
     {
       "path": "resourcepacks/[Let's Do] Sticks and Stones 1.0.zip",
