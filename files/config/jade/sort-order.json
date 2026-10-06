@@ -1,4 +1,6 @@
 {
+  "dfood:complex_food_block": null,
+  "dfood:food_block": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
   "jade:block_face": null,
@@ -78,5 +80,7 @@
   "securitycraft:entity_info": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null
+  "supplementaries:safe": null,
+  "thirst:fluid_storage": null,
+  "thirst:water_cauldron_fluid": null
 }

@@ -156,7 +156,9 @@
       "value": [
         "3e5705c3-337d-45db-80cb-1bd1f28b3284",
         "41a76aaf-7293-48db-9faf-16e56c4e57a6",
-        "cd68c8c2-2605-48ca-8c8a-a2ce382020e1"
+        "cd68c8c2-2605-48ca-8c8a-a2ce382020e1",
+        "e3b519e7-694e-4665-b5f6-1e16a97066c9",
+        "d8577bf0-615f-4513-9b6e-96574fdaa083"
       ],
       "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
     }

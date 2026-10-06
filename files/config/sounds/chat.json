@@ -21,8 +21,7 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@_Shoriy_",
-		"@Bluesing01"
+		"@_Shoriy_"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,
