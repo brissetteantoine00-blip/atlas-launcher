@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "77680b553b2d3e22",
+  "id": "502ca8f65f3c138c",
   "name": "Labyrinthe RP",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "changelog": "",
-  "publishedAt": "2026-10-06T20:21:48.061Z",
+  "publishedAt": "2026-10-06T20:31:02.352Z",
   "releases": [
+    {
+      "version": "1.0.10",
+      "publishedAt": "2026-10-06T20:31:02.352Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.9",
       "publishedAt": "2026-10-06T20:21:48.061Z",
@@ -523,11 +528,6 @@
       "optional": true
     },
     {
-      "file": "irons_artifice-1.21.1-1.0.1.1.jar",
-      "name": "Iron",
-      "description": "Explore the game as an Artificer: Craft, tinker, and engineer historical-fantasy firearm builds!"
-    },
-    {
       "file": "Jade-1.21.1-NeoForge-15.10.6.jar",
       "name": "Jade",
       "description": "Minecraft mod shows what you are looking at. (Hwyla fork)"
@@ -953,7 +953,7 @@
     }
   ],
   "server": null,
-  "totalSize": 630309435,
+  "totalSize": 628827791,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -3724,11 +3724,6 @@
       "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
       "size": 2540723,
       "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314"
-    },
-    {
-      "path": "mods/irons_artifice-1.21.1-1.0.1.1.jar",
-      "size": 1481644,
-      "sha256": "6c06d9701fb351dabd992223300418ea0b1744092da45f3e2d726e94bda51f36"
     },
     {
       "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
