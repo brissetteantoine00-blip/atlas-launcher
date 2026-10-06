@@ -2,12 +2,138 @@
   "selected_animations": [
     {
       "kind": "item",
+      "definition": "AXE",
+      "animations": {
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "interaction": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "useitem": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FULL_BLOCK",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "interaction": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "inspect": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FOOD",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "TORCH",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "LANTERN",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "hand_in": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "BUTTON_PLATE",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "BED",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "INGREDIENT",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "REDSTONE",
+      "animations": {
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "PICKAXE",
+      "animations": {
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "inspect": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHOVEL",
+      "animations": {
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "useitem": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "hand_out": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "hand_in": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
       "definition": "SWORD",
       "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy",
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "hand_in": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "hand_out": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
         "inspect": "pack:punchy:punchy",
         "triggerable": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "EMPTY_HAND",
+      "animations": {
+        "attack": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "hand_in": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "interaction": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "mining_v2": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip",
+        "inspect": "pack:file/[1.0.6]gardenia\u0027s kaleidoscope punchy addon.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHIELD",
+      "animations": {
+        "use_shield": "pack:punchy:punchy",
+        "attack": "pack:punchy:punchy"
       }
     },
     {
@@ -18,23 +144,6 @@
         "mining": "pack:punchy:punchy",
         "hand_in": "pack:punchy:punchy",
         "spear_charge": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "FULL_BLOCK",
-      "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "SHOVEL",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
       }
     },
     {
@@ -63,27 +172,10 @@
     },
     {
       "kind": "item",
-      "definition": "SHIELD",
-      "animations": {
-        "use_shield": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
       "definition": "FISHING_ROD",
       "animations": {
         "fishingrod": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "AXE",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
       }
     },
     {
@@ -100,23 +192,6 @@
       "definition": "FLINT",
       "animations": {
         "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "PICKAXE",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "inspect": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "EMPTY_HAND",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy"
       }
     }
   ]
