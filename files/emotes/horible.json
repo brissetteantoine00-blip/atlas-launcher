@@ -1,0 +1,16 @@
+{
+    "name": "horible",
+    "author": "Bluesing01",
+    "description": "description",
+    "emote":{
+        "isLoop": "false",
+        "returnTick": 2,
+        "beginTick":0,
+        "endTick":1048574,
+        "stopTick":1048575,
+        "degrees":false,
+        "moves":[
+            
+        ]
+    }
+}
