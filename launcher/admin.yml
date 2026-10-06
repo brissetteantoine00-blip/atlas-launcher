@@ -1,8 +1,0 @@
-version: 1.0.29
-files:
-  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/65ba647313c8ec19a7564941417c9480af9d9f1b1d0bc8e3022ab29d1fb1d695.exe
-    sha512: iI2hwtzr2eMsVhPBVxXT0EKvyy5YKXKBcarDCNP8N7o6qtDxofD9R+jJefENS2ySl/aLGiBHrn4m0MEFJUUnkQ==
-    size: 86796857
-path: Atlas-Launcher-ADMIN-Update-1.0.29.exe
-sha512: iI2hwtzr2eMsVhPBVxXT0EKvyy5YKXKBcarDCNP8N7o6qtDxofD9R+jJefENS2ySl/aLGiBHrn4m0MEFJUUnkQ==
-releaseDate: '2026-10-06T10:21:35.815Z'

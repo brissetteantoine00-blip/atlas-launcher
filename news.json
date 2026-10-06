@@ -1,71 +1,6 @@
 {
-  "announcement": {
-    "enabled": false,
-    "level": "info",
-    "title": "",
-    "message": "",
-    "expiresAt": null,
-    "updatedAt": "2026-10-02T16:49:02.091Z"
-  },
-  "rules": {
-    "text": "poli\n\ngentil\n\nrespecter blusing01\n\ninsulter kourro",
-    "url": ""
-  },
-  "credits": {
-    "text": "developement du luncher : cursor\ndirection artistique du luncher : Bluesing01\n"
-  },
-  "schedule": {
-    "tz": "America/Toronto",
-    "note": "",
-    "days": [
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": true,
-        "from": "20:00",
-        "to": "01:00"
-      },
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": false,
-        "from": "20:00",
-        "to": "23:00"
-      },
-      {
-        "open": true,
-        "from": "20:00",
-        "to": "02:00"
-      },
-      {
-        "open": true,
-        "from": "20:00",
-        "to": "02:00"
-      }
-    ],
-    "history": []
-  },
-  "maintenance": {
-    "enabled": false
-  },
-  "launcher": {
-    "version": "1.0.29",
-    "required": true,
-    "publishedAt": "2026-10-06T10:21:38.846Z"
-  },
   "appearance": {
-    "id": "muwj41b2171182",
+    "id": "musdcc3z697bed",
     "layout": {
       "brand": {
         "x": 19.4,
@@ -165,6 +100,6 @@
     },
     "theme": {},
     "texts": {},
-    "publishedAt": "2026-10-06T10:21:38.848Z"
+    "publishedAt": "2026-10-03T12:29:03.696Z"
   }
 }

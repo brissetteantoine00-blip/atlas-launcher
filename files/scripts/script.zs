@@ -1,2 +1,0 @@
-craftingTable.addShapeless("item_minecraft_air", <item:minecraft:air> * 1, [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]);
-craftingTable.addShapeless("item_minecraft_air", <item:minecraft:air> * 1, [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]);
