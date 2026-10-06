@@ -1,8 +1,8 @@
-version: 1.0.25
+version: 1.0.26
 files:
-  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/734e8ff147c54d50a17c077e93df7f8374463677582f9249b8a5443fc53491ca.exe
-    sha512: +69/j3/vFGyBACNHaCiBmECsMXNirl4He6o3z4dj1zHxsPeLuyHBDmnImvPVEv9qH/vvTWUciAjRbeKDMYF7hw==
-    size: 86733579
-path: Atlas-Launcher-Setup-1.0.25.exe
-sha512: +69/j3/vFGyBACNHaCiBmECsMXNirl4He6o3z4dj1zHxsPeLuyHBDmnImvPVEv9qH/vvTWUciAjRbeKDMYF7hw==
-releaseDate: '2026-10-06T02:36:36.615Z'
+  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/d97e9e1a5e5b51b1fef21711fc77d045ecec7800c16e44c1e086eee11060c2ce.exe
+    sha512: bPnQmQ6y7TsNz0FxpVoIABjkU8LriETuDKTXR1nOAIdXTuhLaPph2tSAJFcWnMGXgfsa7Zrfz2gef10lnsqubg==
+    size: 86733775
+path: Atlas-Launcher-Setup-1.0.26.exe
+sha512: bPnQmQ6y7TsNz0FxpVoIABjkU8LriETuDKTXR1nOAIdXTuhLaPph2tSAJFcWnMGXgfsa7Zrfz2gef10lnsqubg==
+releaseDate: '2026-10-06T02:44:27.971Z'
