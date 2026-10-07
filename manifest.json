@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "12509cf33d3082a6",
+  "id": "1fc647f807743c38",
   "name": "Labyrinthe RP",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "changelog": "",
-  "publishedAt": "2026-10-07T13:49:51.863Z",
+  "publishedAt": "2026-10-07T14:44:15.605Z",
   "releases": [
+    {
+      "version": "1.0.12",
+      "publishedAt": "2026-10-07T14:44:15.605Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.11",
       "publishedAt": "2026-10-07T13:49:51.863Z",
@@ -241,6 +246,11 @@
       "file": "CreativeCore_NEOFORGE_v2.13.49_mc1.21.1.jar",
       "name": "CreativeCore",
       "description": "A simple but powerful coremod."
+    },
+    {
+      "file": "creative_mode_tweaks-2.2.6.jar",
+      "name": "Creative Mode Tweaks",
+      "description": "Improve your creative building experience."
     },
     {
       "file": "cropsloverain-3.2.1.jar",
@@ -834,6 +844,11 @@
       "description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
     },
     {
+      "file": "SpeedFly_1.21.1-1.0.0.jar",
+      "name": "SpeedFly",
+      "description": "Увеличивает скорость полёта в креативе и добавляет меню настройки (клавиша M) с ползунками скорости и разгона."
+    },
+    {
       "file": "spiceoflife_classic-neoforge-2.15+1.21.1.jar",
       "name": "Spice of Life: Classic Edition",
       "description": "Eating the same food will cause the recovery level to decrease."
@@ -967,7 +982,7 @@
     }
   ],
   "server": null,
-  "totalSize": 636888913,
+  "totalSize": 637702910,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1337,7 +1352,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "39b8780c2bc7b9d601d9bfda24c41e6d524c389ccf4df5d64c2c288cbeb14365"
+      "sha256": "3893f1846dcbc88d299aed6d91c6370649c356b9523873a6bf878559644d8a17"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1400,6 +1415,11 @@
       "sha256": "26492a86bb1514b26f84595b0e80491d16d6f5f57cab7853efc0427c2b4107e9"
     },
     {
+      "path": "config/handoveryouritems.json5",
+      "size": 341,
+      "sha256": "793dd29112341a3751e7d42bc8c2329fdd4971e271e0d58d4a3952250849bd68"
+    },
+    {
       "path": "config/herbalbrews-common.toml",
       "size": 800,
       "sha256": "2885a870b53534c8f8d3c580973a1fee8a303e7919b482b7ccf946bb6822d6ba"
@@ -1452,7 +1472,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "ddfc88cefefc892fbe68f97d0ab08f57b3e87dc0af2087f807df19ee6aa38b6c"
+      "sha256": "8eea3b749c83eb444b1e3458783c356d7cd5993e6dd185779c39938e82846074"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -2062,7 +2082,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "6d2df9f38608ce171bf3310da0bb1aedc8d82f7ae9834a699022567d63da558a"
+      "sha256": "07c5782a587a76c21a97e4e8aa2bbf7b3f2c70894413502e8073f9da92fddcb6"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -3227,7 +3247,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "2a07823a28e08ce233a03f85cde78177321b1369b578cddc656b2c1383a9b083"
+      "sha256": "ac3e38418824bacc90ffb29a4e2c5c6f68c1bafad74022cab8a0f524915bf9ff"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3483,6 +3503,11 @@
       "path": "mods/createdeco-2.1.3.jar",
       "size": 3328498,
       "sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e"
+    },
+    {
+      "path": "mods/creative_mode_tweaks-2.2.6.jar",
+      "size": 791286,
+      "sha256": "23f852d88bc8a60ab285061581e6647141f3f4decc665e71eff817da16ef9aec"
     },
     {
       "path": "mods/CreativeCore_NEOFORGE_v2.13.49_mc1.21.1.jar",
@@ -4065,6 +4090,11 @@
       "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db"
     },
     {
+      "path": "mods/SpeedFly_1.21.1-1.0.0.jar",
+      "size": 22370,
+      "sha256": "b2009602f003fa0e3e4210d32ab99075deca28cc8baa62df74d9d6888ee4b719"
+    },
+    {
       "path": "mods/spiceoflife_classic-neoforge-2.15+1.21.1.jar",
       "size": 114567,
       "sha256": "a8783ab819ed9b49b981eb57184de7d262475a7cdf716f563071e888d9b7eea9"
@@ -4367,7 +4397,7 @@
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 227,
-      "sha256": "25e7855a5bb953dc6fbaa34990462d277c38fe42eb4863458d9a56cfe62fcc6d"
+      "sha256": "c32842bbc9b7d08c6873b02196b9361ff171d6fe4be3dba6f59ecfe44d7d5d5c"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
