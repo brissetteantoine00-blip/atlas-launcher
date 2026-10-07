@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "502ca8f65f3c138c",
+  "id": "12509cf33d3082a6",
   "name": "Labyrinthe RP",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "changelog": "",
-  "publishedAt": "2026-10-06T20:31:02.352Z",
+  "publishedAt": "2026-10-07T13:49:51.863Z",
   "releases": [
+    {
+      "version": "1.0.11",
+      "publishedAt": "2026-10-07T13:49:51.863Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.10",
       "publishedAt": "2026-10-06T20:31:02.352Z",
@@ -181,12 +186,6 @@
       "description": "Collective is a shared library with common code for all of Serilum's mods."
     },
     {
-      "file": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
-      "name": "Colorful Hearts",
-      "description": "A client side mod that replaces multiple vanilla heart rows with a single row using colored hearts",
-      "optional": true
-    },
-    {
       "file": "comforts-neoforge-9.0.5+1.21.1.jar",
       "name": "Comforts",
       "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors!"
@@ -224,11 +223,6 @@
       "description": "This mod allows you to wear two sets of armor, one for display, one for function. You can also hide armor for your skin. For PVP, you can stop the mod from functioning on your client side."
     },
     {
-      "file": "craftedcore-5.8.2.jar",
-      "name": "CraftedCore",
-      "description": "My libary mod to make mods more compatible with modloaders"
-    },
-    {
       "file": "crawl-0.14.9.jar",
       "name": "Crawl",
       "description": "Allows you to crawl"
@@ -259,6 +253,21 @@
       "description": "A flexible and expandable accessory/equipment API for users and developers."
     },
     {
+      "file": "dashpanels-2.1+neoforge1.21.1.jar",
+      "name": "Dashpanels",
+      "description": "Modular redstone control panels"
+    },
+    {
+      "file": "dashpanelsextra-1.4.1.jar",
+      "name": "DashPanels Extra",
+      "description": "Additional dashboard modules for DashPanels."
+    },
+    {
+      "file": "dashpanels_expanded-2.0.1.jar",
+      "name": "Dashpanels: Expanded",
+      "description": "Addon for Dashpanels mod that adds more modules."
+    },
+    {
       "file": "decorative_core-2.0705-neoforge-1.21.1.jar",
       "name": "Decorative Core",
       "description": "Mod Library for Decorative Storage mod"
@@ -277,11 +286,6 @@
       "file": "Design-n-Decor-1.21.1-2.2b.jar",
       "name": "Design n",
       "description": "A mod of Qol decor"
-    },
-    {
-      "file": "display_case-neoforge-1.21.1-1.2.jar",
-      "name": "DisplayCase",
-      "description": "Display Case is a mod that adds new opportunities to the game for decorating items in your world. With this mod, players will be able to create unique and attractive display cases for their stores, ho"
     },
     {
       "file": "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar",
@@ -430,6 +434,11 @@
       "description": "A standalone Immersive Vehicles content pack containing the flare gun and its flare cartridges. Credits go to Mr.Mulle, Sint, Viktorwood, Conman180, Cactus & BlazeWolf1122."
     },
     {
+      "file": "faewulf_lib-neoforge-1.21.1-1.4.0.jar",
+      "name": "Faewulf",
+      "description": "A library mod that provides utility functions and methods commonly used across my (Faewulf) mods."
+    },
+    {
       "file": "FarmersDelight-1.21.1-1.3.4.jar",
       "name": "Farmer",
       "description": "A cozy farming and cooking expansion for Minecraft!"
@@ -491,6 +500,11 @@
       "description": "This mod adds several large-area lighting items such as flashlights and mini moons."
     },
     {
+      "file": "handoveryouritems-1.21.1-4.0.jar",
+      "name": "Hand Over Your Items",
+      "description": "Adds to ability to give other players items in a server without dropping them on the floor."
+    },
+    {
       "file": "Immersive Vehicles-1.21.1-24.0.0.jar",
       "name": "Immersive Vehicles (formerly MTS)",
       "description": "Realistic planes and cars for Minecraft!"
@@ -526,6 +540,11 @@
       "name": "Iris",
       "description": "Iris is a modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs.",
       "optional": true
+    },
+    {
+      "file": "itemchanger-1.2.jar",
+      "name": "ItemChanger",
+      "description": "ItemChanger mod allows you to customize items in Minecraft via commands: rename items with styles and colors, add lore lines, create gradient text, toggle visual glow, and lock items from being edited"
     },
     {
       "file": "Jade-1.21.1-NeoForge-15.10.6.jar",
@@ -686,6 +705,11 @@
       "description": "yes its bad i know thanks"
     },
     {
+      "file": "piggyback-neoforge-1.21.1-1.1.1.jar",
+      "name": "Piggyback",
+      "description": "Allow player riding each other and replace the default player sitting mechanic with a piggyback-style ride. Carry your friends on your back for fun, teamwork, or pure chaos!"
+    },
+    {
       "file": "plasmovoice-neoforge-1.21.1-2.1.17.jar",
       "name": "Plasmo Voice",
       "description": "A proximity voice chat mod with audio positioning and lots of features"
@@ -725,11 +749,6 @@
       "file": "pv-voice-changer-neoforge-1.7.1-neoforge-1.21.jar",
       "name": "Plasmo Voice Voice Changer",
       "description": "Voice changer for Plasmo Voice: presets, custom tuning, saved profiles, self listen, a native settings UI, an API for other mods, and server-side policy with commands and shared voices."
-    },
-    {
-      "file": "remorphed-4.2.jar",
-      "name": "ReMorphed",
-      "description": "Transform like in the old-school morph mod!"
     },
     {
       "file": "resourcefullib-neoforge-1.21-3.0.12.jar",
@@ -905,11 +924,6 @@
       "description": "Items stay inside crafting tables and are also rendered on top. It"
     },
     {
-      "file": "walkers-5.8.13.jar",
-      "name": "Walkers",
-      "description": "Become a Woodwalker/animagus!"
-    },
-    {
       "file": "waveycapes-neoforge-1.11.2-mc1.21.1.jar",
       "name": "WaveyCapes",
       "description": "The cape shouldn't be a static slab!"
@@ -953,7 +967,7 @@
     }
   ],
   "server": null,
-  "totalSize": 628827791,
+  "totalSize": 636888913,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1186,6 +1200,21 @@
       "sha256": "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
     },
     {
+      "path": "config/dashpanels_expanded-common.toml",
+      "size": 116,
+      "sha256": "1c6be2066a28e33d2ce6e2543cfce75e5d093172d527f2520ef1bd999ad72c31"
+    },
+    {
+      "path": "config/dashpanels-client.toml",
+      "size": 385,
+      "sha256": "f131bf52f50719eb33ac84f8f972310ea67af8b925672d9f9ee245f31bd31e4f"
+    },
+    {
+      "path": "config/dashpanelsextra-client.toml",
+      "size": 376,
+      "sha256": "589edc053f639c4bfa563dc62f822d5ec65c2f950c8234e0bb2a2e892cf54f80"
+    },
+    {
       "path": "config/decorative_core-common.toml",
       "size": 442,
       "sha256": "03d794bc1b378d209564a9c0c97d46316998bd3d71b8441c5a603a39422af969"
@@ -1308,7 +1337,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "8664999a63d8a00f7145548571771b9c117c8cb303e8675939c5da58077f042d"
+      "sha256": "39b8780c2bc7b9d601d9bfda24c41e6d524c389ccf4df5d64c2c288cbeb14365"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1411,14 +1440,19 @@
       "sha256": "2abb8702e36e2745284cb4337508d9e2305ff7bf1d6eebe23bf05de75b3acff6"
     },
     {
+      "path": "config/infinitybuttons-common.toml",
+      "size": 667,
+      "sha256": "241d9d140db7ad6df031745686a9fa3833e74f7be85064fb374828a939dfd056"
+    },
+    {
       "path": "config/iris-excluded.json",
       "size": 31,
       "sha256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
     },
     {
       "path": "config/iris.properties",
-      "size": 305,
-      "sha256": "88608ab05fef2a40e44a499ee912b743055966ae84bcbb55be68671fcb0e26da"
+      "size": 337,
+      "sha256": "ddfc88cefefc892fbe68f97d0ab08f57b3e87dc0af2087f807df19ee6aa38b6c"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1437,8 +1471,8 @@
     },
     {
       "path": "config/jade/plugins.json",
-      "size": 2507,
-      "sha256": "2d8f4a7ed28685a75bf24a2d24c971ac4ffc9ff45a50459093c625490ff7bc57"
+      "size": 2633,
+      "sha256": "e451734951a20113bbe445a7b5910dee4a11087c76514db2838f08c63ef2e312"
     },
     {
       "path": "config/jade/sort-order.json",
@@ -1482,8 +1516,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1804,
-      "sha256": "df9e9d4f7151cf4f80347a6152a866adb1f9292cefed442a29cb16572471c499"
+      "size": 1888,
+      "sha256": "ad1522c685dc2dc0a6296d39b0dc6b0fd60c8897b662588fe12fcb1791874abf"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1696,6 +1730,11 @@
       "sha256": "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
     },
     {
+      "path": "config/piggyback.toml",
+      "size": 346,
+      "sha256": "204b6643c3c475930c2cdf35f10169fadad5ce9b579614bc35c5af0914c4a3cd"
+    },
+    {
       "path": "config/plasmovoice/.crowdin/cs_cz.json",
       "size": 8788,
       "sha256": "5f1f38a62dc6badd8c711a03d6f85b497d82542f86321338ab26e807a62f9fd5"
@@ -1787,8 +1826,8 @@
     },
     {
       "path": "config/plasmovoice/client.toml",
-      "size": 1296,
-      "sha256": "93966fe54b449e1ae9e006226ec2c41870e161cc54f0f53c0963fb872c2953c3"
+      "size": 1297,
+      "sha256": "8e3c4b503d88b162bdcfcdb9c406a7956d4a3e50cb0a5c1dc3ccd0c0be8de2f6"
     },
     {
       "path": "config/plasmovoice/meta_cache.json",
@@ -2023,7 +2062,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "2e16e0f28db5050f14f2de343fb7be4858e24070ffd2e94567bb480b5c655bd6"
+      "sha256": "6d2df9f38608ce171bf3310da0bb1aedc8d82f7ae9834a699022567d63da558a"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -3188,7 +3227,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "b109c444b3830461bc365e7c7b38c7283deb79b661c34d6a56cc294bab0df196"
+      "sha256": "2a07823a28e08ce233a03f85cde78177321b1369b578cddc656b2c1383a9b083"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3396,11 +3435,6 @@
       "sha256": "c466e9a8319e12d8fae912aeb9d9453efed43246f64edc48c4aa7ca14238a834"
     },
     {
-      "path": "mods/colorfulhearts-neoforge-1.21.1-10.5.9.jar",
-      "size": 156588,
-      "sha256": "332a7f3df1274cabeae05e9361c41561c42a670787adc7e4b6795961b4721401"
-    },
-    {
       "path": "mods/comforts-neoforge-9.0.5+1.21.1.jar",
       "size": 422658,
       "sha256": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615"
@@ -3436,11 +3470,6 @@
       "sha256": "770752f39e4e67d8c116b389e60db5b1a496107f9be8386e5eb83d05a817e207"
     },
     {
-      "path": "mods/craftedcore-5.8.2.jar",
-      "size": 780543,
-      "sha256": "6bbfe3c0a7c286ca2c34388e3b749d93924a68dd1e89f15c1da47695245f41ed"
-    },
-    {
       "path": "mods/crawl-0.14.9.jar",
       "size": 35791,
       "sha256": "e4c76b65de9505ffc5ddc7cd90f48dc6be4da0c1a20772c19d85bb94c350036e"
@@ -3471,6 +3500,21 @@
       "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde"
     },
     {
+      "path": "mods/dashpanels_expanded-2.0.1.jar",
+      "size": 148269,
+      "sha256": "dd3bf76a83e10a42fdaec4b61cca01e3f267add4f2a8bf90338ae756eedb49a3"
+    },
+    {
+      "path": "mods/dashpanels-2.1+neoforge1.21.1.jar",
+      "size": 891155,
+      "sha256": "2598d248c4820d58c5fb7e19ddf2106960d758b6ff7c419aa4bc57e176b2540b"
+    },
+    {
+      "path": "mods/dashpanelsextra-1.4.1.jar",
+      "size": 8515568,
+      "sha256": "2862d12dd0a9a74b214df88189e4fc21092ad43b19ce348af11b3f8e44e5ba4b"
+    },
+    {
       "path": "mods/deco_storage-4.0808-neoforge-1.21.1.jar",
       "size": 726224,
       "sha256": "152a9f9c6674a94e472199f0e40885ebb4bcdc420ff132dbf0c8d07ffca7cc10"
@@ -3489,11 +3533,6 @@
       "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
       "size": 6329899,
       "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f"
-    },
-    {
-      "path": "mods/display_case-neoforge-1.21.1-1.2.jar",
-      "size": 52914,
-      "sha256": "3782905033b366c6f7383ef11102f381d85b5fe306446ec86527f043a8774ed8"
     },
     {
       "path": "mods/DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar",
@@ -3631,6 +3670,11 @@
       "sha256": "a418e627aed9cc2d543fe7b648690bd096e605e47d848715fba2d7b308fc7d55"
     },
     {
+      "path": "mods/faewulf_lib-neoforge-1.21.1-1.4.0.jar",
+      "size": 329492,
+      "sha256": "c333a8f91acc5b4db6658e1de40b5039689f0dd5a46588ebae32b638705637eb"
+    },
+    {
       "path": "mods/FarmersDelight-1.21.1-1.3.4.jar",
       "size": 3160490,
       "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c"
@@ -3691,6 +3735,11 @@
       "sha256": "632cbd5fd78f9e69429ce431d910affaa45c7cd9d985c4003617913cdc733ee4"
     },
     {
+      "path": "mods/handoveryouritems-1.21.1-4.0.jar",
+      "size": 36051,
+      "sha256": "2100999660c9e8539f5d5548dfdc70b5170a8adc26e3a7f4bf4ecaa5e3e062ed"
+    },
+    {
       "path": "mods/Immersive Vehicles-1.21.1-24.0.0.jar",
       "size": 6131756,
       "sha256": "1d2f7512604636265703b29fdf13d7f8ef2323694b6435f4392973da6e78d251"
@@ -3724,6 +3773,11 @@
       "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
       "size": 2540723,
       "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314"
+    },
+    {
+      "path": "mods/itemchanger-1.2.jar",
+      "size": 26948,
+      "sha256": "7a1b63afb766c514dd9e176e8f2c2c1b10bd768ebc59081a13149227ecdb3c3d"
     },
     {
       "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
@@ -3881,6 +3935,11 @@
       "sha256": "de6ed336bd80154b7241a7b3276694befc1c94550add8bcdfe7f82e5172fd13d"
     },
     {
+      "path": "mods/piggyback-neoforge-1.21.1-1.1.1.jar",
+      "size": 342949,
+      "sha256": "a9712c6d333302297db876beb973e105097e2660a22157c083c94954222c14eb"
+    },
+    {
       "path": "mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
       "size": 12341959,
       "sha256": "3714890e127dc661031116c845e8d585bd3cd56360cd070b6be9073bd1e2e3de"
@@ -3919,11 +3978,6 @@
       "path": "mods/pv-voice-changer-neoforge-1.7.1-neoforge-1.21.jar",
       "size": 219880,
       "sha256": "a5b3a22dcb84f4b26052ad56777ad2a7edb272538c514a104930d887dbcde5d7"
-    },
-    {
-      "path": "mods/remorphed-4.2.jar",
-      "size": 94324,
-      "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3"
     },
     {
       "path": "mods/resourcefullib-neoforge-1.21-3.0.12.jar",
@@ -4099,11 +4153,6 @@
       "path": "mods/VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar",
       "size": 76670,
       "sha256": "f9bea7865d57c0f32075fc1e8b760d048cf77513c8d93fa41c181ad190eb4449"
-    },
-    {
-      "path": "mods/walkers-5.8.13.jar",
-      "size": 1147028,
-      "sha256": "4485e76bf5763c530921a0abfbe8385fbd8b5bd606d4d9693e73c36d64b3d3bd"
     },
     {
       "path": "mods/waveycapes-neoforge-1.11.2-mc1.21.1.jar",
@@ -4317,8 +4366,8 @@
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
-      "size": 273,
-      "sha256": "a474ecdc8df1de5fd137d80cee663ec5b145b4631b5cc55fec268429a101ab9d"
+      "size": 227,
+      "sha256": "25e7855a5bb953dc6fbaa34990462d277c38fe42eb4863458d9a56cfe62fcc6d"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
