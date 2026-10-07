@@ -1,0 +1,17 @@
+#Mute the emergency button alarm sound
+muteAlarmSound = false
+#How far the emergency alarm is heard
+#Allowed Values: RANGE, GLOBAL
+alarmSoundType = "RANGE"
+#Chunk-like range used when alarmSoundType is RANGE
+# Default: 6
+# Range: 1 ~ 32
+alarmSoundRange = 6
+#Make villagers panic when an emergency button is pressed
+alarmVillagerPanic = true
+#Show extra item tooltips
+tooltips = true
+#Spawn sparkle particles on diamond buttons
+diamondParticles = true
+#Force hiding secret buttons, torch buttons and lantern buttons from Jade tooltips. When true, they always appear as their disguised block, ignoring client-side Jade settings.
+forceJadeHiding = true
