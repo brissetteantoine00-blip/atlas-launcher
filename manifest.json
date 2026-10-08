@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "1fc647f807743c38",
+  "id": "c10e2c96e51396f4",
   "name": "Labyrinthe RP",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "changelog": "",
-  "publishedAt": "2026-10-07T14:44:15.605Z",
+  "publishedAt": "2026-10-08T13:39:45.303Z",
   "releases": [
+    {
+      "version": "1.0.13",
+      "publishedAt": "2026-10-08T13:39:45.303Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.12",
       "publishedAt": "2026-10-07T14:44:15.605Z",
@@ -248,7 +253,7 @@
       "description": "A simple but powerful coremod."
     },
     {
-      "file": "creative_mode_tweaks-2.2.6.jar",
+      "file": "creative_mode_tweaks-2.2.6 hotbar removed.jar",
       "name": "Creative Mode Tweaks",
       "description": "Improve your creative building experience."
     },
@@ -473,6 +478,12 @@
       "file": "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
       "name": "Forgified Fabric API",
       "description": "Core API module providing key hooks and intercompatibility features."
+    },
+    {
+      "file": "fresh-emote-compat-1.1.0.jar",
+      "name": "Fresh Emote Compat",
+      "description": "Lets Emotecraft limb bends show on Fresh Animations and Fresh Moves player models rendered by Entity Model Features.",
+      "optional": true
     },
     {
       "file": "fzzy_config-0.7.7+1.21+neoforge.jar",
@@ -982,7 +993,7 @@
     }
   ],
   "server": null,
-  "totalSize": 637702910,
+  "totalSize": 652646429,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1185,6 +1196,16 @@
       "sha256": "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
     },
     {
+      "path": "config/creative_mode_tweaks-client.toml",
+      "size": 1915,
+      "sha256": "8a79d5c67375af31bd5920bc3eaaea5ee21725364c4f4d0cea7fc50397aa5669"
+    },
+    {
+      "path": "config/creative_mode_tweaks-common.toml",
+      "size": 4534,
+      "sha256": "655dae36e8c172cd74a54f2a356b54244cb9776e809d2b330fbb96b86a8041d1"
+    },
+    {
       "path": "config/creativecore-client.json",
       "size": 23,
       "sha256": "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
@@ -1281,8 +1302,8 @@
     },
     {
       "path": "config/emotecraft.json",
-      "size": 668,
-      "sha256": "8cfb42df2afa3b8aed623ab5ad0310181693831f55f092ebcef87b299ccc03e6"
+      "size": 1588,
+      "sha256": "f390dbc859bb369fa485ca8f090a4ed0af1ca3e6a65b89261fbcea233e161b6b"
     },
     {
       "path": "config/enhancedequipmentdisplay-common.toml",
@@ -1352,7 +1373,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "3893f1846dcbc88d299aed6d91c6370649c356b9523873a6bf878559644d8a17"
+      "sha256": "63974a9dc975b78d637f5c01f2df529da4a6a8ee4de08e4a9e30c8a5079091e6"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1383,6 +1404,11 @@
       "path": "config/figura.json",
       "size": 68,
       "sha256": "8b159857ef74ecd5f78578aa5ecedce1aee0fffc3be9bf7480cc18e5472d958f"
+    },
+    {
+      "path": "config/flightboost.json",
+      "size": 59,
+      "sha256": "085266a8c411b9a64d80590d7cce22173d19c4117fc0d8e6ec47081dd98e70c8"
     },
     {
       "path": "config/flywheel-client.toml",
@@ -1472,7 +1498,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "8eea3b749c83eb444b1e3458783c356d7cd5993e6dd185779c39938e82846074"
+      "sha256": "2fea3587d52782b45801ae7fa08bbed352efad528a00300e3ff7cada399cbc57"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1852,7 +1878,7 @@
     {
       "path": "config/plasmovoice/meta_cache.json",
       "size": 655,
-      "sha256": "77bb01ac02bcb53db3864ef145daf461259219c4bf5c6b2cc2a0983b38f90d79"
+      "sha256": "24b2c205e3b02f6e68441bec4f6c378fd8114146c6880b0fcf5e83b39abc7aa6"
     },
     {
       "path": "config/plasmovoice/pv-voice-changer-presets/autosave.properties",
@@ -2082,7 +2108,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "07c5782a587a76c21a97e4e8aa2bbf7b3f2c70894413502e8073f9da92fddcb6"
+      "sha256": "29a3cc2d603150336bbb5d7e0118aa9cf0471cfe5855d1c247d1ee3d482ee178"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -3247,7 +3273,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "ac3e38418824bacc90ffb29a4e2c5c6f68c1bafad74022cab8a0f524915bf9ff"
+      "sha256": "b08d71d17b15c2912f22d17ec7c91ab46fe3e9a46f6e282ee23bbe088b05834e"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3338,6 +3364,846 @@
       "path": "config/yacl.json5",
       "size": 250,
       "sha256": "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+    },
+    {
+      "path": "emotes/Baller.emotecraft",
+      "size": 19861,
+      "sha256": "5e5689fb0983ee5a0aa60e20fdf122bcffc54819e6002925d83bf3b17e2d1fad"
+    },
+    {
+      "path": "emotes/bras dans le dos.json",
+      "size": 6628,
+      "sha256": "1ab0a76911b0e97bdcbae0bdd02ddc8c1ede721befe76743b1a58287320f05ef"
+    },
+    {
+      "path": "emotes/Check the time (Right).emotecraft",
+      "size": 115003,
+      "sha256": "f3402f2ae76289d88c7995b3f2c6514450af5d781103b775a83409e452721a2a"
+    },
+    {
+      "path": "emotes/Clap.emotecraft",
+      "size": 50602,
+      "sha256": "7e8942d61269d8bbf972872dd12cec15d833ae98636404d645d17fda8e5c325b"
+    },
+    {
+      "path": "emotes/cool sit.emotecraft",
+      "size": 32264,
+      "sha256": "b7fc49d00052854631db398dd8a80e7d8669eded5394906cf264f1b7a407005d"
+    },
+    {
+      "path": "emotes/Default Dance.emotecraft",
+      "size": 42002,
+      "sha256": "6fcdbe2b96ddfde95ecc0b3999ed6673757b02952b1df8a90324c2f070d8e5d9"
+    },
+    {
+      "path": "emotes/Depression.emotecraft",
+      "size": 52674,
+      "sha256": "0efe97706ce393ee90e069756cc626e35b5344ed1b9d7f8f7115e597b540f1ed"
+    },
+    {
+      "path": "emotes/devinsit.emotecraft",
+      "size": 88957,
+      "sha256": "42ad428e5753d3fa816f412c187d3ccc71f12f7d126d2af8ed37cd2718a4cc4e"
+    },
+    {
+      "path": "emotes/devinsit(1).emotecraft",
+      "size": 88957,
+      "sha256": "42ad428e5753d3fa816f412c187d3ccc71f12f7d126d2af8ed37cd2718a4cc4e"
+    },
+    {
+      "path": "emotes/devinsleep1(1).emotecraft",
+      "size": 15545,
+      "sha256": "ccea48a1eeebb31d3b3170f279d7c06e87f8f4d75d8927fea4acbc7e6b905cd9"
+    },
+    {
+      "path": "emotes/devinsleep2.emotecraft",
+      "size": 22517,
+      "sha256": "925d016599040cf8120fc7ff6d593966ecfcd8bcdef63fc106bc161e01d76b5b"
+    },
+    {
+      "path": "emotes/devinsleep3.emotecraft",
+      "size": 23425,
+      "sha256": "053aa04ef86f8090e9378b080fbdecc0549d9894c7b8b8413c9280c9580dbe48"
+    },
+    {
+      "path": "emotes/Drunk fall.emotecraft",
+      "size": 62194,
+      "sha256": "742434b1063053d72baa229ba1c3ad7e4f4cb32685ef0bca7682fbeff2129f0a"
+    },
+    {
+      "path": "emotes/Facepalm.emotecraft",
+      "size": 88299,
+      "sha256": "e0bb3276a965749b28bbabbf67b264b4f7e979a434b8105e16b7872ad6edbcb5"
+    },
+    {
+      "path": "emotes/Family Guy Death.emotecraft",
+      "size": 38237,
+      "sha256": "b36d60ceea4397a4fe14c311eece5d489b8c1b8ef12d14e436a942a03a0fcc70"
+    },
+    {
+      "path": "emotes/Floss.emotecraft",
+      "size": 24913,
+      "sha256": "2e48df2af9c398822e3ad145dbae395ecf898455bbdace40e08bbec55f103ae4"
+    },
+    {
+      "path": "emotes/Four.emotecraft",
+      "size": 22990,
+      "sha256": "df18eb6cd01cabe3906a6185081b901f6396217b03840204ebf645624c859691"
+    },
+    {
+      "path": "emotes/Front Lying.emotecraft",
+      "size": 32639,
+      "sha256": "3b63b69587fe0c959b9fffec6460389a8bea287b76d3deb803f2d69b206b94ed"
+    },
+    {
+      "path": "emotes/gangam style.emotecraft",
+      "size": 40468,
+      "sha256": "18bef1fa35316b617befb5a96e0be17ed48403d3ddb5557a737e65cfc74a45c8"
+    },
+    {
+      "path": "emotes/Hands up.emotecraft",
+      "size": 77713,
+      "sha256": "910a155b42f20262c0fb32dd09e1db1bb2c0991cc73e1e76e4281ec79ec76318"
+    },
+    {
+      "path": "emotes/Hug.emotecraft",
+      "size": 73398,
+      "sha256": "74d014ecfdd67f41e7ca41b7daaed92a20bcbd87c62040c9caf699fbda82d557"
+    },
+    {
+      "path": "emotes/Jackson.emotecraft",
+      "size": 39173,
+      "sha256": "a6bf83666c287d23c795d718bfd78cbb6f4725fee1de678c5908947e2ed357ef"
+    },
+    {
+      "path": "emotes/Killed.emotecraft",
+      "size": 26758,
+      "sha256": "62a3b6196de9b8990811fb074ded3951afe661ca2fe7e33a36966c79ee56e572"
+    },
+    {
+      "path": "emotes/KL-HandsBehindTheBback.emotecraft",
+      "size": 41763,
+      "sha256": "29d5d9ee33ef1c179c5fdedf881d9954dd47207a8c53c2c0ffbeb0b6602b3afb"
+    },
+    {
+      "path": "emotes/KL-KuzhenFight.emotecraft",
+      "size": 45727,
+      "sha256": "ab3eb3d1055959e354fa00592bdf5d482bdd66ecfb608db19d74fd4c3ff9a067"
+    },
+    {
+      "path": "emotes/KL-SitMin.emotecraft",
+      "size": 45626,
+      "sha256": "da7d619bc42c1dad293fea71e771a3eac17a8b93378abea85119dd9cea3aecce"
+    },
+    {
+      "path": "emotes/Kneeling.emotecraft",
+      "size": 16524,
+      "sha256": "d3b20bb17489e4e8a192ee0993e2173660bd523eccfdfe20c1a79901d692b3bb"
+    },
+    {
+      "path": "emotes/Lay Blahaj.emotecraft",
+      "size": 32636,
+      "sha256": "c5cb8e5009a794e1926599058d580281dbb57122365314c89dc763338395ae43"
+    },
+    {
+      "path": "emotes/Lay on back.emotecraft",
+      "size": 13910,
+      "sha256": "0889868b236fe194f933fae72c3534fc3937ddcc508570b02a48ab954b32f262"
+    },
+    {
+      "path": "emotes/Lay on back(1).emotecraft",
+      "size": 33125,
+      "sha256": "bfbd9b87c4ac3227c771eb19d34e72cce916eba7ed447d8ca0aed0f14b616218"
+    },
+    {
+      "path": "emotes/Lay on side.emotecraft",
+      "size": 53989,
+      "sha256": "8764b195bfc65275ac92f58201c109c39f5b4ed2cb81f14b44b106e523ccae23"
+    },
+    {
+      "path": "emotes/Lay while hurt.emotecraft",
+      "size": 12044,
+      "sha256": "b58300cb49edf760584e11e8fdbf6ab5d6dbe41211dfcd334d8ab80e8c8bb061"
+    },
+    {
+      "path": "emotes/lean.emotecraft",
+      "size": 31254,
+      "sha256": "7f350aea4553ad0ddbd4296c430a24a0e93361c8653a03bd7b2604d1fec052bf"
+    },
+    {
+      "path": "emotes/Lethal Company.emotecraft",
+      "size": 52162,
+      "sha256": "3c866a7c0586c84876cb15a0554db568f0a8de3ebec4de31f7ba673dcb214de4"
+    },
+    {
+      "path": "emotes/lookout.emotecraft",
+      "size": 41328,
+      "sha256": "c9949de03d0f6796363e8a1dc5bb45f2a30bc69ca8856ebacc0a60cb75c10cc6"
+    },
+    {
+      "path": "emotes/lying on side.emotecraft",
+      "size": 37352,
+      "sha256": "1505b2e5984883b4775c4be0695fb6b41eaa265e8f6c6d589d1904b18d5b97e4"
+    },
+    {
+      "path": "emotes/MIEM_7.0_backflip.json",
+      "size": 45132,
+      "sha256": "1ef5abb4b85a3f7aa43f5ffb89a553818799d99e71c085a4eadfa78b463dae6a"
+    },
+    {
+      "path": "emotes/MIEM_7.0_backflip.png",
+      "size": 56858,
+      "sha256": "5843fffce1d7968b505786af75e2244e900c9a3f59ca7ffc05091b7a4cdf4139"
+    },
+    {
+      "path": "emotes/MIEM_7.0_boomerang.json",
+      "size": 123732,
+      "sha256": "2516debf4760b240349d7be1c31c5383a735a0c464c71add0fdf188783b02f6e"
+    },
+    {
+      "path": "emotes/MIEM_7.0_boomerang.png",
+      "size": 525811,
+      "sha256": "ea8c7c7cba5c9bbaeec8a97460e8ee61b5c4e8bfaa8000bedf2a22d081c94f86"
+    },
+    {
+      "path": "emotes/MIEM_7.0_hoverboard_cape.json",
+      "size": 75273,
+      "sha256": "f8c79750d38752d7e29899f20a79bc6172e2a1c8912a7dd12244ff2b03c23969"
+    },
+    {
+      "path": "emotes/MIEM_7.0_hoverboard_cape.png",
+      "size": 525818,
+      "sha256": "e52e2d5c7b588a8f80d7b18ec605054c031cdc93ed56d5f840c6694f4333e371"
+    },
+    {
+      "path": "emotes/MIEM_7.0_victory_2.json",
+      "size": 119126,
+      "sha256": "70e3690c82f6e0a06dc993eee75646036b98ff9f765c06b87cf649702ce78891"
+    },
+    {
+      "path": "emotes/MIEM_7.0_victory_2.png",
+      "size": 61458,
+      "sha256": "02c76f3b6f02f55e8372a5a235fdf7a453779a0d4c8b66b1d5454267a299eb3d"
+    },
+    {
+      "path": "emotes/MIEM_7.0_victory_3.json",
+      "size": 134488,
+      "sha256": "0140d9f99602c24bfdf67a1c57427068783c6b4be22fdd1217daabdb21b9b677"
+    },
+    {
+      "path": "emotes/MIEM_7.0_victory_3.png",
+      "size": 525811,
+      "sha256": "c1f4b9dfdc6327c731fa58a676607ba756451d6b880b314389c7b08b02e4199c"
+    },
+    {
+      "path": "emotes/MIEM_7.0_wipe_sweat_off_head.json",
+      "size": 46355,
+      "sha256": "b9c27371756cba0df8f944b01c6ab4927eb7d43256acd70e958848a7fe4fa72f"
+    },
+    {
+      "path": "emotes/MIEM_7.0_wipe_sweat_off_head.png",
+      "size": 64100,
+      "sha256": "0974c0572313235eabc3e0368685fb5c91b1826695ed5512e7de738e07d767d7"
+    },
+    {
+      "path": "emotes/MIEM_baki_1ruka.json",
+      "size": 17615,
+      "sha256": "0bbd72a95214bcdecfc80afcdaecaecd32b9cf24a636257a13fb8957edfce3f4"
+    },
+    {
+      "path": "emotes/MIEM_baki_1ruka.png",
+      "size": 25585,
+      "sha256": "197474e7152ef233cd86738907c34e8dd7c4d8aae3d38dbcc71b9f44f390307a"
+    },
+    {
+      "path": "emotes/MIEM_balance_swords_on_the_nose.json",
+      "size": 172151,
+      "sha256": "58058740b220dd84a90b5a0a1f2d5f2b7fe1687a29566b0662c7d56a64d00b3f"
+    },
+    {
+      "path": "emotes/MIEM_balance_swords_on_the_nose.png",
+      "size": 59600,
+      "sha256": "6934b1ef785a557a49142170271940f8b8332a702b8aca538998701176392cdc"
+    },
+    {
+      "path": "emotes/MIEM_bendless_monkey_going_up_the_tree_stance.json",
+      "size": 108286,
+      "sha256": "2872e7230834740d9b22ce1d26a0d2fdb4721f299544c84b47437fa77916951d"
+    },
+    {
+      "path": "emotes/MIEM_bendless_monkey_going_up_the_tree_stance.png",
+      "size": 71316,
+      "sha256": "24a572f618df62c0244758076efac2fc75e5f62f6ddcc1c9aac8cbd99d38e674"
+    },
+    {
+      "path": "emotes/MIEM_beta_sprint.json",
+      "size": 50927,
+      "sha256": "79723742d29778ec8ba87ecc8074d691818d1c274991b36ef5ab96c37213bc29"
+    },
+    {
+      "path": "emotes/MIEM_beta_sprint.png",
+      "size": 85361,
+      "sha256": "9033c5f12d5704e913de30a365e9ce92e74ac7c87d96c965ca6927ebc37d3fa0"
+    },
+    {
+      "path": "emotes/MIEM_bog.json",
+      "size": 30133,
+      "sha256": "0542b2b2933057384c44faa1297b18fb3011a57848a3a970b2731c89e7482c7d"
+    },
+    {
+      "path": "emotes/MIEM_bog.png",
+      "size": 85361,
+      "sha256": "9033c5f12d5704e913de30a365e9ce92e74ac7c87d96c965ca6927ebc37d3fa0"
+    },
+    {
+      "path": "emotes/MIEM_boobssword.json",
+      "size": 16280,
+      "sha256": "3d35efc2dfd82547ed0620ecabe2765c2b7d47bee1ff5952225bfba4b6caec32"
+    },
+    {
+      "path": "emotes/MIEM_brawl_ult_bull.json",
+      "size": 42675,
+      "sha256": "cc638daf7f23a6744fc0ab5301c2256178b78f1ee2e09a81edf4c0e26e766b17"
+    },
+    {
+      "path": "emotes/MIEM_brawl_ult_bull.png",
+      "size": 31918,
+      "sha256": "61dec616891bd3a9c008d84d00f84f6c8d89cc85f9c732530e21dc90aa367fa5"
+    },
+    {
+      "path": "emotes/MIEM_brawl_ult_colette.json",
+      "size": 33098,
+      "sha256": "f466a4b2679d6d6a381e10bbc410dae0795c44639b24d394ccfe2368c83d7cf9"
+    },
+    {
+      "path": "emotes/MIEM_brawl_ult_colette.png",
+      "size": 28012,
+      "sha256": "88a8f125c63f8005e65308becc84940647a764d7a79d585b3e5952fc0156973f"
+    },
+    {
+      "path": "emotes/MIEM_ciem_sleep.json",
+      "size": 15873,
+      "sha256": "165ee0fbe8235d7919166eb261c31d23255b913992d555d05f3aa42862016490"
+    },
+    {
+      "path": "emotes/MIEM_ciem_sleep.png",
+      "size": 23265,
+      "sha256": "c04d70065c0afa4371e77db4204754a324140f79e5f269dc5022d7266619e561"
+    },
+    {
+      "path": "emotes/MIEM_ciem_watching.json",
+      "size": 21264,
+      "sha256": "0579f04877d4be636051bf2624502764033e38fdfdb589bd00c51636c04ca9b9"
+    },
+    {
+      "path": "emotes/MIEM_ciem_watching.png",
+      "size": 21923,
+      "sha256": "aaf38eb9f0696d1a1cb9ae7f7f88262cb4908b517fe9f0fcfba4f9a441eadd9b"
+    },
+    {
+      "path": "emotes/MIEM_cool_take_off_glasses.json",
+      "size": 174765,
+      "sha256": "4186f194f362745dbed62ab31b2e0190446a60f582dd786f9c69bb4d03a64e01"
+    },
+    {
+      "path": "emotes/MIEM_cool_take_off_glasses.png",
+      "size": 68730,
+      "sha256": "d584b04272db352c2dc8aecc0ecd8b476f44c68139afb8446ea9cb781cec1d0c"
+    },
+    {
+      "path": "emotes/MIEM_createaportal.json",
+      "size": 434876,
+      "sha256": "e0c4539fc2745756012397fc40aeb882c2f9996c73281252369ec30825d67044"
+    },
+    {
+      "path": "emotes/MIEM_createaportal.png",
+      "size": 85548,
+      "sha256": "7c2ee486af6cf11f5e01e6606f5bd096168d52ce7532df37f6cad238b9923b5a"
+    },
+    {
+      "path": "emotes/MIEM_dropkick.json",
+      "size": 82974,
+      "sha256": "f4d298d89a96e573a27c4196b24d119f2d0fac9dc374bc96e61efc1af9843c27"
+    },
+    {
+      "path": "emotes/MIEM_dropkick.png",
+      "size": 54170,
+      "sha256": "954a4444a58a1e28cae5a26ef63a29518827b3637a78dbee29cc588ccca527a9"
+    },
+    {
+      "path": "emotes/MIEM_emotemetla.json",
+      "size": 37640,
+      "sha256": "1283ee8cbcc2e4932b4803ad76393a7bdd64fa7e29552aaa4c5fee9a88b43b44"
+    },
+    {
+      "path": "emotes/MIEM_emotemetla.png",
+      "size": 26367,
+      "sha256": "c100f141626a9a4e3636d6af0c61f8d89d26abccfaa02b2b6004bbe137f23692"
+    },
+    {
+      "path": "emotes/MIEM_emotetboi1.json",
+      "size": 16216,
+      "sha256": "e7061341e0070318cad3416a5424ed9229b79b0b3e3cec78125e9d62de884b1e"
+    },
+    {
+      "path": "emotes/MIEM_emotetboi1.png",
+      "size": 14651,
+      "sha256": "47088fcde7d7b3c2ee8a695327e683a3a7cc9224993e867674501b88d30682ce"
+    },
+    {
+      "path": "emotes/MIEM_fright.json",
+      "size": 16098,
+      "sha256": "c37531b5c9e56bce1224cc1ee3563b06dec75d7672903086fb7d2dc3c3aaa38b"
+    },
+    {
+      "path": "emotes/MIEM_fright.png",
+      "size": 15701,
+      "sha256": "1b6a0cd0af05ef9c57ee8acc8f9cebc4eddb65541f91b83829cd88b1b7220549"
+    },
+    {
+      "path": "emotes/MIEM_frighten.json",
+      "size": 174137,
+      "sha256": "668399943e76de7f55e6ec59e7389e956c750cff5b87487d1ee666c6a1fddf38"
+    },
+    {
+      "path": "emotes/MIEM_frighten.png",
+      "size": 84695,
+      "sha256": "ae91fae98d08c715de6de06794ccdd1045146d68b47f0d7db10a86a1f217b4e4"
+    },
+    {
+      "path": "emotes/MIEM_hadouken.json",
+      "size": 522812,
+      "sha256": "f399c110bd8d9b12b7f26fede7b244557c90fd9b42e7029de76d64450949e421"
+    },
+    {
+      "path": "emotes/MIEM_hadouken.png",
+      "size": 84462,
+      "sha256": "f406710ccb75ff25a0b6397fbc3901f987ab8f7aa9e5c6cfa505c5d0c1dcbee0"
+    },
+    {
+      "path": "emotes/MIEM_harrypotter_attack1.json",
+      "size": 22980,
+      "sha256": "8badf9b6b05cccfe1f40c4e40a6b38f66976de396b6b4dbfe6215a267acc7e1e"
+    },
+    {
+      "path": "emotes/MIEM_harrypotter_attack2.json",
+      "size": 23997,
+      "sha256": "cd2f3f2118d9bb2ad618133868aa190543d5600577aef07bb2201ae700294b27"
+    },
+    {
+      "path": "emotes/MIEM_harrypotter_stay.json",
+      "size": 45172,
+      "sha256": "773a7e31c9fef4e3e5ae9bdfb2714329de5e1890355cb16e6d6f2d1d8c9ba97d"
+    },
+    {
+      "path": "emotes/MIEM_headbutt.json",
+      "size": 101077,
+      "sha256": "44ccd1fc00bd7b3ece974f802cf3b96c2ef87953bdfe87c41c5ad1f7113fa120"
+    },
+    {
+      "path": "emotes/MIEM_headbutt.png",
+      "size": 128597,
+      "sha256": "8164dc4446227415b16b77893f9cc4419817f1e24046a21011975688e1247516"
+    },
+    {
+      "path": "emotes/MIEM_hopelessness.json",
+      "size": 655172,
+      "sha256": "d8b49f3f1d7402434e8ec92d1e92cbc4f941247bd08a9f87349ce9f4ee23108e"
+    },
+    {
+      "path": "emotes/MIEM_hopelessness.png",
+      "size": 79825,
+      "sha256": "8a5b4891df35ea37f75dfe9352cd28d329397cc2c979aabe95e96328ac7e2e46"
+    },
+    {
+      "path": "emotes/MIEM_jack_sparrow_walk.json",
+      "size": 60288,
+      "sha256": "ba01c070061b741741238421981d09a7d6df0db8dbde72bbca43cad004c82aee"
+    },
+    {
+      "path": "emotes/MIEM_jack_sparrow_walk.png",
+      "size": 69271,
+      "sha256": "a479f765b38fe947340379541f7bd14d95d33f493045e28ff68f0f8be9f2a38b"
+    },
+    {
+      "path": "emotes/MIEM_jdh_wheel.json",
+      "size": 115210,
+      "sha256": "b764ed9fae0341162f2877fb30ba96eab47c26336e3e2b2afa5d6d2255d2888b"
+    },
+    {
+      "path": "emotes/MIEM_jdh_wheel.png",
+      "size": 65919,
+      "sha256": "292bd4799cf74f9b4efddc7ff020a2326e0cf60e69265324bb22bc1b5b7bca80"
+    },
+    {
+      "path": "emotes/MIEM_juggle.json",
+      "size": 144059,
+      "sha256": "8a41ec43a31f10cc951cbaddee1728a40f2fceffb7284cbf93d51884cee63952"
+    },
+    {
+      "path": "emotes/MIEM_juggle.png",
+      "size": 133687,
+      "sha256": "eb84ff0add74af37d54ea33406b1e5b411b6a6d1b7f2f9e78430856aeb08ec4c"
+    },
+    {
+      "path": "emotes/MIEM_keeptheitembetweentheteeth.json",
+      "size": 22436,
+      "sha256": "0547bbb0dc05f00e5d41b8dc54f7d0f6b76fb887cfb3fbe9688b49031c88e3a4"
+    },
+    {
+      "path": "emotes/MIEM_keeptheitembetweentheteeth.png",
+      "size": 178087,
+      "sha256": "0ece6e5b9457a27f481e654abf88f88c349169c3de8a3b2bfcf4848ed489e370"
+    },
+    {
+      "path": "emotes/MIEM_laughalot1.json",
+      "size": 549465,
+      "sha256": "8b2a6cc71d817ac90949812a58dedd855321c20392782cce719f0c63ba391606"
+    },
+    {
+      "path": "emotes/MIEM_laughalot1.png",
+      "size": 74066,
+      "sha256": "ef1a6a953b0ddc8978f063bd78b56e71b3afd136b06b16f4ff3ac396eae8763b"
+    },
+    {
+      "path": "emotes/MIEM_laughalot2.json",
+      "size": 576105,
+      "sha256": "3894b39559709d4da10fb9812693d8066838cf0c4296ca644d57d927e62eddaa"
+    },
+    {
+      "path": "emotes/MIEM_laughalot2.png",
+      "size": 66756,
+      "sha256": "5adda03046c3fe94d51f603bea2b1bcec1b759c7fe6dcb6af27617cc66212c87"
+    },
+    {
+      "path": "emotes/MIEM_march.json",
+      "size": 25567,
+      "sha256": "3f8500bfda806f460da5ba5228c106abc8662a5b5f8b30c92753a55a09fcc941"
+    },
+    {
+      "path": "emotes/MIEM_march.png",
+      "size": 18235,
+      "sha256": "50a762de13d8085738dc6d0f89f106225dff7b3ab4d8c0e17904c2df3056542c"
+    },
+    {
+      "path": "emotes/MIEM_monkey_going_up_the_tree_stance.json",
+      "size": 116282,
+      "sha256": "b4d1f681f2f1258462a3986992db8e6321f19d89035e5c735a65ad565fbd9516"
+    },
+    {
+      "path": "emotes/MIEM_monkey_going_up_the_tree_stance.png",
+      "size": 70793,
+      "sha256": "a17ef814e515cd0a684429c8e328628502fe85b7908e5b51b801b4fd760b0317"
+    },
+    {
+      "path": "emotes/MIEM_onearm_pullup.json",
+      "size": 552899,
+      "sha256": "e4e9088f2b539534798aa180002f9a05174799096a937b74b5e35b8986a6b309"
+    },
+    {
+      "path": "emotes/MIEM_onearm_pullup.png",
+      "size": 63762,
+      "sha256": "93cb51c1f63ef16e989f96ab2f85324bab9c9b6ce9b492ed99b10e4002a9944f"
+    },
+    {
+      "path": "emotes/MIEM_pan_fry.json",
+      "size": 153991,
+      "sha256": "4cb7b15b0c70c6d3726ea99eaaad417c4102a8d1f3ce2392acc3bbcfad2166e7"
+    },
+    {
+      "path": "emotes/MIEM_pan_fry.png",
+      "size": 71355,
+      "sha256": "a1e77807925a7b2d8b02ed27dfb6d2791cf5676c106d483103e67c0d10b037de"
+    },
+    {
+      "path": "emotes/MIEM_plantic.json",
+      "size": 25937,
+      "sha256": "7d3b84630dde4c47d26312397e6e6e66687191bd9aae3f10f95a51f9d9d75f3a"
+    },
+    {
+      "path": "emotes/MIEM_plantic.png",
+      "size": 91369,
+      "sha256": "07683b865f496eedd160755da6f37d5b3f29d007cd1910ec192dcb57ea281942"
+    },
+    {
+      "path": "emotes/MIEM_playwithanairplane.json",
+      "size": 217084,
+      "sha256": "a6c8aafebaeb08135586c0002a0b94e9f7bb2f0a5cb933868d1368454ab606d6"
+    },
+    {
+      "path": "emotes/MIEM_playwithanairplane.png",
+      "size": 106249,
+      "sha256": "6e793239e07809674e173c2930a882790f8a8aab0ff3412e936dd3ae6206c6c7"
+    },
+    {
+      "path": "emotes/MIEM_proud_walk.json",
+      "size": 82951,
+      "sha256": "1edc07c2609835635f1a7418458fe681e7be0fb802fe61b24e0dcb7345bbc547"
+    },
+    {
+      "path": "emotes/MIEM_proud_walk.png",
+      "size": 61759,
+      "sha256": "d629a5caedffb6dc8432155347273a346867b7976c6b964b45fdfc5310319696"
+    },
+    {
+      "path": "emotes/MIEM_pulling.json",
+      "size": 85528,
+      "sha256": "f12f8dacb6db8f63238f4ee6f2717eb4649d352943e59f12fe1ebff5106b4098"
+    },
+    {
+      "path": "emotes/MIEM_pulling.png",
+      "size": 66575,
+      "sha256": "50c50beb9c4ad61b9a839a0a4c22dfeb9cc324da9cba871dd861303e7f8c0ef8"
+    },
+    {
+      "path": "emotes/MIEM_push_boat_run.json",
+      "size": 87885,
+      "sha256": "b52b6828b11b22760dd22a99b6e951ec347c4afb69ed9184361608469a54d963"
+    },
+    {
+      "path": "emotes/MIEM_push_boat_run.png",
+      "size": 59303,
+      "sha256": "50b25aa429da4f68357dbcec22fd2c301967aa336fb0b874d6f81544c7e275de"
+    },
+    {
+      "path": "emotes/MIEM_push-upsinthehandonhand.json",
+      "size": 114353,
+      "sha256": "b2b34ccc7820e6587d05c685cafb1b3c1e4a7f905b82d9e75b7c845f8a15026e"
+    },
+    {
+      "path": "emotes/MIEM_push-upsinthehandonhand.png",
+      "size": 80662,
+      "sha256": "2c616994ff97cf49a83120764e49f65ba4a70032b7fb0cc89ef020b03740a7f7"
+    },
+    {
+      "path": "emotes/MIEM_pushing.json",
+      "size": 83493,
+      "sha256": "3ea046bb31f45f3df89667d43bb3ce21a45cfa1c7fa1aab691a5f85c7637e4f6"
+    },
+    {
+      "path": "emotes/MIEM_pushing.png",
+      "size": 57609,
+      "sha256": "030dad0b1f5b9535a5a81d5606f3815af897ce0260db47ee5e6ad810c1fd190a"
+    },
+    {
+      "path": "emotes/MIEM_rayan_gosling_da_poebat_mne.json",
+      "size": 18366,
+      "sha256": "17aa07ab5d85238aa0004d7a047e9fdcbb14c66f25616610fb0721276f6dc752"
+    },
+    {
+      "path": "emotes/MIEM_rideonthefloorinhysteria.json",
+      "size": 106950,
+      "sha256": "d1d73883a8660d2c11cf0e49cc51fc33cb17e0adc3408e33e871c30acc0d6ce5"
+    },
+    {
+      "path": "emotes/MIEM_rideonthefloorinhysteria.png",
+      "size": 80206,
+      "sha256": "f55b990578e85988e2775777d4c5f4a27f70ea0125c298ca23b0e03c2247eb64"
+    },
+    {
+      "path": "emotes/MIEM_run_your_hand_around_the_neck.json",
+      "size": 98252,
+      "sha256": "c2fe6e0b1db2bca8d705652fa210823cdc6b04aa5173a0e9106ad51dd9760450"
+    },
+    {
+      "path": "emotes/MIEM_run_your_hand_around_the_neck.png",
+      "size": 121241,
+      "sha256": "f43137cc70af2a4e6c9c72006ce827d61f597347af23933540510d38e71fe053"
+    },
+    {
+      "path": "emotes/MIEM_scaring.json",
+      "size": 76739,
+      "sha256": "83b8c023e5b6eb8777f28ede9b74a75e95e76d383e2d3982d1d60734109c837e"
+    },
+    {
+      "path": "emotes/MIEM_scaring.png",
+      "size": 16367,
+      "sha256": "73a1ac37ba69ebcd18d52a5d4dfdc90df71b5abfa2a3a6f690777e8a09a9caa3"
+    },
+    {
+      "path": "emotes/MIEM_screamer.json",
+      "size": 52188,
+      "sha256": "aef47ab217f1a6a2e110f44a59a3a73c5b84ce2f7da40f7843b93e116f2b088f"
+    },
+    {
+      "path": "emotes/MIEM_screamer.png",
+      "size": 17472,
+      "sha256": "d262b2cee2ae34b40a0e75dc06012b3fb957c15f2f88faf7554ac20b20527a49"
+    },
+    {
+      "path": "emotes/MIEM_sharpen_a_sword_sit.json",
+      "size": 145563,
+      "sha256": "050145533f9da742576ffd81f7795fa140758d2b1e85f3c8ee9d9131b18c3ddf"
+    },
+    {
+      "path": "emotes/MIEM_sharpen_a_sword_sit.png",
+      "size": 83913,
+      "sha256": "da054e8e5d58ebf0671577cd3ac2a655274d65d271246a5b289cab5096ac7459"
+    },
+    {
+      "path": "emotes/MIEM_shock.json",
+      "size": 129007,
+      "sha256": "09696f355c4c7196db4c369bc8c528c2987f5c229c5da892ec75eee272decdf7"
+    },
+    {
+      "path": "emotes/MIEM_shock.png",
+      "size": 69665,
+      "sha256": "ff690ae81e1788957c8ad1c5a6842b1ea78793d43f4ddb51c61597af704a063b"
+    },
+    {
+      "path": "emotes/MIEM_sit_holding_on_to_the_wound.json",
+      "size": 233361,
+      "sha256": "322766e1a2497067a6221c5c2b07b8cd5406926bbb400699e040c0efb1558f10"
+    },
+    {
+      "path": "emotes/MIEM_sit_holding_on_to_the_wound.png",
+      "size": 55025,
+      "sha256": "431ef78e561c1e0e23c1b0995662cfc681da67413503732180748d649a3b6b35"
+    },
+    {
+      "path": "emotes/MIEM_sit_on_a_toilet.json",
+      "size": 136281,
+      "sha256": "d0c27d6f0277073947b3c27937c40836da2e19d27134ef52f8d3487bb8bf65ba"
+    },
+    {
+      "path": "emotes/MIEM_sit_on_a_toilet.png",
+      "size": 61532,
+      "sha256": "50e10835893dc7c4c5504ea2370ca2bcd55f9239dac760b31187daf8bdaf7ae7"
+    },
+    {
+      "path": "emotes/MIEM_sittingwithyourkneestothechest.json",
+      "size": 99521,
+      "sha256": "44e3918229c0ebd2ff87d9ed5371200425968c076ffb460260d5ab2c88c65068"
+    },
+    {
+      "path": "emotes/MIEM_sittingwithyourkneestothechest.png",
+      "size": 103669,
+      "sha256": "9918f2b60a1c2373f8dbdd6a8b5b3a67cfaca1ce8745c6bcefb4058c2c161c3c"
+    },
+    {
+      "path": "emotes/MIEM_slidebrakewithapickle.json",
+      "size": 43337,
+      "sha256": "32ef12cd94163d8a13ed25dbe088d1caf5d1b0a5b93a9d12154bd407c5ca17c0"
+    },
+    {
+      "path": "emotes/MIEM_slidebrakewithapickle.png",
+      "size": 86755,
+      "sha256": "625006a545537823f03a22dc60268ca4839ceebad75d401fc9bf6d27147b8b3b"
+    },
+    {
+      "path": "emotes/MIEM_strokethestomach.json",
+      "size": 25082,
+      "sha256": "94c0c7e57e633c1f3204c3c71278d098ae2cba381f9f70d44015299074d40e37"
+    },
+    {
+      "path": "emotes/MIEM_strokethestomach.png",
+      "size": 77240,
+      "sha256": "6f6dbebc0ca96f5c05da43675826eef95374022940c88a1322f424c213652a40"
+    },
+    {
+      "path": "emotes/MIEM_swinging_fists_in_a_fighting_stance.json",
+      "size": 111151,
+      "sha256": "97a24f587d5d757e489db2e0bb8eb0f799f0f814223f208dad46d8cd2c85c532"
+    },
+    {
+      "path": "emotes/MIEM_swinging_fists_in_a_fighting_stance.png",
+      "size": 66962,
+      "sha256": "0c31f94a5eb895d788bb1ac7cbf092d97c9ac276c6c56a9767385cebd7ba994b"
+    },
+    {
+      "path": "emotes/MIEM_think_left.json",
+      "size": 157243,
+      "sha256": "1805d8054a93e5accb468dac63d32f0d97441f3bb6aa4c535e65add66638b27b"
+    },
+    {
+      "path": "emotes/MIEM_think_left.png",
+      "size": 120088,
+      "sha256": "620dcd77a55b19c9079d8db6f29be5039264e86e615a72804cad206ac831d041"
+    },
+    {
+      "path": "emotes/MIEM_think.json",
+      "size": 141158,
+      "sha256": "7a5e120d1bfc0ee8def2802f80f09a61d46891fae59970c3fdb33c012b27f39e"
+    },
+    {
+      "path": "emotes/MIEM_think.png",
+      "size": 121345,
+      "sha256": "181b08bbdf5f7e4bb083d31e7193087b5da5719761ef33eed0f3c194a04d311d"
+    },
+    {
+      "path": "emotes/MIEM_triplekickinair.json",
+      "size": 91806,
+      "sha256": "474c2eead6ecee426be7c8fa2e7e1afd993acf58bdac3130fd2bf2c1558482dc"
+    },
+    {
+      "path": "emotes/MIEM_triplekickinair.png",
+      "size": 65606,
+      "sha256": "353f8d5227eed61e5f1199c55b52634d0b6d3e05371955180afe396df2ade70a"
+    },
+    {
+      "path": "emotes/MIEM_twirl_finger_at_temple.json",
+      "size": 433432,
+      "sha256": "e29a323771a24069baee7d6cf90b98da95d99a32301365382fec2ef97b50a644"
+    },
+    {
+      "path": "emotes/MIEM_twirl_finger_at_temple.png",
+      "size": 67975,
+      "sha256": "5155d79074e798945521f4ba1b69752bfb036119286fc056c346fe8ec217a53c"
+    },
+    {
+      "path": "emotes/MIEM_twistpistolsinyourhands.json",
+      "size": 100546,
+      "sha256": "218c4eed74fd7ca8c303d24ffbf2066cecb78369c3d09ecde4aad1bedae29b93"
+    },
+    {
+      "path": "emotes/MIEM_twistpistolsinyourhands.png",
+      "size": 92941,
+      "sha256": "341a880ec18448f86caa7ab39b57609d7af71522c24a7dbc4b912650372af915"
+    },
+    {
+      "path": "emotes/MIEM_victory_1.json",
+      "size": 179959,
+      "sha256": "88b9bb397b2ceab9d16c71c34b7d4adc23c6485fc743f4532054bfe314744db0"
+    },
+    {
+      "path": "emotes/MIEM_victory_1.png",
+      "size": 60086,
+      "sha256": "4213c57fe3dae3bec2dca2730a2f99031836f8945b35166ef1271dc94663c86d"
+    },
+    {
+      "path": "emotes/MIEM_wait.json",
+      "size": 39451,
+      "sha256": "ac47df4507c52d00cb55185265a9605875da8bad8b287e4117a20eb894ad653d"
+    },
+    {
+      "path": "emotes/MIEM_walking.json",
+      "size": 37803,
+      "sha256": "d38bbfe3b8f67a5b5913423cc8de6ec97f1c23a08006ad769ac303a4a5ba4628"
+    },
+    {
+      "path": "emotes/MIEM_walking.png",
+      "size": 82137,
+      "sha256": "ec43401f0606e33e799586812786551602209848af9307f13ee07ff5790e8ef4"
+    },
+    {
+      "path": "emotes/MIEM_yawn.json",
+      "size": 16453,
+      "sha256": "5244fcb140e90276e9d9bb65cbb715f40f3c680ba507ba5ac29f22e42915e9cb"
+    },
+    {
+      "path": "emotes/MIEM_yawn.png",
+      "size": 76119,
+      "sha256": "53e66c66d093434076d597d78fd00b2364acd170afa2d497d0a8347833b23774"
+    },
+    {
+      "path": "emotes/MIEM_zombie_walk.json",
+      "size": 25774,
+      "sha256": "27be35df5fbaab6cddf55938fca700f588c98c264f6edaa125963c5f1ab87b01"
+    },
+    {
+      "path": "emotes/MIEM_zombie_walk.png",
+      "size": 16780,
+      "sha256": "5ab7120aac00fb1c9d1a8572886f07cf18202c21c0a2f03ab5ab49a8ca55b5e8"
     },
     {
       "path": "mods/[1.21.1] SecurityCraft v1.10.2.1.jar",
@@ -3505,9 +4371,9 @@
       "sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e"
     },
     {
-      "path": "mods/creative_mode_tweaks-2.2.6.jar",
-      "size": 791286,
-      "sha256": "23f852d88bc8a60ab285061581e6647141f3f4decc665e71eff817da16ef9aec"
+      "path": "mods/creative_mode_tweaks-2.2.6 hotbar removed.jar",
+      "size": 795310,
+      "sha256": "55240fb4b6af72ed24b3f5bd2b5bc58a72fd90548470b81751b45263f698bd8d"
     },
     {
       "path": "mods/CreativeCore_NEOFORGE_v2.13.49_mc1.21.1.jar",
@@ -3691,8 +4557,8 @@
     },
     {
       "path": "mods/FaancyFlares-1.21.1-V1.jar",
-      "size": 407346,
-      "sha256": "a418e627aed9cc2d543fe7b648690bd096e605e47d848715fba2d7b308fc7d55"
+      "size": 407467,
+      "sha256": "5f141df58be3615c1eb47e7ecee208f7cddb2e126d250827c4b414acbba39e0c"
     },
     {
       "path": "mods/faewulf_lib-neoforge-1.21.1-1.4.0.jar",
@@ -3723,6 +4589,11 @@
       "path": "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
       "size": 5613159,
       "sha256": "96f8b489f401c64e87343daf57a030ccd1b58be40fc0aad701278ba58a0fadaf"
+    },
+    {
+      "path": "mods/fresh-emote-compat-1.1.0.jar",
+      "size": 9123,
+      "sha256": "6b6892e2efabe14e5a06e49056b09a36de3f6a9d1e8ee71b24865241e5f9271b"
     },
     {
       "path": "mods/fzzy_config-0.7.7+1.21+neoforge.jar",
@@ -4215,6 +5086,11 @@
       "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
     },
     {
+      "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes) (1) (1).zip",
+      "size": 321871,
+      "sha256": "c433f3d831e86faa956836bf327ca00151bd813d1a8ab36aa064d518a58790f7"
+    },
+    {
       "path": "resourcepacks/[1.0.6]Gardenia's kaleidoscope punchy addon.zip",
       "size": 999463,
       "sha256": "3844d78a64d5d80262a3aa5e985c6aa1c810a43464f8536440b7abcfe2e19ccd"
@@ -4315,29 +5191,9 @@
       "sha256": "ba1126f0267210982cbce7342436b86a8069578e8d49c63b678add53113f307a"
     },
     {
-      "path": "resourcepacks/FA+All_Extensions-v1.8.1.zip",
-      "size": 425088,
-      "sha256": "420ad586300bb4164ff441460ae0d1b2be68933cfd9321746fcef173c0437015"
-    },
-    {
-      "path": "resourcepacks/FA+Objects-v2.1.2.zip",
-      "size": 142277,
-      "sha256": "8e4cfc5c2a15c6066f8bd17a83bea0714d3ef3cd214c1300bea83a5e8cc1f9d2"
-    },
-    {
-      "path": "resourcepacks/FA+Player-v1.1.zip",
-      "size": 110203,
-      "sha256": "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33"
-    },
-    {
       "path": "resourcepacks/Fancy Crops v1.3.zip",
       "size": 92779,
       "sha256": "0c26af02ec87d523e195cab9638391febbc0ce39bff3a8978d44b88e28771755"
-    },
-    {
-      "path": "resourcepacks/FreshAnimations_v1.10.4.zip",
-      "size": 850941,
-      "sha256": "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
     },
     {
       "path": "resourcepacks/LowOnFire v26.2§8.zip",
@@ -4397,7 +5253,7 @@
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 227,
-      "sha256": "c32842bbc9b7d08c6873b02196b9361ff171d6fe4be3dba6f59ecfe44d7d5d5c"
+      "sha256": "bcc7368d95cb13aa44aa4f160d24718490d93ec31d7cb35e02ec1420e5669845"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
