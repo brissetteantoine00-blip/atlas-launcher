@@ -1,11 +1,16 @@
 debug = false
 disable_crowdin = false
 check_for_updates = true
-key_bindings = []
+
+[[key_bindings]]
+keys = ["key.mouse.4"]
+name = "key.plasmovoice.proximity.ptt"
+any_context = true
+category = "hidden"
 
 [voice]
 disabled = false
-microphone_disabled = false
+microphone_disabled = true
 activation_threshold = -30.0
 input_device = ""
 output_device = ""

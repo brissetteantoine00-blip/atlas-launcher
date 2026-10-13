@@ -10,11 +10,11 @@
 	#How far creative players can place and break blocks with build modes.
 	# Default: 64
 	# Range: 1 ~ 256
-	creative_building_reach = 64
+	creative_building_reach = 35
 	#How far creative players can place and break blocks in single building mode.
 	# Default: 60
 	# Range: 1 ~ 256
-	creative_reach = 60
+	creative_reach = 35
 	#How far survival players can place and break blocks with build modes.
 	# Default: 6
 	# Range: 1 ~ 256
@@ -108,7 +108,7 @@
 
 [flight]
 	#Whether to disable flight inertia
-	disable_flight_inertia = true
+	disable_flight_inertia = false
 	#Flight speed (vanilla is 0.05)
 	# Default: 0.08
 	# Range: 0.05 ~ 1.0
