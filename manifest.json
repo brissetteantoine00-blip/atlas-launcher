@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "f663805967ed6eb6",
+  "id": "33c390f62f06c262",
   "name": "Labyrinthe RP",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "changelog": "",
-  "publishedAt": "2026-10-13T23:39:41.221Z",
+  "publishedAt": "2026-10-13T23:40:56.232Z",
   "releases": [
+    {
+      "version": "1.0.15",
+      "publishedAt": "2026-10-13T23:40:56.232Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.14",
       "publishedAt": "2026-10-13T23:39:41.221Z",
@@ -756,6 +761,11 @@
       "description": "A proximity voice chat mod with audio positioning and lots of features"
     },
     {
+      "file": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "name": "Player Animator",
+      "description": "A lightweight library to easily animate the player"
+    },
+    {
       "file": "PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar",
       "name": "Player Animation Library",
       "description": "A library that allows mods to animate the player, in a way that doesn't conflict with other mods. (and much more!)"
@@ -1018,7 +1028,7 @@
     }
   ],
   "server": null,
-  "totalSize": 634962133,
+  "totalSize": 635165282,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -4004,6 +4014,11 @@
       "path": "mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
       "size": 12341959,
       "sha256": "3714890e127dc661031116c845e8d585bd3cd56360cd070b6be9073bd1e2e3de"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "size": 203149,
+      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92"
     },
     {
       "path": "mods/PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar",
