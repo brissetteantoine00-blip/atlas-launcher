@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "33c390f62f06c262",
+  "id": "7df0be103b511c41",
   "name": "Labyrinthe RP",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "changelog": "",
-  "publishedAt": "2026-10-13T23:40:56.232Z",
+  "publishedAt": "2026-10-15T00:19:41.986Z",
   "releases": [
+    {
+      "version": "1.0.16",
+      "publishedAt": "2026-10-15T00:19:41.986Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.15",
       "publishedAt": "2026-10-13T23:40:56.232Z",
@@ -516,6 +521,11 @@
       "description": "A library mod aimed at abstracting mod loaders and providing various utilities for our mods."
     },
     {
+      "file": "grapplemod-neoforge-1.21.1-1.21.1-v13.jar",
+      "name": "Grappling Hook Mod",
+      "description": "A mod which adds grappling hooks. The aim of this mod is to provide a fun way to get around large builds like cities."
+    },
+    {
       "file": "grassiergrass-neoforge-1.4.5+mc1.21.1.jar",
       "name": "Grassier Grass",
       "description": "Grassier Grass turns Minecraft's flat, static grass into a lush field that actually moves!"
@@ -741,16 +751,6 @@
       "description": "yes its bad i know thanks"
     },
     {
-      "file": "ParCool-1.21.1-4.0.1.2.jar",
-      "name": "ParCool!",
-      "description": "This enable us act like parkour players. Enjoy Minecraft with cool actions! If Patchouli mod is installed, let's read ParCool Guide!"
-    },
-    {
-      "file": "ParCool-CompatibilityAddon-1.21.1-3.4.3.3-1.2.1.jar",
-      "name": "ParCool+ / Compatibility Addon",
-      "description": "An addon for ParCool, which support compatibility of animation with some mods"
-    },
-    {
       "file": "piggyback-neoforge-1.21.1-1.1.1.jar",
       "name": "Piggyback",
       "description": "Allow player riding each other and replace the default player sitting mechanic with a piggyback-style ride. Carry your friends on your back for fun, teamwork, or pure chaos!"
@@ -759,11 +759,6 @@
       "file": "plasmovoice-neoforge-1.21.1-2.1.17.jar",
       "name": "Plasmo Voice",
       "description": "A proximity voice chat mod with audio positioning and lots of features"
-    },
-    {
-      "file": "player-animation-lib-forge-2.0.4+1.21.1.jar",
-      "name": "Player Animator",
-      "description": "A lightweight library to easily animate the player"
     },
     {
       "file": "PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar",
@@ -1012,11 +1007,6 @@
       "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.\\n"
     },
     {
-      "file": "yo_hooks-5.2.1.jar",
-      "name": "Yori3o",
-      "description": "Adds grappling hooks to the game."
-    },
-    {
       "file": "[1.21.1] SecurityCraft v1.10.2.1.jar",
       "name": "SecurityCraft",
       "description": "Adds a load of things to keep your house safe with and defend yourself from attackers."
@@ -1028,7 +1018,7 @@
     }
   ],
   "server": null,
-  "totalSize": 635165282,
+  "totalSize": 633744736,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1408,7 +1398,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "84c45491e16c5c4a456e7ef2699eb174e55b97d6942a7ce88bd207d180c03e68"
+      "sha256": "72fcbbd4ea46a84313d1eac9f2af777045d8cacb184df81af069209e900d398a"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1459,6 +1449,21 @@
       "path": "config/fzzy_config/keybinds.toml",
       "size": 6403,
       "sha256": "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
+    },
+    {
+      "path": "config/grapplemod-client.toml",
+      "size": 1130,
+      "sha256": "4b3e9773a9e712784af58ed13ba0fdc8e3e010c3c82e38ea302cdd6653b98201"
+    },
+    {
+      "path": "config/grapplemod-server.toml",
+      "size": 28968,
+      "sha256": "c16fab7194bbdc47c80d546650a1cc9c89f68b19810cce506fd69f69a4069e49"
+    },
+    {
+      "path": "config/grapplemod-startup.toml",
+      "size": 221,
+      "sha256": "cfb339aa80ec996ea82308348985173221db881de0be648714b5ef886c65be53"
     },
     {
       "path": "config/grassiergrass-client.toml",
@@ -1533,7 +1538,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "cfa578d37e47bd553228a10e7b1e06f801ff972caeb0d231856d6c19536f67e2"
+      "sha256": "d4aa1e3b69e91bccc4514dfe66ed96234de9237d4084142d5fb7b12d09429d6a"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1597,8 +1602,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1888,
-      "sha256": "ad1522c685dc2dc0a6296d39b0dc6b0fd60c8897b662588fe12fcb1791874abf"
+      "size": 1956,
+      "sha256": "3cef54cf9b5a99d444e77771fcfeff31a28113dcb3fe5d82fc894561108e854a"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1806,6 +1811,21 @@
       "sha256": "3045ced23445b570595c91b9acad3058b25009988439509ebdd8732db644df61"
     },
     {
+      "path": "config/parcool-animation.toml",
+      "size": 1408,
+      "sha256": "d3eb327d3db7740cd81ff10a65d212bf98445c725eb45de9a4fdf0ea1adb581e"
+    },
+    {
+      "path": "config/parcool-client.toml",
+      "size": 1967,
+      "sha256": "2d390aad28eb135e33a247b3a33a9a95431278ba053b93f49cf250a256904e96"
+    },
+    {
+      "path": "config/parcool-server.toml",
+      "size": 10231,
+      "sha256": "c69b4ac2fc778e189cb3912a1a821d2b411d4b2b260a23bfbe8525232ae8c88c"
+    },
+    {
       "path": "config/particle_effects.json5",
       "size": 25,
       "sha256": "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
@@ -1907,13 +1927,13 @@
     },
     {
       "path": "config/plasmovoice/client.toml",
-      "size": 1398,
-      "sha256": "a1f26eedc5c865cad51887ac140df9e9a26e8548bdf8f46a572aaf98cd1b675b"
+      "size": 1399,
+      "sha256": "1e927da9ba46f9062249aea2b06588962c6669e646601d33e4e65e8650da536a"
     },
     {
       "path": "config/plasmovoice/meta_cache.json",
       "size": 655,
-      "sha256": "5a34f47fdd63083345826cdbe2645784f6e71eb7816de2f9cfc114741d9d2dc4"
+      "sha256": "593ef753475b7a4c656a51455a7d0adf66d9cbace6b1f07ce0eeddd31b701d1a"
     },
     {
       "path": "config/plasmovoice/pv-voice-changer-presets/autosave.properties",
@@ -1983,7 +2003,7 @@
     {
       "path": "config/plasmovoice/server/languages/.crowdin/timestamp",
       "size": 13,
-      "sha256": "0caf200d1b86a33601585e88d9cd061d88388e95e1e59b9d95b7df7f282d2dd3"
+      "sha256": "e70870061150318e2bb14c424f7cf5db70a626ef9868ba745124acf69ed8a5ef"
     },
     {
       "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
@@ -2143,7 +2163,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "fd8a237240f6399bcc42944aba323eca44e8964e05be3759bf156ce4c4818be9"
+      "sha256": "caf2e4a42eecc59d29e733365b488d78da00afd90f89dc2636237783c08105cf"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -3273,7 +3293,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "cd5bd513ca4b7d16d53596e7925dbc4eb30cb6794a21c510b43c7f2977bb36d8"
+      "sha256": "935cf79aecfe08e1d44dcd889cfe1d6113deb4ec7c02ae6a58dd33c200a1b771"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3364,6 +3384,26 @@
       "path": "config/yacl.json5",
       "size": 250,
       "sha256": "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+    },
+    {
+      "path": "config/yo_hooks/overlaps.json",
+      "size": 264,
+      "sha256": "c7e301c6fc7b5564601b7e5a32d5b911866046cd5113ad59567fb5100054c8f5"
+    },
+    {
+      "path": "config/yo_hooks/yo_hooks-client.json",
+      "size": 126,
+      "sha256": "e514ab6b3dac1e0175bdb4afa3bc9ae2371a994e9205a180f85b3f7d17fbbc0a"
+    },
+    {
+      "path": "config/yo_hooks/yo_hooks-common.json",
+      "size": 84,
+      "sha256": "a5979b41e126bcb4e7bcf7ebb0a6f145805a7a56563a141eccd464b7321aff3d"
+    },
+    {
+      "path": "config/yo_hooks/yo_hooks-server.json",
+      "size": 108,
+      "sha256": "1b608a982efd542338e19ed47736133b7a300e67cd57284e57b6edcbac00d415"
     },
     {
       "path": "mods/[1.21.1] SecurityCraft v1.10.2.1.jar",
@@ -3776,6 +3816,11 @@
       "sha256": "59d2a3fb3d6877e43018fd6a2b199d526074a864276a5f49091409a1cdc62fae"
     },
     {
+      "path": "mods/grapplemod-neoforge-1.21.1-1.21.1-v13.jar",
+      "size": 591075,
+      "sha256": "f6d7a2f0984bc4fe216a19fbdda448219bace341e303018cbf9ace9743c39829"
+    },
+    {
       "path": "mods/grassiergrass-neoforge-1.4.5+mc1.21.1.jar",
       "size": 2350729,
       "sha256": "3374f0f73bd9278ebe281945c58e01dc0cc21a9da32d803fc5d3ab106337cb16"
@@ -3996,16 +4041,6 @@
       "sha256": "de6ed336bd80154b7241a7b3276694befc1c94550add8bcdfe7f82e5172fd13d"
     },
     {
-      "path": "mods/ParCool-1.21.1-4.0.1.2.jar",
-      "size": 1228985,
-      "sha256": "c001e9b26c415d9468a9537b2f7b9e846c6eb143964fd9f4f68114df49636c31"
-    },
-    {
-      "path": "mods/ParCool-CompatibilityAddon-1.21.1-3.4.3.3-1.2.1.jar",
-      "size": 52105,
-      "sha256": "4cdc7a02d07d3e389aacb3ecc527066321c3d0539f32c1f0277beb9589858ff9"
-    },
-    {
       "path": "mods/piggyback-neoforge-1.21.1-1.1.1.jar",
       "size": 342949,
       "sha256": "a9712c6d333302297db876beb973e105097e2660a22157c083c94954222c14eb"
@@ -4014,11 +4049,6 @@
       "path": "mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
       "size": 12341959,
       "sha256": "3714890e127dc661031116c845e8d585bd3cd56360cd070b6be9073bd1e2e3de"
-    },
-    {
-      "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
-      "size": 203149,
-      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92"
     },
     {
       "path": "mods/PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar",
@@ -4266,11 +4296,6 @@
       "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
     },
     {
-      "path": "mods/yo_hooks-5.2.1.jar",
-      "size": 571958,
-      "sha256": "c3007f8b680d717d121b9895f90364f0e33dfa28d4e2cf91d92ebb0e0d7c0208"
-    },
-    {
       "path": "resourcepacks/[1.0.6]Gardenia's kaleidoscope punchy addon.zip",
       "size": 999463,
       "sha256": "3844d78a64d5d80262a3aa5e985c6aa1c810a43464f8536440b7abcfe2e19ccd"
@@ -4433,7 +4458,7 @@
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 273,
-      "sha256": "86a296871e61e68227b15846017cebc430ce8de445ceeddd52e93f19c82fd8a3"
+      "sha256": "b58c78680722e17a4f351109a18a6b2f779592106a8b30d056d3b7a4d0244535"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
