@@ -8,7 +8,7 @@
   "motd": "A Minecraft Server",
   "version": "1.21.1",
   "sample": [],
-  "checkedAt": 1792462167232,
+  "checkedAt": 1792462179001,
   "source": "direct",
   "history": [
     {
@@ -53,6 +53,11 @@
     },
     {
       "t": 1792462140000,
+      "p": 0,
+      "o": 1
+    },
+    {
+      "t": 1792462200000,
       "p": 0,
       "o": 1
     }
