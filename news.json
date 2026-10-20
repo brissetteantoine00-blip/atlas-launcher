@@ -65,7 +65,7 @@
     "publishedAt": "2026-10-20T01:23:10.326Z"
   },
   "appearance": {
-    "id": "mvg01h86be3f46",
+    "id": "mvg10p488951cd",
     "layout": {
       "brand": {
         "x": 19.4,
@@ -88,8 +88,8 @@
         "s": 1
       },
       "server": {
-        "x": 42.2,
-        "y": 8.2,
+        "x": 11.1,
+        "y": 55,
         "s": 1
       },
       "skins": {
@@ -165,7 +165,7 @@
     },
     "theme": {},
     "texts": {},
-    "publishedAt": "2026-10-20T01:23:10.327Z"
+    "publishedAt": "2026-10-20T01:50:33.512Z"
   },
   "server": {
     "name": "Labyrinthe RP",
