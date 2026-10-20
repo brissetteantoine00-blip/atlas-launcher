@@ -65,7 +65,7 @@
     "publishedAt": "2026-10-20T02:04:47.265Z"
   },
   "appearance": {
-    "id": "mvg1izvm8543f4",
+    "id": "mvg1n5jn401fa2",
     "layout": {
       "brand": {
         "x": 19.4,
@@ -88,8 +88,8 @@
         "s": 1
       },
       "server": {
-        "x": 42.2,
-        "y": 8.2,
+        "x": 11.7,
+        "y": 55.3,
         "s": 1
       },
       "skins": {
@@ -163,9 +163,15 @@
         "s": 1
       }
     },
-    "theme": {},
+    "theme": {
+      "accent": "#a98a52",
+      "text": "#ebe3cd",
+      "panel": "#1b1e1d",
+      "secondary": "#8fb4c4",
+      "dim": 100
+    },
     "texts": {},
-    "publishedAt": "2026-10-20T02:04:47.266Z"
+    "publishedAt": "2026-10-20T02:08:01.235Z"
   },
   "server": {
     "name": "Labyrinthe RP",
