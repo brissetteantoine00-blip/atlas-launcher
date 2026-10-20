@@ -60,12 +60,12 @@
     "enabled": false
   },
   "launcher": {
-    "version": "1.0.30",
+    "version": "1.0.31",
     "required": true,
-    "publishedAt": "2026-10-20T01:23:10.326Z"
+    "publishedAt": "2026-10-20T02:04:47.265Z"
   },
   "appearance": {
-    "id": "mvg127r6432d12",
+    "id": "mvg1izvm8543f4",
     "layout": {
       "brand": {
         "x": 19.4,
@@ -88,8 +88,8 @@
         "s": 1
       },
       "server": {
-        "x": 11.1,
-        "y": 55,
+        "x": 42.2,
+        "y": 8.2,
         "s": 1
       },
       "skins": {
@@ -163,15 +163,9 @@
         "s": 1
       }
     },
-    "theme": {
-      "accent": "#a98a52",
-      "text": "#ebe3cd",
-      "panel": "#1b1e1d",
-      "secondary": "#8fb4c4",
-      "dim": 100
-    },
+    "theme": {},
     "texts": {},
-    "publishedAt": "2026-10-20T01:51:44.322Z"
+    "publishedAt": "2026-10-20T02:04:47.266Z"
   },
   "server": {
     "name": "Labyrinthe RP",
