@@ -1017,7 +1017,11 @@
       "description": "Glass-like blocks with per-face camouflage using vanilla block textures."
     }
   ],
-  "server": null,
+  "server": {
+    "name": "Labyrinthe RP",
+    "ip": "labyrintherp.mine.fun",
+    "port": 25565
+  },
   "totalSize": 633744736,
   "files": [
     {
