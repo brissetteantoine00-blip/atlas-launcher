@@ -60,12 +60,12 @@
     "enabled": false
   },
   "launcher": {
-    "version": "1.0.29",
+    "version": "1.0.30",
     "required": true,
-    "publishedAt": "2026-10-06T10:21:38.846Z"
+    "publishedAt": "2026-10-20T01:23:10.326Z"
   },
   "appearance": {
-    "id": "muwj41b2171182",
+    "id": "mvg01h86be3f46",
     "layout": {
       "brand": {
         "x": 19.4,
@@ -165,7 +165,7 @@
     },
     "theme": {},
     "texts": {},
-    "publishedAt": "2026-10-06T10:21:38.848Z"
+    "publishedAt": "2026-10-20T01:23:10.327Z"
   },
   "server": {
     "name": "Labyrinthe RP",

@@ -1,0 +1,8 @@
+version: 1.0.30
+files:
+  - url: https://github.com/brissetteantoine00-blip/atlas-launcher/releases/download/atlas-files/50bc50ad1ebd0b588798c6e9b4e2f38e7b0e113991659b32f870574e321dfc99.exe
+    sha512: bwyC6ivxKR8XhihPdlJD+5zfApC8QCGEn62KQSyiZrr6zcK4NCMl6gxB3OCiGChyNEzJhQOA69+rfxHFGXaeFg==
+    size: 86798324
+path: Atlas-Launcher-ADMIN-Update-1.0.30.exe
+sha512: bwyC6ivxKR8XhihPdlJD+5zfApC8QCGEn62KQSyiZrr6zcK4NCMl6gxB3OCiGChyNEzJhQOA69+rfxHFGXaeFg==
+releaseDate: '2026-10-20T01:21:54.906Z'
