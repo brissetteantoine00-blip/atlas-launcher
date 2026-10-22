@@ -19,7 +19,7 @@ spatialStereoMode = VIRTUAL_SPATIAL
 stereoSpeakerWidth = 2.0
 
 # Controls master volume for all audio streams.
-globalVolume = 1.0
+globalVolume = 0.4887324
 
 # How long in seconds a should stream stay in standby mode before it is destroyed. Longer timeouts mean streams will stay 'cached' longer for quicker playback, but at the cost of system resources to keep the stream alive.
 streamInactivityTimeoutSeconds = 90
@@ -29,7 +29,4 @@ streamOverlap = false
 
 # Tolerance window in ticks for identifying whether multiple emitters are part of the same broadcast session.
 transmissionMergeThresholdTicks = 100
-
-# Disables the welcome screen prompting you to install audio dependencies. Highly recommended you don't disable this unless you know what you're doing.
-dependencyWelcomeScreen = true
 
