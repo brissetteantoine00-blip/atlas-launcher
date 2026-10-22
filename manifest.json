@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "7df0be103b511c41",
+  "id": "f237e535d3739cb4",
   "name": "Labyrinthe RP",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "changelog": "",
-  "publishedAt": "2026-10-15T00:19:41.986Z",
+  "publishedAt": "2026-10-22T18:09:42.131Z",
   "releases": [
+    {
+      "version": "1.0.17",
+      "publishedAt": "2026-10-22T18:09:42.131Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.16",
       "publishedAt": "2026-10-15T00:19:41.986Z",
@@ -459,11 +464,6 @@
       "description": "Addon for Exposure that adds new lenses, filters and films."
     },
     {
-      "file": "FaancyFlares-1.21.1-V1.jar",
-      "name": "Fancy Flares",
-      "description": "A standalone Immersive Vehicles content pack containing the flare gun and its flare cartridges. Credits go to Mr.Mulle, Sint, Viktorwood, Conman180, Cactus & BlazeWolf1122."
-    },
-    {
       "file": "faewulf_lib-neoforge-1.21.1-1.4.0.jar",
       "name": "Faewulf",
       "description": "A library mod that provides utility functions and methods commonly used across my (Faewulf) mods."
@@ -544,11 +544,6 @@
       "file": "handoveryouritems-1.21.1-4.0.jar",
       "name": "Hand Over Your Items",
       "description": "Adds to ability to give other players items in a server without dropping them on the floor."
-    },
-    {
-      "file": "Immersive Vehicles-1.21.1-24.0.0.jar",
-      "name": "Immersive Vehicles (formerly MTS)",
-      "description": "Realistic planes and cars for Minecraft!"
     },
     {
       "file": "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
@@ -847,11 +842,6 @@
       "description": "Renders the player skin layer in 3d"
     },
     {
-      "file": "snassets_particles-1.0.1.jar",
-      "name": "SnAssets Particles",
-      "description": "A cross-loader asset library containing reusable particle textures from SnAssets."
-    },
-    {
       "file": "snatched-1.2.1-neoforge-1.21.1.jar",
       "name": "Snatched",
       "description": "-"
@@ -1022,7 +1012,7 @@
     "ip": "labyrintherp.mine.fun",
     "port": 25565
   },
-  "totalSize": 633744736,
+  "totalSize": 648067880,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1061,8 +1051,8 @@
     },
     {
       "path": "config/analoglib/analoglib.client.toml",
-      "size": 1651,
-      "sha256": "b440ef818e3078419377b41f37a03dc2956ac6f81b8185b0bb51ab95ae6afa1c"
+      "size": 1470,
+      "sha256": "353967b6b43883cbb22801eca867b7150209c2b4f1fb23751cb61f84c103484c"
     },
     {
       "path": "config/antos.json",
@@ -1402,7 +1392,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
-      "sha256": "72fcbbd4ea46a84313d1eac9f2af777045d8cacb184df81af069209e900d398a"
+      "sha256": "7c7d5a6e6ec43ec8f628a92a5c440a004beb919fbf766ba2eb36028d6d304923"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1542,7 +1532,7 @@
     {
       "path": "config/iris.properties",
       "size": 337,
-      "sha256": "d4aa1e3b69e91bccc4514dfe66ed96234de9237d4084142d5fb7b12d09429d6a"
+      "sha256": "f51d1309d2e1ddb90d71334abaea11b7b46dc4155c1b1a0d6ee6ba5c490cf9af"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1623,6 +1613,11 @@
       "path": "config/jei/world/local/§6by JxnasGmng §8§l[§cVersion 2_3_3§8§l] §7- §9DE§7/lookupHistory.json",
       "size": 1219,
       "sha256": "a1390e3585d2a4a47db0c0da4b2869198178619b5d4c1144378a88f055a5e28b"
+    },
+    {
+      "path": "config/jei/world/local/Map laby/lookupHistory.json",
+      "size": 127,
+      "sha256": "012ab3993356b4e13c28669b2b42ab022adbbeb843e9cf6857e77ba352d4a7a4"
     },
     {
       "path": "config/jei/world/local/New World (1)/lookupHistory.json",
@@ -1897,7 +1892,7 @@
     {
       "path": "config/plasmovoice/.crowdin/timestamp",
       "size": 13,
-      "sha256": "5d41b5115f14a87fdceda157de4d995e355c0060e2c60c7567e134c7eeb3f912"
+      "sha256": "b93292381a4133575747cadede8c57ab6cd6d6c6e914d7511838bcbec728acb1"
     },
     {
       "path": "config/plasmovoice/.crowdin/tr_tr.json",
@@ -1937,7 +1932,7 @@
     {
       "path": "config/plasmovoice/meta_cache.json",
       "size": 655,
-      "sha256": "593ef753475b7a4c656a51455a7d0adf66d9cbace6b1f07ce0eeddd31b701d1a"
+      "sha256": "2e0fe6772078268b72951f52aa295b5e8655297d067167b561a7b5de1c67955a"
     },
     {
       "path": "config/plasmovoice/pv-voice-changer-presets/autosave.properties",
@@ -2151,8 +2146,8 @@
     },
     {
       "path": "config/punchy/merged_animation_selection.json",
-      "size": 6888,
-      "sha256": "ad8919a8c4fff2bcc6ecd10f61a34cedc3f48f8a563c23ee20c8ab4be7e38822"
+      "size": 2825,
+      "sha256": "5420440275b86f5c713ba34a390d07989927ea2e2c868a014019a74b68f8965a"
     },
     {
       "path": "config/punchy/punchy_config.json",
@@ -2167,7 +2162,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1582,
-      "sha256": "caf2e4a42eecc59d29e733365b488d78da00afd90f89dc2636237783c08105cf"
+      "sha256": "35d30577e9b3dccb65188412704a10584f94c3f88ec2fda5053605a2a492f7f9"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -3285,6 +3280,26 @@
       "sha256": "c189d360148b6222612333faae4607895aa9e9ce43e133d982c01919168119c5"
     },
     {
+      "path": "config/worldedit/schematics/maison_nordique_toit_vegetalise.schem",
+      "size": 1720,
+      "sha256": "649e7aac9289a77e7d4c83810987d68551f4f4f126caa22f851808b5a3e52413"
+    },
+    {
+      "path": "config/worldedit/schematics/Maison_Viking_Toit_Vegetal_1.21.1.schem",
+      "size": 2271,
+      "sha256": "6bebb881828941395e0cfd5e303ca691f20c611313931dd1f7950fafaceb1d11"
+    },
+    {
+      "path": "config/worldedit/schematics/Maison_Viking_Toit_Vegetal_CORRIGE_1.21.1.schem",
+      "size": 2256,
+      "sha256": "200bc10f2a33d90f07ab02363e9661e63ead790bc0ea33b0d1b57033ef3e808f"
+    },
+    {
+      "path": "config/worldedit/schematics/nordichouse.schem",
+      "size": 2027,
+      "sha256": "adfaa9eebe07885ec3c5e436cc7518bd41ca18210b7f86798810c1174f06f622"
+    },
+    {
       "path": "config/worldedit/sessions/3e5705c3-337d-45db-80cb-1bd1f28b3284.json",
       "size": 139,
       "sha256": "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
@@ -3297,7 +3312,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2547,
-      "sha256": "935cf79aecfe08e1d44dcd889cfe1d6113deb4ec7c02ae6a58dd33c200a1b771"
+      "sha256": "433f84858bff73778fba1d28b4320ba618e5b22f269ae4c7a5e717282b16129f"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3760,11 +3775,6 @@
       "sha256": "ca6c01f2a3a83ea5d14770f482fa5a5aa70066287781b74dd954865b6a4a099e"
     },
     {
-      "path": "mods/FaancyFlares-1.21.1-V1.jar",
-      "size": 407467,
-      "sha256": "5f141df58be3615c1eb47e7ecee208f7cddb2e126d250827c4b414acbba39e0c"
-    },
-    {
       "path": "mods/faewulf_lib-neoforge-1.21.1-1.4.0.jar",
       "size": 329492,
       "sha256": "c333a8f91acc5b4db6658e1de40b5039689f0dd5a46588ebae32b638705637eb"
@@ -3843,11 +3853,6 @@
       "path": "mods/handoveryouritems-1.21.1-4.0.jar",
       "size": 36051,
       "sha256": "2100999660c9e8539f5d5548dfdc70b5170a8adc26e3a7f4bf4ecaa5e3e062ed"
-    },
-    {
-      "path": "mods/Immersive Vehicles-1.21.1-24.0.0.jar",
-      "size": 6131756,
-      "sha256": "1d2f7512604636265703b29fdf13d7f8ef2323694b6435f4392973da6e78d251"
     },
     {
       "path": "mods/immersive_furniture-neoforge-0.3.3+1.21.1.jar",
@@ -4140,11 +4145,6 @@
       "sha256": "af7dcd6c6a40793adc0f7e57dd8fcc04c9e9bdf9c8ffa4efeb36e22d8b1f79db"
     },
     {
-      "path": "mods/snassets_particles-1.0.1.jar",
-      "size": 575663,
-      "sha256": "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca"
-    },
-    {
       "path": "mods/snatched-1.2.1-neoforge-1.21.1.jar",
       "size": 1559466,
       "sha256": "d659684d7dc1d810c702d8c9f984e03ebf45bb2e507d617826553140a18b8f67"
@@ -4300,102 +4300,97 @@
       "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
     },
     {
-      "path": "resourcepacks/[1.0.6]Gardenia's kaleidoscope punchy addon.zip",
+      "path": "resourcepacks/[1.0.6]Gardenia's kaleidoscope punchy addon.zip.disabled",
       "size": 999463,
       "sha256": "3844d78a64d5d80262a3aa5e985c6aa1c810a43464f8536440b7abcfe2e19ccd"
     },
     {
-      "path": "resourcepacks/[Let's Do] Sticks and Stones 1.0.zip",
+      "path": "resourcepacks/[Let's Do] Sticks and Stones 1.0.zip.disabled",
       "size": 59368,
       "sha256": "423b7300f068caad1fa1c71ef7027b2e58a29dd9dcf99a726745baa456591ec5"
     },
     {
-      "path": "resourcepacks/§2p1kl's 3D Items§r§0.zip",
-      "size": 1801908,
-      "sha256": "92110cc9ea0e5eed4e256ba6b601f7eff898875500c8a14667be76e9ee7d2746"
+      "path": "resourcepacks/§2p1kl's 3D Items§r§0.zip.disabled",
+      "size": 2094840,
+      "sha256": "d5d644d9de90fa9858bd7ef25e3402d3b79d947c9c732863d52e9f5d3f483dbd"
     },
     {
-      "path": "resourcepacks/§3Fresh §bFlower Pots.zip",
+      "path": "resourcepacks/§3Fresh §bFlower Pots.zip.disabled",
       "size": 43374,
       "sha256": "ec3a1bafdeb0e1ee680cc278ef488b667358f32b88600d2fa59fb256c36394c5"
     },
     {
-      "path": "resourcepacks/§6Immersive§8_§6Interfaces§8_§6TravelerBackpack.zip",
+      "path": "resourcepacks/§6Immersive§8_§6Interfaces§8_§6TravelerBackpack.zip.disabled",
       "size": 13601,
       "sha256": "83554aeb4bc9b981f0a5bbd717270251df7e3ad4beb2bfaa38e2398e6961f6ea"
     },
     {
-      "path": "resourcepacks/§aBetter Fresher 3D Books 1.21 Backport v1.0.0.zip",
-      "size": 308569,
-      "sha256": "ed852745bef06d9a0dfc5f245f960c37ae25757d06de1bb5ded020ec8dceaa8b"
-    },
-    {
-      "path": "resourcepacks/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip",
+      "path": "resourcepacks/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip.disabled",
       "size": 188176,
       "sha256": "c5333ebdf85b1630738ef5903c8230b17a002de8c3ee922f1eaef292ada88a4e"
     },
     {
-      "path": "resourcepacks/Better Beds.zip",
+      "path": "resourcepacks/Better Beds.zip.disabled",
       "size": 114855,
       "sha256": "63600cdceff1574a9047b7f848a3270ff624bcb2e29f3d1e6b0d2aa0f4cf7bf1"
     },
     {
-      "path": "resourcepacks/Better-Leaves-9.6.zip",
+      "path": "resourcepacks/Better-Leaves-9.6.zip.disabled",
       "size": 1977146,
       "sha256": "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90"
     },
     {
-      "path": "resourcepacks/Better+Lanterns+v1.2(mc-1.21).zip",
+      "path": "resourcepacks/Better+Lanterns+v1.2(mc-1.21).zip.disabled",
       "size": 51529,
       "sha256": "2b1c802be7207ac488c071ba79f54ea44227bd5d7d815f16a710a4e25da8d385"
     },
     {
-      "path": "resourcepacks/Blue Flowering Vines.zip",
+      "path": "resourcepacks/Blue Flowering Vines.zip.disabled",
       "size": 4221,
       "sha256": "9044dfecb41d811aba9c5789dd54a8fe6fcb56bc108c064d805f19f4d1bd6d7c"
     },
     {
-      "path": "resourcepacks/CCB (Bolted Corners) [1.21.x - 26.1.x].zip",
+      "path": "resourcepacks/CCB (Bolted Corners) [1.21.x - 26.1.x].zip.disabled",
       "size": 302564,
       "sha256": "fa6f901bfe066e3b123ce4da779e1e74f190b2b58a4637db7b7c6b2f3014c7a5"
     },
     {
-      "path": "resourcepacks/Clean Connected Glass [1.20-26.x].zip",
+      "path": "resourcepacks/Clean Connected Glass [1.20-26.x].zip.disabled",
       "size": 343093,
       "sha256": "5135696f51f3c9d54bcecffdaa93c5e4896d5ad7732de46f008c840396828d80"
     },
     {
-      "path": "resourcepacks/Connected Copper Grates.zip",
+      "path": "resourcepacks/Connected Copper Grates.zip.disabled",
       "size": 213048,
       "sha256": "1085ad1bbff51069e8b44d5da17b6fdc9fed1b8518b03a06359504854f133768"
     },
     {
-      "path": "resourcepacks/Connected-Bricks 1.21-1.21.3 v3.1.1.zip",
+      "path": "resourcepacks/Connected-Bricks 1.21-1.21.3 v3.1.1.zip.disabled",
       "size": 199013,
       "sha256": "3f30706d4ed7b955c1ba431634830f3025cbc34b761abe55870e9d5402c6a53d"
     },
     {
-      "path": "resourcepacks/Connected-Paths 1.21-1.21.3 v3.1.1.zip",
+      "path": "resourcepacks/Connected-Paths 1.21-1.21.3 v3.1.1.zip.disabled",
       "size": 577949,
       "sha256": "9ba1cab60ba19d8c93fcb06c3975b422650335b5ab610d9a58071f87f2b43e89"
     },
     {
-      "path": "resourcepacks/Connected-Rocks 1.20.2-1.21.8 v3.1.1.zip",
+      "path": "resourcepacks/Connected-Rocks 1.20.2-1.21.8 v3.1.1.zip.disabled",
       "size": 261124,
       "sha256": "0945d418928b08ab041584533d093eb1b80f0dc2763fb326b8e3070dfa2257da"
     },
     {
-      "path": "resourcepacks/Connected.sea.lanterns.1.21.11.zip",
+      "path": "resourcepacks/Connected.sea.lanterns.1.21.11.zip.disabled",
       "size": 16942,
       "sha256": "01f9cb76c74f19d5ae55c46b19de99be21427a991df957281528c2d68b11a5f9"
     },
     {
-      "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.6.zip",
+      "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.6.zip.disabled",
       "size": 13912171,
       "sha256": "4473fd8d55b03d47fa9cc4db5fe6a81b6c43cc570d6d1cae58b427590a3f15ba"
     },
     {
-      "path": "resourcepacks/Drigo 3D Lantern`s x Punchy.zip",
+      "path": "resourcepacks/Drigo 3D Lantern`s x Punchy.zip.disabled",
       "size": 5858016,
       "sha256": "ba1126f0267210982cbce7342436b86a8069578e8d49c63b678add53113f307a"
     },
@@ -4405,64 +4400,59 @@
       "sha256": "a793e49e4be9d16df69ebd4e154f8794ad29e2fd6aeef97e279eaf390a2cea75"
     },
     {
-      "path": "resourcepacks/Fancy Crops v1.3.zip",
+      "path": "resourcepacks/Fancy Crops v1.3.zip.disabled",
       "size": 92779,
       "sha256": "0c26af02ec87d523e195cab9638391febbc0ce39bff3a8978d44b88e28771755"
     },
     {
-      "path": "resourcepacks/LowOnFire v26.2§8.zip",
+      "path": "resourcepacks/Laby_ressources.zip",
+      "size": 38219515,
+      "sha256": "9da07e79d642cfda2a96b797ca29472de81f25843b631bfca2ac5796e0ffbfad"
+    },
+    {
+      "path": "resourcepacks/LowOnFire v26.2§8.zip.disabled",
       "size": 42760,
       "sha256": "25fc89fedc6d47fe2480a60910c65c8fd8b50121aaab919933e47cc6ba730a67"
     },
     {
-      "path": "resourcepacks/MazeRunner_Doors_Complete_V2(1).zip",
+      "path": "resourcepacks/MazeRunner_Doors_Complete_V2(1).zip.disabled",
       "size": 1133157,
       "sha256": "e4a93e4bcb8eac2cdb821a65bb00d1e123d0702bfb161e6fa1227251a1204bf2"
     },
     {
-      "path": "resourcepacks/Os' Colorful Grasses (Tall).zip",
+      "path": "resourcepacks/Os' Colorful Grasses (Tall).zip.disabled",
       "size": 214646,
       "sha256": "94d0bd8ed5e2f18c528598557e23b38f63931df965ffc7bc0c33a76a6632cae0"
     },
     {
-      "path": "resourcepacks/Overgrown Moss Carpet 2.3.zip",
+      "path": "resourcepacks/Overgrown Moss Carpet 2.3.zip.disabled",
       "size": 31904,
       "sha256": "39182593cca2868cabc97bbcb3cccf66acdc5641abc757fd1fdc14fb26b50f3a"
     },
     {
-      "path": "resourcepacks/Punched Better, Fresher 3D books.zip",
-      "size": 135790,
-      "sha256": "11953d561c35080b71bfb3e8f8c7324b80e19bb0fac38f409337e61917f819b3"
-    },
-    {
-      "path": "resourcepacks/Refined Buckets 2.4.1.zip",
+      "path": "resourcepacks/Refined Buckets 2.4.1.zip.disabled",
       "size": 1147677,
       "sha256": "198748b54fb15bc01883da58aa87da44bd8c15d41fef862613f1adb03bd33637"
     },
     {
-      "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip",
+      "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip.disabled",
       "size": 208597,
       "sha256": "26c23daae1ec0c4e71fdc9bee449d3e088137088d21543804228863d0fa7b2c2"
     },
     {
-      "path": "resourcepacks/Traveler's Backpack Overhaul 1.1.zip",
+      "path": "resourcepacks/Traveler's Backpack Overhaul 1.1.zip.disabled",
       "size": 58453,
       "sha256": "05b7ee6d9a7a6138c64ab0bee78dc2834f4fa7a97a8383fe305af89f9218109d"
     },
     {
-      "path": "resourcepacks/Undopia_3D_Chiseled_Bookshelf_1.21.x_v.1.0.zip",
+      "path": "resourcepacks/Undopia_3D_Chiseled_Bookshelf_1.21.x_v.1.0.zip.disabled",
       "size": 54789,
       "sha256": "80b9e0e7667c3cab309f867a4f729877f3f89f971c949d0603bcee67409f62a5"
     },
     {
-      "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
-      "size": 1791406,
-      "sha256": "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c"
-    },
-    {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
-      "size": 273,
-      "sha256": "b58c78680722e17a4f351109a18a6b2f779592106a8b30d056d3b7a4d0244535"
+      "size": 227,
+      "sha256": "c8d5cef5834f3e72796a022289240e35c5547b065aa935fa1e8b446ad0059fe1"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
@@ -10815,44 +10805,9 @@
       "sha256": "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a"
     },
     {
-      "path": "shaderpacks/Cursed Fog - V1.0.10.zip",
-      "size": 74846,
-      "sha256": "fcb923ece4bdb04e5327c72904c8f656b73a9381bf58436230a69db08a5f3001"
-    },
-    {
-      "path": "shaderpacks/HyShaders Horror.zip",
-      "size": 2156120,
-      "sha256": "257e6a9b01e03a10cc9d4689eb8ab9b7542ddee6f72e7a69d452b1cbbda78479"
-    },
-    {
-      "path": "shaderpacks/Hysteria-Shaders-Universal-v1.2.1.zip",
-      "size": 1578052,
-      "sha256": "cfad48537a3cbd7db219e29f07b24820c80322d5df656a9d087da5f8f9fc1df2"
-    },
-    {
-      "path": "shaderpacks/Insanity-Shader-Universal-v1.650.zip",
-      "size": 1037373,
-      "sha256": "ed0ece7500307584a7bba09a872fde39df78fcfa1b90f3e4fac36da60e96a511"
-    },
-    {
-      "path": "shaderpacks/rethinking-voxels_r0.1-beta9.zip",
-      "size": 8301317,
-      "sha256": "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
-    },
-    {
       "path": "shaderpacks/Solas Shader V3.7b.zip",
       "size": 1252311,
       "sha256": "b7dfe4c7353d677a92cc4c86b87bc0633f1014305d927ca6a482c303427bf825"
-    },
-    {
-      "path": "shaderpacks/Spooklementary_LABYRINTHE_DAY_NIGHT_RP_V2_PUDDLES.zip",
-      "size": 568473,
-      "sha256": "52e59cbe4bf8cddb2f240b64b200d1df9a5cddc1ef10b62d358c531735244839"
-    },
-    {
-      "path": "shaderpacks/Spooklementary_LABYRINTHE_DAY_NIGHT_RP.zip",
-      "size": 568376,
-      "sha256": "49e85c5d43ae66eaeed7475456e3d3c7a0b7dfeaba887b54cadcfad392671e3c"
     },
     {
       "path": "shaderpacks/Spooklementary_LABYRINTHE_NO_PUDDLES.zip",
@@ -10863,11 +10818,6 @@
       "path": "shaderpacks/Spooklementary_LABYRINTHE_NO_PUDDLES.zip.txt",
       "size": 205,
       "sha256": "eea1b6d8ff0ba60eadc2c246943834fe91311c68c806fa95a1f758aff72d6042"
-    },
-    {
-      "path": "shaderpacks/Spooklementary_v2.0.4.zip",
-      "size": 558206,
-      "sha256": "34ae1317940876f42272e3fd8f9ec2be97b2cdfe2eb8aeaf7bf971304d1a168d"
     },
     {
       "path": "shaderpacks/Spooklementary_v2.0.4.zip.txt",
