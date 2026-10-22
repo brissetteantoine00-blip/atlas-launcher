@@ -2,30 +2,15 @@
   "name": "Labyrinthe RP",
   "ip": "labyrintherp.mine.fun",
   "port": 25565,
-  "online": true,
+  "online": false,
   "players": 0,
-  "max": 20,
-  "motd": "A Minecraft Server",
-  "version": "1.21.1",
+  "max": 0,
+  "motd": "",
+  "version": null,
   "sample": [],
   "checkedAt": 1792708049172,
-  "source": "shared",
+  "source": "direct",
   "history": [
-    {
-      "t": 1792672740000,
-      "p": 0,
-      "o": 1
-    },
-    {
-      "t": 1792672800000,
-      "p": 0,
-      "o": 1
-    },
-    {
-      "t": 1792672860000,
-      "p": 0,
-      "o": 1
-    },
     {
       "t": 1792672920000,
       "p": 0,
@@ -2008,6 +1993,21 @@
     },
     {
       "t": 1792708740000,
+      "p": 0,
+      "o": 0
+    },
+    {
+      "t": 1792708800000,
+      "p": 0,
+      "o": 0
+    },
+    {
+      "t": 1792708860000,
+      "p": 0,
+      "o": 0
+    },
+    {
+      "t": 1792708920000,
       "p": 0,
       "o": 0
     }
