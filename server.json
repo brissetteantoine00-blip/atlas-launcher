@@ -3,12 +3,14 @@
   "ip": "labyrintherp.mine.fun",
   "port": 25565,
   "online": true,
-  "players": 0,
+  "players": 1,
   "max": 20,
   "motd": "A Minecraft Server",
   "version": "1.21.1",
-  "sample": [],
-  "checkedAt": 1793129529522,
+  "sample": [
+    "_Shoriy_"
+  ],
+  "checkedAt": 1793129624202,
   "source": "direct",
   "history": [
     {
@@ -683,6 +685,11 @@
     },
     {
       "t": 1793129520000,
+      "p": 0,
+      "o": 1
+    },
+    {
+      "t": 1793129580000,
       "p": 0,
       "o": 1
     }
