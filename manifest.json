@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "70a02fcf89ce5e32",
+  "id": "e275e4acfe6a6250",
   "name": "Labyrinthe RP",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "changelog": "",
-  "publishedAt": "2026-10-27T20:05:05.236Z",
+  "publishedAt": "2026-10-27T23:41:39.946Z",
   "releases": [
+    {
+      "version": "1.0.20",
+      "publishedAt": "2026-10-27T23:41:39.946Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.19",
       "publishedAt": "2026-10-27T20:05:05.236Z",
@@ -827,9 +832,9 @@
       "description": "Rosen is a lightweight mod that aims to expand on the noteblock system by adding more instruments, while trying to keep the sound design on the same level as the vanilla Minecraft. Currently Rosen add"
     },
     {
-      "file": "scholar-neoforge-1.21.1-1.2.6.jar",
-      "name": "Scholar",
-      "description": "Book improvements: two-page view, easy formatting, lectern editing, colored books, reading animation, QOL-features and more."
+      "file": "Scribble-1.5.1+mc1.21-neoforge.jar",
+      "name": "Scribble",
+      "description": "Expertly edit your books with rich formatting options, page utilities and more!"
     },
     {
       "file": "Searchables-neoforge-1.21.1-1.0.2.jar",
@@ -1022,7 +1027,7 @@
     "ip": "labyrintherp.mine.fun",
     "port": 25565
   },
-  "totalSize": 649306664,
+  "totalSize": 648464438,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1412,7 +1417,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "8b7ff3de8e10ff6b7ef53fa69fa4c65607597cbc3bfc04beae8b80f1b9527c28"
+      "sha256": "7158c2e459d6d31702dfdca20dd9b111ea4858af469c82332bd3068ddabda525"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1552,7 +1557,7 @@
     {
       "path": "config/iris.properties",
       "size": 336,
-      "sha256": "1e33c797224f87bbfceb7d93cafd4a557a219f6180b20a968ef05fa16f3590ca"
+      "sha256": "5c72a861c3f8f7fd4017ce336930117aba9c46e5e896d5764d0d8181b28ea07d"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -2187,7 +2192,7 @@
     {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1581,
-      "sha256": "c6a61acef25ba5880c25a4eb31716262d1f11b9264590eedbebe83864e6943e6"
+      "sha256": "d9518952a7baef2333ec62ecc15fa85181f69945058baf000929ece2d49ccfe8"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -2228,6 +2233,11 @@
       "path": "config/scholar-common.toml",
       "size": 2566,
       "sha256": "5cbe6bac2f82a915af785a16df85df35a3bcd7620552b216ef53a29256245cd6"
+    },
+    {
+      "path": "config/scribble.json",
+      "size": 146,
+      "sha256": "70bba512c19c9883541dc9eebbb2d66c2a31db025a2bc183b731581582aa60a5"
     },
     {
       "path": "config/securitycraft-client.toml",
@@ -3342,7 +3352,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2546,
-      "sha256": "97af619506230fc951522d8cf83bdbe67e81efe7c7f734c9efcdd49628762558"
+      "sha256": "7a1b44fd51dcfecbc4b2557743c35df22d90d44c35fc8cb4394a92bb8506bb88"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -4150,9 +4160,9 @@
       "sha256": "3b8743b8a556d0ba8d0a3d571914cff8bdc72f348965ef48acbe0e4a769a9f7c"
     },
     {
-      "path": "mods/scholar-neoforge-1.21.1-1.2.6.jar",
-      "size": 929316,
-      "sha256": "8ec3b0fd32077031908fac2e4f496f0843f920a1ea748b69b014b2ef68f3eb4b"
+      "path": "mods/Scribble-1.5.1+mc1.21-neoforge.jar",
+      "size": 86944,
+      "sha256": "91f6851e331c5694a92da1b335ec1e8026d962924e6f78ef5bdce8ff2b2fb2f1"
     },
     {
       "path": "mods/Searchables-neoforge-1.21.1-1.0.2.jar",
@@ -4482,7 +4492,7 @@
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 226,
-      "sha256": "5b064e1a3b7436da78e5406f224f88440b75a044e0cf68167455d5d8d2fc9d0d"
+      "sha256": "215c1bbf408d8e56f5eee02cc3ee7005ead0f57bbfb1645bbaeef1ab9ecc8105"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
