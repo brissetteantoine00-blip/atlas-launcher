@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "f237e535d3739cb4",
+  "id": "d749633a78ed90e9",
   "name": "Labyrinthe RP",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "changelog": "",
-  "publishedAt": "2026-10-22T18:09:42.131Z",
+  "publishedAt": "2026-10-27T19:32:03.964Z",
   "releases": [
+    {
+      "version": "1.0.18",
+      "publishedAt": "2026-10-27T19:32:03.964Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.17",
       "publishedAt": "2026-10-22T18:09:42.131Z",
@@ -204,6 +209,11 @@
       "file": "chipped-neoforge-1.21.1-4.0.2.jar",
       "name": "Chipped",
       "description": "Every block needs a friend!"
+    },
+    {
+      "file": "Cinematic Interaction-NeoForge-1.21.1-0.18.30.jar",
+      "name": "Cinematic Interactions",
+      "description": "First-person cinematic scenes instead of block windows: craft right on the table top, load the furnace by hand, forge at the anvil, read the book on a lectern, sit down by the fire."
     },
     {
       "file": "cloth-config-15.0.140-neoforge.jar",
@@ -1012,7 +1022,7 @@
     "ip": "labyrintherp.mine.fun",
     "port": 25565
   },
-  "totalSize": 648067880,
+  "totalSize": 649378569,
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1123,6 +1133,11 @@
       "path": "config/chalk-server.toml",
       "size": 1589,
       "sha256": "909e29f99ae34f6f68d86ba27926852bdb207a88dcc102c54b05261316e23a9e"
+    },
+    {
+      "path": "config/cinematic-client.toml",
+      "size": 4568,
+      "sha256": "3c14b88a94305a9fc5f06e554efd33f06e90c70a525d5b023a6ebf7142512596"
     },
     {
       "path": "config/collective.json5",
@@ -1391,8 +1406,8 @@
     },
     {
       "path": "config/fabric/indigo-renderer.properties",
-      "size": 291,
-      "sha256": "7c7d5a6e6ec43ec8f628a92a5c440a004beb919fbf766ba2eb36028d6d304923"
+      "size": 290,
+      "sha256": "c93cba796a4773f3ceba416ae59ea748df6b817faedbb126176392706471a7b8"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1531,8 +1546,8 @@
     },
     {
       "path": "config/iris.properties",
-      "size": 337,
-      "sha256": "f51d1309d2e1ddb90d71334abaea11b7b46dc4155c1b1a0d6ee6ba5c490cf9af"
+      "size": 336,
+      "sha256": "68330f80d3a139d610057f090888b989e571dc5cf75a585311a96727cd851c53"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1596,8 +1611,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1956,
-      "sha256": "3cef54cf9b5a99d444e77771fcfeff31a28113dcb3fe5d82fc894561108e854a"
+      "size": 1965,
+      "sha256": "64bb197ea226b545aca419608aaecec1e37c7b1a4fcbe7e695633bf96197a982"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1623,6 +1638,11 @@
       "path": "config/jei/world/local/New World (1)/lookupHistory.json",
       "size": 202,
       "sha256": "f26e7eb88409bf6bb4af11e9666b2de6cb8aabf9b81e4dcf94f144fdcbd95e9e"
+    },
+    {
+      "path": "config/jei/world/local/New World/lookupHistory.json",
+      "size": 122,
+      "sha256": "79e6b16b6d3d8fdce5e41040cf9514e277504a8269cc6101a1ab87588f85cd3d"
     },
     {
       "path": "config/kaleidoscope_cookery-client.toml",
@@ -1892,7 +1912,7 @@
     {
       "path": "config/plasmovoice/.crowdin/timestamp",
       "size": 13,
-      "sha256": "b93292381a4133575747cadede8c57ab6cd6d6c6e914d7511838bcbec728acb1"
+      "sha256": "eafe735087d17709b85a42263a3d8cf4548edebff49e698042873079040d2ad4"
     },
     {
       "path": "config/plasmovoice/.crowdin/tr_tr.json",
@@ -1932,7 +1952,7 @@
     {
       "path": "config/plasmovoice/meta_cache.json",
       "size": 655,
-      "sha256": "2e0fe6772078268b72951f52aa295b5e8655297d067167b561a7b5de1c67955a"
+      "sha256": "5af06ff756abfda76bb3085e75bd2273d4410e59f02b4e2de8a8863e7b01f3df"
     },
     {
       "path": "config/plasmovoice/pv-voice-changer-presets/autosave.properties",
@@ -2002,7 +2022,7 @@
     {
       "path": "config/plasmovoice/server/languages/.crowdin/timestamp",
       "size": 13,
-      "sha256": "e70870061150318e2bb14c424f7cf5db70a626ef9868ba745124acf69ed8a5ef"
+      "sha256": "b56f9fd59a362cd96827ef66145222c41bc4181245a754e9c781759c6fc2c8c5"
     },
     {
       "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
@@ -2146,8 +2166,8 @@
     },
     {
       "path": "config/punchy/merged_animation_selection.json",
-      "size": 2825,
-      "sha256": "5420440275b86f5c713ba34a390d07989927ea2e2c868a014019a74b68f8965a"
+      "size": 5370,
+      "sha256": "a99386dc0fe01fdf3a5baf814b9f75472df0c3e7ec2d2aa48f9425f4176f6359"
     },
     {
       "path": "config/punchy/punchy_config.json",
@@ -2161,8 +2181,8 @@
     },
     {
       "path": "config/pv-voice-changer/server.properties",
-      "size": 1582,
-      "sha256": "35d30577e9b3dccb65188412704a10584f94c3f88ec2fda5053605a2a492f7f9"
+      "size": 1581,
+      "sha256": "331ecbde870aa5f683470c4aceff56a92306968c1eb1e4a3fe4abf2fcc7fe86a"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -2248,6 +2268,11 @@
       "path": "config/skinlayers.json",
       "size": 497,
       "sha256": "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+    },
+    {
+      "path": "config/snatched_config_-714177163453632173.json",
+      "size": 576,
+      "sha256": "e0c3199fcf2b4ef2d824f03a20c44ff4741a368047fa010cf0f91bacb1069412"
     },
     {
       "path": "config/snatched_config_-8876597787939925853.json",
@@ -3311,8 +3336,8 @@
     },
     {
       "path": "config/worldedit/worldedit.properties",
-      "size": 2547,
-      "sha256": "433f84858bff73778fba1d28b4320ba618e5b22f269ae4c7a5e717282b16129f"
+      "size": 2546,
+      "sha256": "0265069bb54727920c0056b0990d8255f1951c2e51a57532c3a8ffb5e2dc5e3e"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3528,6 +3553,11 @@
       "path": "mods/chipped-neoforge-1.21.1-4.0.2.jar",
       "size": 15020578,
       "sha256": "18ac6fd6b30db4922ccc6ee8bea5b113f69587505b7529834f37ace506427291"
+    },
+    {
+      "path": "mods/Cinematic Interaction-NeoForge-1.21.1-0.18.30.jar",
+      "size": 1302874,
+      "sha256": "4a6bb18685bb8adbd2ee08a242b08088dbd5d9ddf0bf1c3d140269107ba4d7c5"
     },
     {
       "path": "mods/cloth-config-15.0.140-neoforge.jar",
@@ -4451,8 +4481,8 @@
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
-      "size": 227,
-      "sha256": "c8d5cef5834f3e72796a022289240e35c5547b065aa935fa1e8b446ad0059fe1"
+      "size": 226,
+      "sha256": "5a3b04f3f33e7685c2f55ef6a1d764e10ef427139958f55c8d8ce59bc2ddf642"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
