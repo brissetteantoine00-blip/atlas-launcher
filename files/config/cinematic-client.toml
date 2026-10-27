@@ -74,7 +74,7 @@
 	# Default: 12
 	# Range: 5 ~ 30
 	quickWindow = 12
-	#0: original stretching arms; 1: natural reach; 2: floating forearms.
+	#0: original stretching arms; 1: short natural reach with a gentle camera lean; 2: floating forearms.
 	# Default: 0
 	# Range: 0 ~ 2
 	armStyle = 0
@@ -88,11 +88,13 @@
 	cameraShake = true
 	#The screen flashes at big moments (the light of a spell, white-hot metal).
 	screenFlash = true
+	#Turns the letterbox bars, the breathing camera, the shake and the flashes off at once, whatever they are set to.
+	reduceMotion = false
 
 [multiplayer]
 	#On a server without Cinematic Interactions, show local scenes over supported vanilla menus. Set this from the main menu; it takes effect on the next connection. Other stations keep their vanilla behavior.
 	clientOnlyMode = false
-	#Whether the server list has already shown the client-only mode note.
+	#Whether the server list has already shown its note about the client-only mode (it shows once).
 	serverHintSeen = false
 
 [developer]
