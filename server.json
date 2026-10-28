@@ -8,10 +8,10 @@
   "motd": "A Minecraft Server",
   "version": "1.21.1",
   "sample": [
-    "Bluesing01",
-    "_Shoriy_"
+    "_Shoriy_",
+    "Bluesing01"
   ],
-  "checkedAt": 1793208210814,
+  "checkedAt": 1793208212184,
   "source": "direct",
   "history": [
     {
@@ -1261,7 +1261,7 @@
     },
     {
       "t": 1793199240000,
-      "p": 1,
+      "p": 0,
       "o": 1
     },
     {
@@ -1962,7 +1962,7 @@
     {
       "t": 1793207640000,
       "p": 0,
-      "o": 1
+      "o": 0
     },
     {
       "t": 1793207700000,
