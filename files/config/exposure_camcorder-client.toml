@@ -1,0 +1,5 @@
+[dynamic_photograph]
+	#Candidate playback speeds in ticks per frame for the viewer UI.
+	viewer_speed_options = [1, 2, 4, 6, 8]
+	#Shows detailed recording status information in viewfinder UI.
+	show_detailed_recording_status = true

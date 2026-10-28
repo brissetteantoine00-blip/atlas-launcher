@@ -1,0 +1,13 @@
+[dynamic_photograph]
+	#Default capture interval in ticks per frame.
+	# Default: 2
+	# Range: 1 ~ 600
+	default_capture_interval_ticks = 2
+	#Maximum recording duration in ticks for a single dynamic photograph.
+	# Default: 80
+	# Range: 1 ~ 1200
+	max_recording_duration_ticks = 80
+	#Maximum amount of frames one Dynamic Film can hold by default.
+	# Default: 40
+	# Range: 1 ~ 600
+	default_dynamic_film_max_frames = 40

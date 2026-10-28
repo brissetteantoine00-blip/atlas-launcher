@@ -1,4 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:tripwire_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exposure:black_and_white_film","components":"{\"exposure:film_frames\":[{entities_in_frame:[{distance:13,id:\"minecraft:zombie\",name:\"Zombie\",pos:[I;26,-60,4]}],extra_data:{biome:\"minecraft:plains\",day_time:46258,dimension:\"minecraft:overworld\",focal_length:55,light_level:6,pitch:0.19295335f,pos:[35.65971428579597d,-60.0d,-5.980169600868834d],shutter_speed:\"1/60\",timestamp:1793145333L,weather:\"Rain\",yaw:40.771484f},identifier:\"-Shoriy-_46258\",photographer:{name:\"_Shoriy_\",uuid:[I;1045890499,863847899,-2134172719,-225758588]},type:\"black_and_white\"}]}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:spruce_fence_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
