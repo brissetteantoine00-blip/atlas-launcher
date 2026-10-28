@@ -1,6 +1,71 @@
 {
+  "announcement": {
+    "enabled": false,
+    "level": "info",
+    "title": "",
+    "message": "",
+    "expiresAt": null,
+    "updatedAt": "2026-10-02T16:49:02.091Z"
+  },
+  "rules": {
+    "text": "poli\n\ngentil\n\nrespecter blusing01\n\ninsulter kourro",
+    "url": ""
+  },
+  "credits": {
+    "text": "developement du luncher : cursor\ndirection artistique du luncher : Bluesing01\n"
+  },
+  "schedule": {
+    "tz": "America/Toronto",
+    "note": "",
+    "days": [
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": true,
+        "from": "20:00",
+        "to": "01:00"
+      },
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "20:00",
+        "to": "23:00"
+      },
+      {
+        "open": true,
+        "from": "20:00",
+        "to": "02:00"
+      },
+      {
+        "open": true,
+        "from": "20:00",
+        "to": "02:00"
+      }
+    ],
+    "history": []
+  },
+  "maintenance": {
+    "enabled": false
+  },
+  "launcher": {
+    "version": "1.0.31",
+    "required": true,
+    "publishedAt": "2026-10-20T02:04:47.265Z"
+  },
   "appearance": {
-    "id": "musdcc3z697bed",
+    "id": "mvs50815772210",
     "layout": {
       "brand": {
         "x": 19.4,
@@ -23,8 +88,8 @@
         "s": 1
       },
       "server": {
-        "x": 42.2,
-        "y": 8.2,
+        "x": 12.1,
+        "y": 55.9,
         "s": 1
       },
       "skins": {
@@ -98,8 +163,19 @@
         "s": 1
       }
     },
-    "theme": {},
+    "theme": {
+      "accent": "#a98a52",
+      "text": "#ebe3cd",
+      "panel": "#1b1e1d",
+      "secondary": "#8fb4c4",
+      "dim": 100
+    },
     "texts": {},
-    "publishedAt": "2026-10-03T12:29:03.696Z"
+    "publishedAt": "2026-10-28T13:15:23.945Z"
+  },
+  "server": {
+    "name": "Labyrinthe RP",
+    "ip": "labyrintherp.mine.fun",
+    "port": 25565
   }
 }
