@@ -1,11 +1,16 @@
 {
   "schema": 2,
-  "id": "738b8dfcd97ff1e4",
+  "id": "e9959b167da6d4eb",
   "name": "Labyrinthe RP",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "changelog": "",
-  "publishedAt": "2026-10-28T14:29:44.703Z",
+  "publishedAt": "2026-10-28T17:14:59.621Z",
   "releases": [
+    {
+      "version": "1.0.23",
+      "publishedAt": "2026-10-28T17:14:59.621Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.22",
       "publishedAt": "2026-10-28T14:29:44.703Z",
@@ -298,9 +303,19 @@
       "description": "Technology that empowers the player."
     },
     {
+      "file": "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "name": "Create Big Cannons",
+      "description": "Artillery engineering comes to Create Attributions: Logo by Milkyfur Textures by rbasamoyai, Milkyfur, and LopyLuna"
+    },
+    {
       "file": "createdeco-2.1.3.jar",
       "name": "Create Deco",
       "description": "Decorative options for your Create factory"
+    },
+    {
+      "file": "create_radar-5.0.2-1.21.1.jar",
+      "name": "Create: Radars",
+      "description": "Welcome to Create Radars, a mod offering a variety of tools and blocks for Surveillance, Detection, and Controlling Weapons."
     },
     {
       "file": "CreativeCore_NEOFORGE_v2.13.49_mc1.21.1.jar",
@@ -326,6 +341,11 @@
       "file": "dashpanels-2.1+neoforge1.21.1.jar",
       "name": "Dashpanels",
       "description": "Modular redstone control panels"
+    },
+    {
+      "file": "dashpanels-fixes-1.0.3.jar",
+      "name": "DashPanels Fixes",
+      "description": "Repairs DashPanels Extra lights, Vista screen cassettes, and the Create Radar panel on the installed mod versions."
     },
     {
       "file": "dashpanelsextra-1.4.1.jar",
@@ -490,8 +510,8 @@
     },
     {
       "file": "exposure_camcorder-neoforge-0.1.0.jar",
-      "name": "exposure_camcorder-neoforge-0.1.0",
-      "description": ""
+      "name": "Exposure Camcorder",
+      "description": "Dynamic Photograph extension mod for Exposure."
     },
     {
       "file": "exposure_catalog-neoforge-1.1.2.jar",
@@ -505,8 +525,8 @@
     },
     {
       "file": "exposure_mail_and_news-neoforge-1.21.1-1.0.0.jar",
-      "name": "exposure_mail_and_news-neoforge-1.21.1-1.0.0",
-      "description": ""
+      "name": "Exposure: Mail and News",
+      "description": "Notes, envelopes, seals and newspapers for Exposure."
     },
     {
       "file": "faewulf_lib-neoforge-1.21.1-1.4.0.jar",
@@ -725,8 +745,8 @@
     },
     {
       "file": "midnightlib-neoforge-1.10.0+1.21.1.jar",
-      "name": "midnightlib-neoforge-1.10.0+1.21.1",
-      "description": ""
+      "name": "MidnightLib",
+      "description": "Lightweight config library with config screens and commands."
     },
     {
       "file": "Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar",
@@ -822,13 +842,15 @@
     },
     {
       "file": "punchy-2.8g-neoforge-1.21.1.jar",
-      "name": "punchy-2.8g-neoforge-1.21.1",
-      "description": ""
+      "name": "Punchy",
+      "description": "First-person animations. Special thanks to Godku for the support.",
+      "optional": true
     },
     {
       "file": "puzzle-neoforge-2.3.0+1.21.1.jar",
-      "name": "puzzle-neoforge-2.3.0+1.21.1",
-      "description": ""
+      "name": "Puzzle",
+      "description": "Unites optifine replacement mods in a clean & vanilla-style gui",
+      "optional": true
     },
     {
       "file": "pv-voice-changer-neoforge-1.7.1-neoforge-1.21.jar",
@@ -849,6 +871,11 @@
       "file": "rightclickharvest-neoforge-4.6.1+1.21.1.jar",
       "name": "Right Click Harvest",
       "description": "Right click crops to harvest them - with style."
+    },
+    {
+      "file": "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge (1).jar",
+      "name": "Ritchie",
+      "description": "A Minecraft modding library for better projectiles."
     },
     {
       "file": "rosen-neoforge-1.21.1-1.1.0.jar",
@@ -893,8 +920,8 @@
     },
     {
       "file": "sound-physics-remastered-neoforge-1.21.1-1.5.2.jar",
-      "name": "sound-physics-remastered-neoforge-1.21.1-1.5.2",
-      "description": ""
+      "name": "Sound Physics Remastered",
+      "description": "Provides realistic sound attenuation, reverberation, and absorption through blocks."
     },
     {
       "file": "sounds-2.4.22+lts+1.21.1-neoforge.jar",
@@ -1045,7 +1072,7 @@
     "ip": "labyrintherp.mine.fun",
     "port": 25565
   },
-  "totalSize": 675050290,
+  "totalSize": 684612906,
   "files": [
     {
       "path": "config/.puzzle_cache/mojangstudios.png",
@@ -3668,9 +3695,19 @@
       "sha256": "e4c76b65de9505ffc5ddc7cd90f48dc6be4da0c1a20772c19d85bb94c350036e"
     },
     {
+      "path": "mods/create_radar-5.0.2-1.21.1.jar",
+      "size": 5678107,
+      "sha256": "09baa1993d7823a24de223a2343326898ffc9265e0c9f37986fec85ef93026f0"
+    },
+    {
       "path": "mods/create-1.21.1-6.0.10.jar",
       "size": 19123767,
       "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    {
+      "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+      "size": 3771506,
+      "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca"
     },
     {
       "path": "mods/createdeco-2.1.3.jar",
@@ -3706,6 +3743,11 @@
       "path": "mods/dashpanels-2.1+neoforge1.21.1.jar",
       "size": 891155,
       "sha256": "2598d248c4820d58c5fb7e19ddf2106960d758b6ff7c419aa4bc57e176b2540b"
+    },
+    {
+      "path": "mods/dashpanels-fixes-1.0.3.jar",
+      "size": 36634,
+      "sha256": "dead10a582e076926896aa37bec98862eaeb3c4b86caeb80fbfefd2fcf465ad5"
     },
     {
       "path": "mods/dashpanelsextra-1.4.1.jar",
@@ -4206,6 +4248,11 @@
       "path": "mods/rightclickharvest-neoforge-4.6.1+1.21.1.jar",
       "size": 287634,
       "sha256": "b5d597ed361964ba9530a848fe8987715f40af2390dfa1a6adb70a2a74076d52"
+    },
+    {
+      "path": "mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge (1).jar",
+      "size": 76369,
+      "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24"
     },
     {
       "path": "mods/rosen-neoforge-1.21.1-1.1.0.jar",
