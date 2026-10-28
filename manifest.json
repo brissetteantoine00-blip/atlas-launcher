@@ -1,11 +1,21 @@
 {
   "schema": 2,
-  "id": "e275e4acfe6a6250",
+  "id": "738b8dfcd97ff1e4",
   "name": "Labyrinthe RP",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "changelog": "",
-  "publishedAt": "2026-10-27T23:41:39.946Z",
+  "publishedAt": "2026-10-28T14:29:26.235Z",
   "releases": [
+    {
+      "version": "1.0.21",
+      "publishedAt": "2026-10-28T14:29:26.235Z",
+      "changelog": ""
+    },
+    {
+      "version": "1.0.21",
+      "publishedAt": "2026-10-28T14:28:53.081Z",
+      "changelog": ""
+    },
     {
       "version": "1.0.20",
       "publishedAt": "2026-10-27T23:41:39.946Z",
@@ -474,6 +484,11 @@
       "description": "Addon for Exposure"
     },
     {
+      "file": "exposure_camcorder-neoforge-0.1.0.jar",
+      "name": "exposure_camcorder-neoforge-0.1.0",
+      "description": ""
+    },
+    {
       "file": "exposure_catalog-neoforge-1.1.2.jar",
       "name": "Exposure Catalog",
       "description": "Creative-mode tool to view and manage exposures"
@@ -484,14 +499,14 @@
       "description": "Addon for Exposure that adds new lenses, filters and films."
     },
     {
+      "file": "exposure_mail_and_news-neoforge-1.21.1-1.0.0.jar",
+      "name": "exposure_mail_and_news-neoforge-1.21.1-1.0.0",
+      "description": ""
+    },
+    {
       "file": "faewulf_lib-neoforge-1.21.1-1.4.0.jar",
       "name": "Faewulf",
       "description": "A library mod that provides utility functions and methods commonly used across my (Faewulf) mods."
-    },
-    {
-      "file": "FarmersDelight-1.21.1-1.3.4.jar",
-      "name": "Farmer",
-      "description": "A cozy farming and cooking expansion for Minecraft!"
     },
     {
       "file": "ferritecore-7.0.3-neoforge.jar",
@@ -704,6 +719,11 @@
       "description": "Lightweight client and server-authoritative config support for Minecraft mods."
     },
     {
+      "file": "midnightlib-neoforge-1.10.0+1.21.1.jar",
+      "name": "midnightlib-neoforge-1.10.0+1.21.1",
+      "description": ""
+    },
+    {
       "file": "Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar",
       "name": "Mod Menu (NeoForge Edition)",
       "description": "NeoForge port of Mod Menu",
@@ -796,15 +816,14 @@
       "description": "Adds gels from Portal 2!"
     },
     {
-      "file": "punchy-2.8b-neoforge-1.21.1.jar",
-      "name": "Punchy",
-      "description": "First-person animations. Special thanks to Godku for the support.",
-      "optional": true
+      "file": "punchy-2.8g-neoforge-1.21.1.jar",
+      "name": "punchy-2.8g-neoforge-1.21.1",
+      "description": ""
     },
     {
-      "file": "PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
-      "name": "Puzzles Lib",
-      "description": "Why it"
+      "file": "puzzle-neoforge-2.3.0+1.21.1.jar",
+      "name": "puzzle-neoforge-2.3.0+1.21.1",
+      "description": ""
     },
     {
       "file": "pv-voice-changer-neoforge-1.7.1-neoforge-1.21.jar",
@@ -862,26 +881,20 @@
       "description": "Renders the player skin layer in 3d"
     },
     {
-      "file": "snatched-1.2.1-neoforge-1.21.1.jar",
-      "name": "Snatched",
-      "description": "-"
-    },
-    {
       "file": "sodium-neoforge-0.8.13+mc1.21.1.jar",
       "name": "Sodium",
       "description": "Sodium is a powerful rendering engine for Minecraft which improves frame rates and reduces lag spikes.",
       "optional": true
     },
     {
+      "file": "sound-physics-remastered-neoforge-1.21.1-1.5.2.jar",
+      "name": "sound-physics-remastered-neoforge-1.21.1-1.5.2",
+      "description": ""
+    },
+    {
       "file": "sounds-2.4.22+lts+1.21.1-neoforge.jar",
       "name": "Sounds",
       "description": "A highly configurable sound overhaul mod that adds new sound effects while improving vanilla sounds too.",
-      "optional": true
-    },
-    {
-      "file": "sound_physics_perfected-1.17.5+1.21.1-neoforge.jar",
-      "name": "Sound Physics Perfected",
-      "description": "Ray Traced Audio Implementation!!",
       "optional": true
     },
     {
@@ -1027,8 +1040,13 @@
     "ip": "labyrintherp.mine.fun",
     "port": 25565
   },
-  "totalSize": 648464438,
+  "totalSize": 675050290,
   "files": [
+    {
+      "path": "config/.puzzle_cache/mojangstudios.png",
+      "size": 9581,
+      "sha256": "27d2a588a33e94aff8cea4ea6090509ab3e10640f980e63dfd317c6b0dcd30df"
+    },
     {
       "path": "config/accessories.json5",
       "size": 919,
@@ -1400,6 +1418,16 @@
       "sha256": "59a8f784524a4d3e7d972c9979e314a94df9e9a3fde8ed6aded6c951cea18d65"
     },
     {
+      "path": "config/exposure_camcorder-client.toml",
+      "size": 235,
+      "sha256": "f776e819e9bfef4ab9a000f92bd33ffbbee37ab71f633eff928504462992c26a"
+    },
+    {
+      "path": "config/exposure_camcorder-server.toml",
+      "size": 425,
+      "sha256": "806b7e4ab6cc53a8d12cff5eee1edd47a23ca6332b1a3959474cb70fa2b2a855"
+    },
+    {
       "path": "config/exposure-client.toml",
       "size": 7717,
       "sha256": "d2f9b7dc9155c116f5aca00c8eabdef3a9da0eb84b321da7e7fdeefb94fe9905"
@@ -1417,7 +1445,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "7158c2e459d6d31702dfdca20dd9b111ea4858af469c82332bd3068ddabda525"
+      "sha256": "e696da03c311222e380a996090ab2b4f89e55b50283758862733abee9f1345c4"
     },
     {
       "path": "config/fancytabsections-client.toml",
@@ -1557,7 +1585,7 @@
     {
       "path": "config/iris.properties",
       "size": 336,
-      "sha256": "5c72a861c3f8f7fd4017ce336930117aba9c46e5e896d5764d0d8181b28ea07d"
+      "sha256": "aeaa99c33336cee9a35a35d935cc0d4c982f7885071920b869cea0851d77eedf"
     },
     {
       "path": "config/jade/hide-blocks.json",
@@ -1621,8 +1649,8 @@
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
-      "size": 1965,
-      "sha256": "64bb197ea226b545aca419608aaecec1e37c7b1a4fcbe7e695633bf96197a982"
+      "size": 2018,
+      "sha256": "a7c9cdb655e220e357735575652735e59c4358306208d8fb2523285d576da751"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
@@ -1651,8 +1679,8 @@
     },
     {
       "path": "config/jei/world/local/New World/lookupHistory.json",
-      "size": 122,
-      "sha256": "79e6b16b6d3d8fdce5e41040cf9514e277504a8269cc6101a1ab87588f85cd3d"
+      "size": 870,
+      "sha256": "9b601a534360fc5561ccf8de33b3720f90a9dc6ffafa81e16e0c60b10fadc42b"
     },
     {
       "path": "config/kaleidoscope_cookery-client.toml",
@@ -1733,6 +1761,11 @@
       "path": "config/mezz_config/client/default/settings.ini",
       "size": 1452,
       "sha256": "1febf6ff1d35f4ffe34d6e5444e3c9496155a6abf3f49eb4ef5650d102645249"
+    },
+    {
+      "path": "config/midnightlib.json",
+      "size": 37,
+      "sha256": "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444"
     },
     {
       "path": "config/mod_menu-client.toml",
@@ -2176,8 +2209,8 @@
     },
     {
       "path": "config/punchy/merged_animation_selection.json",
-      "size": 5370,
-      "sha256": "a99386dc0fe01fdf3a5baf814b9f75472df0c3e7ec2d2aa48f9425f4176f6359"
+      "size": 2825,
+      "sha256": "5420440275b86f5c713ba34a390d07989927ea2e2c868a014019a74b68f8965a"
     },
     {
       "path": "config/punchy/punchy_config.json",
@@ -2190,9 +2223,14 @@
       "sha256": "f07bb7a059a2b0416a62fc1e2932ca459f807c9e3937dba42d7a7c9dec47bd04"
     },
     {
+      "path": "config/puzzle.json",
+      "size": 405,
+      "sha256": "45ce0f0b227d11ae4e130214c14e7ce0cd78437066e95cb67f5227edda8da561"
+    },
+    {
       "path": "config/pv-voice-changer/server.properties",
       "size": 1581,
-      "sha256": "d9518952a7baef2333ec62ecc15fa85181f69945058baf000929ece2d49ccfe8"
+      "sha256": "5d174a06216fd00a79fa2930e55fb680dd8303daa80ab02703dffb0727eaca90"
     },
     {
       "path": "config/pv-voice-changer/shared-voices/README.txt",
@@ -2336,8 +2374,8 @@
     },
     {
       "path": "config/sound_physics_remastered/sound_rates.properties",
-      "size": 90001,
-      "sha256": "12f15263eb609c4723fc2a67e18e8dfe4256909f967fe7a680d72388af12738e"
+      "size": 91547,
+      "sha256": "49e6b1f490c8df863c0415c10b5c3cc5a93f4eebfe68a495b9a8b1d8e83eaa2d"
     },
     {
       "path": "config/sound_physics_remastered/soundphysics.properties",
@@ -3352,7 +3390,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2546,
-      "sha256": "7a1b44fd51dcfecbc4b2557743c35df22d90d44c35fc8cb4394a92bb8506bb88"
+      "sha256": "89010be0ead399a987c95a4322a031cbb47b284b2be40882ccb66848f5eaee37"
     },
     {
       "path": "config/xaero/lib/client.cfg",
@@ -3800,6 +3838,11 @@
       "sha256": "ec01cb0effac5bd0e11f7c819b7202db80e9e80dc27abbb5c0f9192f2ffa0ea8"
     },
     {
+      "path": "mods/exposure_camcorder-neoforge-0.1.0.jar",
+      "size": 322049,
+      "sha256": "8cb447f39082d9c269a71ba33e881f74f908499049dd28436cb88ebb6b964319"
+    },
+    {
       "path": "mods/exposure_catalog-neoforge-1.1.2.jar",
       "size": 149304,
       "sha256": "cceee4b4acc19b6e3fb95b009e3cc920f796ea81b2c6b47f3b1e97cb4a70ef50"
@@ -3808,6 +3851,11 @@
       "path": "mods/exposure_expanded-neoforge-1.0.1.jar",
       "size": 951304,
       "sha256": "e56f4e93fe48e97cd37c0e63c82622b8fe75c1f272ac033ec2f3e3cbb8ba391d"
+    },
+    {
+      "path": "mods/exposure_mail_and_news-neoforge-1.21.1-1.0.0.jar",
+      "size": 190966,
+      "sha256": "d996df471e537bcbae07619c306e327eb7c3739091965c62f3ad2eb74b76fe7c"
     },
     {
       "path": "mods/exposure-neoforge-1.21.1-1.9.19.jar",
@@ -3823,11 +3871,6 @@
       "path": "mods/faewulf_lib-neoforge-1.21.1-1.4.0.jar",
       "size": 329492,
       "sha256": "c333a8f91acc5b4db6658e1de40b5039689f0dd5a46588ebae32b638705637eb"
-    },
-    {
-      "path": "mods/FarmersDelight-1.21.1-1.3.4.jar",
-      "size": 3160490,
-      "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c"
     },
     {
       "path": "mods/ferritecore-7.0.3-neoforge.jar",
@@ -4035,6 +4078,11 @@
       "sha256": "408aa9e3ae67bca3f7269030c9937b9e716d4d5e995eb67ac23a0b6e7233c30f"
     },
     {
+      "path": "mods/midnightlib-neoforge-1.10.0+1.21.1.jar",
+      "size": 64794,
+      "sha256": "16ddfdcccd3cb6b18bb20e50b3ccf1c93e1b43098ac0b547af8ff3dc42cc05a4"
+    },
+    {
       "path": "mods/Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar",
       "size": 933248,
       "sha256": "254adf32afefc94a26505a79b66a64907bf07eb6e2a5890b9dd52a913fa53130"
@@ -4125,14 +4173,14 @@
       "sha256": "05114e78e81de4d4cde8e395d3e7ce70d74286e128606660c491b5989d7ae05c"
     },
     {
-      "path": "mods/punchy-2.8b-neoforge-1.21.1.jar",
-      "size": 1843771,
-      "sha256": "abb855af8f202e452a16b5e7fb85ccfd34d6b366d452727fdfe618934247ecf1"
+      "path": "mods/punchy-2.8g-neoforge-1.21.1.jar",
+      "size": 2056747,
+      "sha256": "13cc051fc6fecb4b680541702ab485520a37f9f9c26e682d6ffd1eb8bda547d9"
     },
     {
-      "path": "mods/PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
-      "size": 1442182,
-      "sha256": "179bcaafb812618834ba82e7f29b15eaee8894f74fb96152a51cfc22ad4f45c4"
+      "path": "mods/puzzle-neoforge-2.3.0+1.21.1.jar",
+      "size": 146163,
+      "sha256": "e2b6a38eb438f32973b724b0bed655c697ec3525591fadc376484df4761a58aa"
     },
     {
       "path": "mods/pv-voice-changer-neoforge-1.7.1-neoforge-1.21.jar",
@@ -4190,24 +4238,14 @@
       "sha256": "af7dcd6c6a40793adc0f7e57dd8fcc04c9e9bdf9c8ffa4efeb36e22d8b1f79db"
     },
     {
-      "path": "mods/snatched-1.2.1-neoforge-1.21.1.jar",
-      "size": 1559466,
-      "sha256": "d659684d7dc1d810c702d8c9f984e03ebf45bb2e507d617826553140a18b8f67"
-    },
-    {
       "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
       "size": 1292934,
       "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d"
     },
     {
-      "path": "mods/sound_physics_perfected-1.17.5+1.21.1-neoforge.jar",
-      "size": 471640,
-      "sha256": "9cfecb5e851a98601dab3b3e5b2509de3d8b5e1cf519a2851131a97e59b20c77"
-    },
-    {
-      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar.disabled",
-      "size": 202454,
-      "sha256": "bddc71ecd4f074a101eb3785599d13c69e64025e1029aa0fd0a28fcf9bccf2ea"
+      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.2.jar",
+      "size": 204230,
+      "sha256": "108cac1fe49d0dc210183d69787db5a359cdc03c5b580eb8ab0208be7f072982"
     },
     {
       "path": "mods/sounds-2.4.22+lts+1.21.1-neoforge.jar",
@@ -4400,6 +4438,11 @@
       "sha256": "5135696f51f3c9d54bcecffdaa93c5e4896d5ad7732de46f008c840396828d80"
     },
     {
+      "path": "resourcepacks/Comforts Modernized - V1.1.zip.disabled",
+      "size": 72956,
+      "sha256": "b3050d84c0be41dae853e550c07acb1f768880c41472b44d701c03e9b1bc4734"
+    },
+    {
       "path": "resourcepacks/Connected Copper Grates.zip.disabled",
       "size": 213048,
       "sha256": "1085ad1bbff51069e8b44d5da17b6fdc9fed1b8518b03a06359504854f133768"
@@ -4435,7 +4478,7 @@
       "sha256": "ba1126f0267210982cbce7342436b86a8069578e8d49c63b678add53113f307a"
     },
     {
-      "path": "resourcepacks/FA-Fresh-Eyes.zip",
+      "path": "resourcepacks/FA-Fresh-Eyes.zip.disabled",
       "size": 1233603,
       "sha256": "a793e49e4be9d16df69ebd4e154f8794ad29e2fd6aeef97e279eaf390a2cea75"
     },
@@ -4445,7 +4488,7 @@
       "sha256": "0c26af02ec87d523e195cab9638391febbc0ce39bff3a8978d44b88e28771755"
     },
     {
-      "path": "resourcepacks/Laby_ressources.zip",
+      "path": "resourcepacks/Laby_ressources.zip.disabled",
       "size": 38219515,
       "sha256": "9da07e79d642cfda2a96b797ca29472de81f25843b631bfca2ac5796e0ffbfad"
     },
@@ -4480,6 +4523,11 @@
       "sha256": "26c23daae1ec0c4e71fdc9bee449d3e088137088d21543804228863d0fa7b2c2"
     },
     {
+      "path": "resourcepacks/TOUT LES RESSOURCES PACKS.zip",
+      "size": 26665112,
+      "sha256": "ddff8415c4d5839ef40e9384f9d8f4e1f79ed4a0e1ef1a6942b76127bbbf1c17"
+    },
+    {
       "path": "resourcepacks/Traveler's Backpack Overhaul 1.1.zip.disabled",
       "size": 58453,
       "sha256": "05b7ee6d9a7a6138c64ab0bee78dc2834f4fa7a97a8383fe305af89f9218109d"
@@ -4490,9 +4538,29 @@
       "sha256": "80b9e0e7667c3cab309f867a4f729877f3f89f971c949d0603bcee67409f62a5"
     },
     {
+      "path": "resourcepacks/Weskerson's 3D Food.zip.disabled",
+      "size": 945725,
+      "sha256": "e781e4ffbc566d1ed1889bfc8fbc79411827fa07ca996ff705c6f00d2fecf69e"
+    },
+    {
+      "path": "resourcepacks/Weskerson's 3D Items.zip.disabled",
+      "size": 2608018,
+      "sha256": "5dbe0481997e52b8bde5fcd9faca0c0e271ab704c7f35495c269859ff4d50da6"
+    },
+    {
+      "path": "resourcepacks/Weskerson's Nature.zip.disabled",
+      "size": 643414,
+      "sha256": "f62afdec6760efb0105dac96f3654683d2e0ea515b41bfc1d2f365ff43e6d18a"
+    },
+    {
+      "path": "resourcepacks/Weskerson's Torches.zip.disabled",
+      "size": 1335196,
+      "sha256": "bf456591dbdb10343ab9da952246d1502ada8313d65403d1f4693d08219fc195"
+    },
+    {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt",
       "size": 226,
-      "sha256": "215c1bbf408d8e56f5eee02cc3ee7005ead0f57bbfb1645bbaeef1ab9ecc8105"
+      "sha256": "d0e5090c814268c19d1b769d5152fc00016a284f08003f1f896d6ede95a780ae"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5/.gitignore",
