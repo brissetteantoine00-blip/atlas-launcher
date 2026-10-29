@@ -3,24 +3,16 @@
   "ip": "labyrintherp.mine.fun",
   "port": 25565,
   "online": true,
-  "players": 0,
+  "players": 1,
   "max": 20,
   "motd": "A Minecraft Server",
   "version": "1.21.1",
-  "sample": [],
-  "checkedAt": 1793279557826,
+  "sample": [
+    "_Shoriy_"
+  ],
+  "checkedAt": 1793279676246,
   "source": "direct",
   "history": [
-    {
-      "t": 1793220960000,
-      "p": 1,
-      "o": 1
-    },
-    {
-      "t": 1793221020000,
-      "p": 1,
-      "o": 1
-    },
     {
       "t": 1793221080000,
       "p": 1,
@@ -2009,6 +2001,16 @@
     {
       "t": 1793279580000,
       "p": 0,
+      "o": 1
+    },
+    {
+      "t": 1793279640000,
+      "p": 0,
+      "o": 1
+    },
+    {
+      "t": 1793279700000,
+      "p": 1,
       "o": 1
     }
   ]
